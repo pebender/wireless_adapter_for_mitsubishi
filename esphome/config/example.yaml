@@ -1,0 +1,12 @@
+substitutions:
+  name: "heat-pump-family-room"
+  friendly_name: "Family Room Heat Pump"
+  ota_password: !secret heat_pump_family_room_ota_password
+  api_encryption_key: !secret heat_pump_family_room_api_encryption_key
+  wifi_ssid: !secret wifi_ssid
+  wifi_password: !secret wifi_password
+  thread_tlv: !secret thread_tlv
+
+packages:
+  base_yaml: https://github.com/pebender/wireless_adapter_for_hitachi/esphome/config/common/base.yaml@main
+  wifi_yaml: https://github.com/pebender/wireless_adapter_for_hitachi/esphome/config/common/wifi.yaml@main

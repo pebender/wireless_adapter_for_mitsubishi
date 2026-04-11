@@ -1,0 +1,65 @@
+# References
+
+- [Home Assistant](https://www.home-assistant.io)
+  - [Thread integration](https://www.home-assistant.io/integrations/thread/)
+  - [ESPHome integration](https://www.home-assistant.io/integrations/esphome)
+  - [Matter integration](https://www.home-assistant.io/integrations/matter/)
+- [ESPHome](https://esphome.io)
+  - [mUART Project](https://muart-group.github.io)'s [mitsubishi_itp](https://github.com/muart-group/esphome-components/tree/dev/components/mitsubishi_itp)  ESPHome component
+- [Matter](https://csa-iot.org/all-solutions/matter/)
+  - [esp-idf](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/index.html)
+  - [esp-matter](https://docs.espressif.com/projects/esp-matter/en/latest/esp32/index.html)
+- Mitsubishi
+  - [https://www.mitsubishipro.com](https://www.mitsubishipro.com)
+  - [MSZ-GL**NA Indoor Unit](https://www.mitsubishipro.com/catalog/retired?q=MSZ-GL)
+    - [Service Manual](https://s3.amazonaws.com/enter.mehvac.com/DAMRoot/Original/10006/M_MSZ-MSY-GL06-24NA_SERVICE_OBH732D.pdf)
+    - [Parts Catalog](https://s3.amazonaws.com/enter.mehvac.com/DAMRoot/Original/10006/M_MSZ-MSY-GL06-24NA_Parts_OBB732E.pdf)
+  - [MHK1 Controller Kit](https://www.mitsubishipro.com/products/MHK1)
+    - [MHK1 Installation Manual](https://s3.amazonaws.com/enter.mehvac.com/DAMRoot/Original/10004/Mr_Slim_Series_MHK1_Central_Remote_Controller_Install_12-10.pdf)
+    - [MRCH1 Operation Manual](https://s3.amazonaws.com/enter.mehvac.com/DAMRoot/Original/10006/Mr_Slim_Series_MHK1_Central_Remote_Controller_Operation_Manual.pdf)
+  - [MHK2 Controller Kit](https://www.mitsubishipro.com/products/MHK2)
+    - [MHK2 Installation Manual](https://s3.us-east-1.amazonaws.com/enter.mehvac.com/DAMRoot/Original/10009/MHK2_Installation_Manual_2025_Update.pdf)
+    - [MRCH2 Operation Manual](https://s3.amazonaws.com/enter.mehvac.com/DAMRoot/Original/10009/MHK2_Operation-Manual_33-00447EFS_B.pdf)
+  - [PAC-USWHS002-WF-2 Wireless Interface 2](https://www.mitsubishipro.com/products/PAC-USWHS002-WF-2)
+    - [Installation Manual](https://s3.amazonaws.com/enter.mehvac.com/DAMRoot/Original/10006/PAC-USWHS002-WF-2_Install_Manual.pdf)
+    - [Indoor Unit, MHK1/MHK2 and PAC-USWHS002-WF-2 Compatibility](https://s3.amazonaws.com/enter.mehvac.com/DAMRoot/Original/10009/M_Submittal_PAC-USWHS002-WF-2.pdf)
+- Honeywell
+  - [THM6000R7001 RedLINK&trade; Internet Gateway](https://www.resideo.com/us/en/pro/products/air/thermostats/thermostat-accessories/redlinkr-internet-gateway-with-ethernet-cable-and-power-cord-thm6000r7001-u/)
+  - [Honeywell Home Total Connect Comfort](https://mytotalconnectcomfort.com) cloud
+- [Espressif](https://www.espressif.com)
+  - ESP32-C5-WROOM-1
+    - [ESP32-C5 Hardware Reference](https://docs.espressif.com/projects/esp-idf/en/stable/esp32c5/hw-reference/index.html)
+    - [ESP32-C5 Datasheet (Version 1.1)](https://documentation.espressif.com/esp32-c5_datasheet_en.pdf)
+    - [ESP32-C5 Technical Reference Manual (Version 1.0)](https://documentation.espressif.com/esp32-c5_technical_reference_manual_en.pdf)
+    - [ESP32-C5 Hardware Design Guidelines (March 27, 2026)](https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32c5/esp-hardware-design-guidelines-en-master-esp32c5.pdf)
+    - [ESP32-C5-WROOM-1 & ESP32-C5-WROOM-1U Datasheet (Version 1.1)](https://documentation.espressif.com/esp32-c5-wroom-1_wroom-1u_datasheet_en.pdf)
+    - [ESP32-C5-DevKitC-1 schematic (Version 1.2)](https://dl.espressif.com/dl/schematics/SCH_ESP32-C5-DevkitC-1_V1.2_20250211.pdf)
+  - ESP32-C6-WROOM-1
+    - [ESP32-C6 Hardware Reference](https://docs.espressif.com/projects/esp-idf/en/stable/esp32c6/hw-reference/index.html)
+    - [ESP32-C6 Datasheet (Version 1.5)](https://documentation.espressif.com/esp32-c6_datasheet_en.pdf)
+    - [ESP32-C6 Technical Reference Manual (Version 1.2)](https://documentation.espressif.com/esp32-c6_technical_reference_manual_en.pdf)
+    - [ESP32-C6 Hardware Design Guidelines (March 03, 2026)](https://documentation.espressif.com/esp-hardware-design-guidelines/en/latest/esp32c6/esp-hardware-design-guidelines-en-master-esp32c6.pdf)
+    - [ESP32-C6-WROOM-1 & ESP32-C6-WROOM-1U Datasheet (Version 1.4)](https://documentation.espressif.com/esp32-c6-wroom-1_wroom-1u_datasheet_en.pdf)
+    - [ESP32-C6-DevKitC-1 schematic (Version 1.4)](https://dl.espressif.com/dl/schematics/esp32-c6-devkitc-1-schematics_v1.4.pdf)
+- [Texas Instruments (TI)](https://www.ti.com/)
+  - [WEBENCH&reg; Power Designer](https://webench.ti.com/power-designer/)
+  - [flat-clamp surge protection](https://www.ti.com/lit/wp/slyy127/slyy127.pdf)
+    - [TVS0500DRV](https://www.ti.com/product/TVS0500) 5V flat-clamp surge protection device
+    - [TVS1400DRV](https://www.ti.com/product/TVS1400) 14V flat-clamp surge protection device
+  - [TXS0104EPW](https://www.ti.com/product/TXS0104E) 4-bit bidirectional voltage-level translator
+  - [TPS2121RUX](https://www.ti.com/product/TPS2121) 2.8V to 22V priority power mux with seamless switchover
+  - [TPSM5601R5HRDA](https://www.ti.com/product/TPSM5601R5H) 60V input, 1V to 16V output, 1.5A power module
+- R+O
+  - [H5VL10B](https://www.lcsc.com/datasheet/C7420372.pdf) ESD protection diode
+- XunPu
+  - [TS-1088-AR02016](https://www.lcsc.com/datasheet/C720477.pdf) 160gf 2mm x 4mm x 3mm tactile SPST switch
+- JST
+  - [S05B-PASK-2(LF)(SN)](https://www.jst-mfg.com/product/pdf/eng/ePA-F.pdf) 5-pin, 2mm pitch connector
+- G-Switch
+  - [GT-USB-7010ASV](https://www.lcsc.com/datasheet/C2988369.pdf) USB 2.0, type-C, 16-pin connector
+- Murata
+  - [DFE201610E-R47M=P2](https://pim.murata.com/en-us/pim/details/?productCategoryId=inductor&partNum=DFE201610E-R47M%23)
+- Samsung Electro-Mechanics 
+  - [Multilayer Ceramic Capacitors (MLCC)](https://www.samsungsem.com/global/product/passive-component/mlcc.do)
+- Uni-royal
+  - [thick film 0402/0603/0805/1206/1210/1812/2010/2512 series resistors](https://www.uni-royal.cn/en/product.php?id=19)

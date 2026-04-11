@@ -1,0 +1,14 @@
+.DS_Store
+docs/references
+freecad/wireless_adapter_for_mitsubishi.*.FCBak
+freecad/JLC-*
+kicad/wireless_adapter_for_mitsubishi/~wireless_adapter_for_mitsubishi.*.lck
+kicad/wireless_adapter_for_mitsubishi/.history
+kicad/wireless_adapter_for_mitsubishi/fp-info-cache
+kicad/wireless_adapter_for_mitsubishi/library/Project.bak
+kicad/wireless_adapter_for_mitsubishi/wireless_adapter_for_mitsubishi-backups
+kicad/wireless_adapter_for_mitsubishi/wireless_adapter_for_mitsubishi.jpg
+kicad/wireless_adapter_for_mitsubishi/wireless_adapter_for_mitsubishi.pdf
+kicad/wireless_adapter_for_mitsubishi/wireless_adapter_for_mitsubishi.jpg
+kicad/wireless_adapter_for_mitsubishi/wireless_adapter_for_mitsubishi.step
+kicad/JLC-*
