@@ -2,11 +2,11 @@
 
 ## My Education
 
-After my parents split, my mom, my two sisters and I moved to [Santa Clara](https://en.wikipedia.org/wiki/Santa_Clara,_California) and my dad moved to [La Jolla](https://en.wikipedia.org/wiki/La_Jolla). It was the summer of my 7th birthday.
+After my parents divorced, my mom, my two sisters and I moved to [Santa Clara](https://en.wikipedia.org/wiki/Santa_Clara,_California) and my dad moved to [La Jolla](https://en.wikipedia.org/wiki/La_Jolla). It was the summer of my 7th birthday.
 
 So, I had the luck of growing up in [Silicon Valley](https://en.wikipedia.org/wiki/Silicon_Valley) during the 1970s and early 1980s. In Silicon Valley, there were stores that sold used electronic parts and equipment. In addition, Radio Shack still existed and still sold electronic parts.
 
-I had the further luck of spending 3 years in [John McCollum's electronics class](https://www.eetimes.com/john-mccollum-hs-teacher-taught-electronics-with-love/) at [Homestead High School](https://en.wikipedia.org/wiki/Homestead_High_School_(California)) (but 15 years after Steve Wozniak and 11 years after Steve Jobs ... I'm not that old). Thanks to John McCollum, my interest in and understanding of electronics (especially digital electronics) grew.
+I had the further luck of spending three years in [John McCollum's electronics class](https://www.eetimes.com/john-mccollum-hs-teacher-taught-electronics-with-love/) at [Homestead High School](https://en.wikipedia.org/wiki/Homestead_High_School_(California)) (but fifteen years after Steve Wozniak and eleven years after Steve Jobs ... I'm not that old). Thanks to John McCollum, my interest in and understanding of electronics (especially digital electronics) grew.
 
 After high school, I studied electrical engineering at [University of California San Diego (UCSD)](https://ucsd.edu). I completed a BS as well as a PhD. As an undergraduate student, I studied [communication theory and systems](https://www.ece.ucsd.edu/faculty-research/ece-research-areas/communication-theory-systems). As a graduate student, I studied [information theory](https://en.wikipedia.org/wiki/Information_theory) under [Jack Wolf](https://en.wikipedia.org/wiki/Jack_Wolf).
 
@@ -15,11 +15,11 @@ Franklin Antonio, and of course [Irwin Jacobs](https://en.wikipedia.org/wiki/Irw
 
 ## My Interests
 
-Generally, I like to figure out how things work and to learn new things. However, I am most interested in electronics and home automation as well as in the software needed to make it work.
+Generally, I like to figure out how things work and to learn new things. However, I'm most interested in electronics and home automation as well as in the software needed to make it work.
 
-Apparently, I was always interested in how things worked. My mom says I would take things apart so that I could figure out how they worked. However, I could not put the thing back together some (most) of the time.
+Apparently, I've always been interested in how things work. My mom says I would take things apart so that I could figure out how they worked. However, I couldn't put the thing back together some (most) of the time.
 
-Since I was in elementary school, I have been interested in electronics. Of course I build a crystal radio set. Of course I tried to increase the range of my
+Since I was in elementary school, I have been interested in electronics. Of course I built a crystal radio set. Of course I tried to increase the range of my
 [Walkie-Talkies](https://en.wikipedia.org/wiki/Walkie-talkie) by connecting them to an antenna on the roof. Of course I tried to automate light switches and electrical outlets, resulting in a few blown glass fuses.
 
 And I loved building non-electronic things as well. My elementary school friend and I built multiple wooden forts at my house: one in the rafters of my garage, and more than one in the trees in my backyard. And I built things with [Lego](https://en.wikipedia.org/wiki/Lego). And I built things with [Erector Set](https://en.wikipedia.org/wiki/Erector_Set).
@@ -32,13 +32,13 @@ With the exception of shop classes, I was bored in middle school. I had already 
 
 In ninth grade, I took drafting. This was in 1979, which was before drafting was taught using a computer. I loved the precise drawings I could create with a drafting board, a t-square, a ruler, a triangle, a compass, a pencil and an eraser. It was in drafting class that I learned to print neatly. I still have my old-school drafting equipment, but rarely use it. I tend to do my architectural, mechanical and electrical drawing on a computer using purpose-built software such as [Home Designer Pro](https://www.homedesignersoftware.com/products/home-designer-pro/), [FreeCAD](https://www.freecad.org) and [KiCad](https://www.kicad.org).
 
-In the summer after 9th grade, we moved from Santa Clara to Los Altos resulting in me changing high school's from Peterson High School to [Homestead High School](https://en.wikipedia.org/wiki/Homestead_High_School_(California)). In addition to having access to more advanced math classes, I had access to more shop classes. I took auto shop and electronics, and I used the metal shop's equipment to help with building my electronics projects. Sadly, [my electronics teacher passed away in 1990](https://www.findagrave.com/memorial/58653313/john-claude-mccollum), and [the shop building was torn down in 2019](https://www.mercurynews.com/2019/10/05/homesteads-hub-is-a-place-for-collaboration/).
+In the summer after 9th grade, we moved from Santa Clara to Los Altos resulting in me changing from Peterson High School to [Homestead High School](https://en.wikipedia.org/wiki/Homestead_High_School_(California)). In addition to having access to more advanced math classes, I had access to more shop classes. I took auto shop and electronics, and I used the metal shop's equipment to help with building my electronics projects. Sadly, [my electronics teacher passed away in 1990](https://www.findagrave.com/memorial/58653313/john-claude-mccollum), and [the shop building was torn down in 2019](https://www.mercurynews.com/2019/10/05/homesteads-hub-is-a-place-for-collaboration/).
 
 ## My Digital Projects
 
 ### My First Digital Circuit (While a Homestead High School Student)
 
-The first digital hardware I designed and build was a computer in 1982-1983 during my senior year of high school.
+The first digital hardware I designed and built was a computer in 1982-1983 during my senior year of high school.
 
 After spending my sophomore year learning about analog hardware and my junior year learning about digital hardware, my electronics class lab partner and I spent my senior year designing and building a computer. The computer's design was constrained by the parts our electronics teacher had acquired from various local companies Because the parts bin contained a [Z80A](https://en.wikipedia.org/wiki/Zilog_Z80) and numerous [7400 series ICs](https://en.wikipedia.org/wiki/7400-series_integrated_circuits), our initial design was similar to the [TRS-80](https://en.wikipedia.org/wiki/TRS-80). However, after finding a video display controller (VDC) in the parts bin (I don't remember the part but it could have been the [TMS9918A](https://en.wikipedia.org/wiki/TMS9918) based on its capabilities), we changed the design. The final design used the Z80A and the VDC, each with 16-kilobytes of RAM. The PCB was a hand-built, two layer board. We
 

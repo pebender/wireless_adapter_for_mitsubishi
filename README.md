@@ -1,8 +1,10 @@
 # A Wireless Adapter for a Mitsubishi Heat Pump Indoor Unit
 
+This project is neither associated with nor endorsed by Mitsubishi Electric. By using this project, you may void your warranty or break your heat pump.
+
 ## The Wireless Adapter
 
-The wireless adapter is a device for connecting an indoor unit of [our Mitsubishi Electric heat pump system](./docs/requirements.md#existing-system) to [our home automation system](./docs/background/network.md#our-home-automation-system). The wireless adapter is similar to [Mitsubishi Electric's PAC-USWHS002-WF-2 Wireless Interface 2](https://www.mitsubishipro.com/products/PAC-USWHS002-WF-2), except the wireless adapter is Open Source and doesn't depend on a cloud service.
+The wireless adapter is a device for connecting an indoor unit of [our Mitsubishi Electric heat pump system](./docs/requirements.md#existing-system) to [our home automation system](./docs/background/automation.md). The wireless adapter is similar to [Mitsubishi Electric's PAC-USWHS002-WF-2 Wireless Interface 2](https://www.mitsubishipro.com/products/PAC-USWHS002-WF-2), except the wireless adapter is Open Source and doesn't depend on a cloud service.
 
 The wireless adapter has three distinct parts
 
@@ -24,7 +26,7 @@ I did the enclosure design using the Open Source 3D parametric modeler [FreeCAD]
 
 ### The Wireless Adapter Firmware
 
-I contributed nothing to the [firmware](./docs/firmware.md). I built it from the Open Source [ESPHome](https://esphome.io) and the Open Source [mUART Project's](https://muart-group.github.io) [mitsubishi_itp](https://github.com/muart-group/esphome-components),
+I contributed nothing to the [firmware](./docs/firmware.md). I built it from the Open Source [ESPHome](https://esphome.io) and the Open Source [mUART Project](https://muart-group.github.io)'s [mitsubishi_itp](https://github.com/muart-group/esphome-components) ESPHome component,
 
 ## The Motivation
 

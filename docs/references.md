@@ -9,7 +9,7 @@
 - [Matter](https://csa-iot.org/all-solutions/matter/)
   - [esp-idf](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/index.html)
   - [esp-matter](https://docs.espressif.com/projects/esp-matter/en/latest/esp32/index.html)
-- Mitsubishi
+- [Mitsubishi Electric](https://www.mitsubishicomfort.com)
   - [https://www.mitsubishipro.com](https://www.mitsubishipro.com)
   - [MSZ-GL**NA Indoor Unit](https://www.mitsubishipro.com/catalog/retired?q=MSZ-GL)
     - [Service Manual](https://s3.amazonaws.com/enter.mehvac.com/DAMRoot/Original/10006/M_MSZ-MSY-GL06-24NA_SERVICE_OBH732D.pdf)
@@ -24,7 +24,7 @@
     - [Installation Manual](https://s3.amazonaws.com/enter.mehvac.com/DAMRoot/Original/10006/PAC-USWHS002-WF-2_Install_Manual.pdf)
     - [Indoor Unit, MHK1/MHK2 and PAC-USWHS002-WF-2 Compatibility](https://s3.amazonaws.com/enter.mehvac.com/DAMRoot/Original/10009/M_Submittal_PAC-USWHS002-WF-2.pdf)
 - Honeywell
-  - [THM6000R7001 RedLINK&trade; Internet Gateway](https://www.resideo.com/us/en/pro/products/air/thermostats/thermostat-accessories/redlinkr-internet-gateway-with-ethernet-cable-and-power-cord-thm6000r7001-u/)
+  - [THM6000R7001 RedLINK&reg; Internet Gateway](https://www.resideo.com/us/en/pro/products/air/thermostats/thermostat-accessories/redlinkr-internet-gateway-with-ethernet-cable-and-power-cord-thm6000r7001-u/)
   - [Honeywell Home Total Connect Comfort](https://mytotalconnectcomfort.com) cloud
 - [Espressif](https://www.espressif.com)
   - ESP32-C5-WROOM-1

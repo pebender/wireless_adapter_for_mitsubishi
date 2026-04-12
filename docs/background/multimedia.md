@@ -37,4 +37,4 @@ In 2005, I migrated from TiVo to [MythTV](https://www.mythtv.org) because MythTV
 In 2005, I started helping Larry Matter with [MiniMyth](https://www.mythtv.org/wiki/Minimyth), eventually taking the lead on MiniMyth's development. I gravitated toward MiniMyth because it was a network bootable image that turned a relatively inexpensive diskless VIA EPIA M mini-ITX motherboard into a dedicated MythTV frontend.
 
 When I moved in 2016, I stopped using MythTV because I didn't want to deal with maintaining the server required. I replaced MythTV's non-TV functions with
-[Plex] (<https://www.plex.tv>). running on my NAS. In 2020, I started using a [Nuvyyo Tablo QUAD 1TB DVR](https://www.engadget.com/tablo-dual-128gb-quad-1tb-announcement-211652423.html).
+[Plex](https://www.plex.tv) running on my NAS. In 2020, I started using a [Nuvyyo Tablo QUAD 1TB DVR](https://www.engadget.com/tablo-dual-128gb-quad-1tb-announcement-211652423.html) for TV functions.

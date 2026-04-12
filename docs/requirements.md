@@ -6,7 +6,7 @@ The goal of this project is to create an Open Source wireless adapter for connec
 
 ## Existing System
 
-Our Mitsubishi Electric heat pump system consists of 8 indoor units
+Our Mitsubishi Electric heat pump system consists of eight indoor units
 
 - MSZ-GL06NA-U1 (study),
 - MSZ-GL09NA-U1 (office),
@@ -17,7 +17,7 @@ Our Mitsubishi Electric heat pump system consists of 8 indoor units
 - MSZ-GL18NA-U1 (living room),
 - MSZ-GL18NA-U1 (master bedroom),
 
-connected to 3 outdoor units
+connected to three outdoor units
 
 - MUZ-GL15NA-U1 (family room),
 - MXZ-4C36NA2-U1 (kitchen, study, master bedroom), and
@@ -25,7 +25,7 @@ connected to 3 outdoor units
 
 Each indoor unit is connected to a [Mitsubishi MHK1 controller kit](https://www.mitsubishipro.com/products/MHK1), consisting of a MIFH1 wireless receiver and a MRCH1 remote controller.
 
-In addition to being paired with its MRCH1 remote controller, the MIFH1 wireless receiver is paired with one of two [Honeywell THM6000R7001 RedLINK&trade; Internet Gateways](https://www.resideo.com/us/en/pro/products/air/thermostats/thermostat-accessories/redlinkr-internet-gateway-with-ethernet-cable-and-power-cord-thm6000r7001-u/). The THM6000R7001 internet gateways enable control of the indoor units from our phones and our home automation system. Unfortunately, they have two shortcomings. First, they have a slow response time because the RedLINK&trade; wireless protocol between the THM6000R7001 internet gateway and the MIFH1 wireless receiver is slow. Second, they can be unreliable because all their traffic is sent through the [Honeywell Home Total Connect Comfort](https://mytotalconnectcomfort.com) cloud. It's the THM6000R7001 internet gateways that this project will replace.
+In addition to being paired with its MRCH1 remote controller, the MIFH1 wireless receiver connected to each indoor unit is paired with one of two [Honeywell THM6000R7001 RedLINK&reg; Internet Gateways](https://www.resideo.com/us/en/pro/products/air/thermostats/thermostat-accessories/redlinkr-internet-gateway-with-ethernet-cable-and-power-cord-thm6000r7001-u/). The THM6000R7001 internet gateways enable control of the indoor units from our phones and our home automation system. Unfortunately, they have two shortcomings. First, they have a slow response time because the RedLINK&reg; wireless protocol between the THM6000R7001 internet gateway and the MIFH1 wireless receiver is slow. Second, they can be unreliable because all their traffic is sent through the [Honeywell Home Total Connect Comfort](https://mytotalconnectcomfort.com) cloud. It's the THM6000R7001 internet gateways that this project will replace.
 
 ## Top Level Requirements
 
@@ -58,14 +58,14 @@ In addition to being paired with its MRCH1 remote controller, the MIFH1 wireless
 
 ### Radios
 
-1. The wireless adapter must support a wireless connection using 2.4 Wi-Fi.
+1. The wireless adapter must support a wireless connection using 2.4 [Wi-Fi&reg;](https://www.wi-fi.org).
     - ESPHome supports Wi-Fi.
     - Matter supports Wi-Fi.
-2. The wireless adapter must support a wireless connection using Thread 1.4.
+2. The wireless adapter must support a wireless connection using [Thread&reg;](https://threadgroup.org) 1.4.
     - ESPHome supports Thread.
     - Matter supports Thread.
     - A Thread radio at each indoor unit should form a good backbone for a Thread network.
-3. The wireless adapter must support Bluetooth LE.
+3. The wireless adapter must support [Bluetooth&reg;](https://www.bluetooth.com/) LE.
     - The Matter provisioning protocol relies on Bluetooth LE.
 
 ### Firmware
@@ -124,7 +124,7 @@ I have found no information showing that any of my indoor units could simultaneo
 
 ## The WR Connector
 
-[Airzone](https://www.airzonecontrol.com/) enables connection of both its [AZAI6WSCMEL Aidoo WiFi controller](https://www.airzonecontrol.com/na/en/support/technical-details/aidoo-wi-fi-mitsubishi-electric/) and a MIFH1/MIFH2 wireless receiver to connect to an indoor unit using its separate [AZX6ACCSPLMEL CN105 port splitter](https://www.airzonecontrol.com/na/en/support/technical-details/CN105-port-splitter-mitsubishi-electric/). However, [Mitsubishi Electric's PAC-USWHS002-WF-2 Wireless Interface 2](https://www.mitsubishipro.com/products/PAC-USWHS002-WF-2) integrates a port for connecting a MIFH1/MIFH2 wireless receiver rather than relying on a separate device. In addition, the [mUART Project](https://muart-group.github.io)'s [mitsubishi_itp ESPHome component](https://github.com/muart-group/esphome-components/tree/dev/components/mitsubishi_itp) expects the MIFH1/MIFH2 wireless receiver to connect to the same hardware on which it is running.
+[Airzone](https://www.airzonecontrol.com/) enables connection of both its [AZAI6WSCMEL Aidoo WiFi controller](https://www.airzonecontrol.com/na/en/support/technical-details/aidoo-wi-fi-mitsubishi-electric/) and a MIFH1/MIFH2 wireless receiver to connect to an indoor unit using its separate [AZX6ACCSPLMEL CN105 port splitter](https://www.airzonecontrol.com/na/en/support/technical-details/CN105-port-splitter-mitsubishi-electric/). However, [Mitsubishi Electric's PAC-USWHS002-WF-2 Wireless Interface 2](https://www.mitsubishipro.com/products/PAC-USWHS002-WF-2) integrates a port for connecting a MIFH1/MIFH2 wireless receiver rather than relying on a separate device. In addition, the [mUART Project](https://muart-group.github.io)'s [mitsubishi_itp](https://github.com/muart-group/esphome-components/tree/dev/components/mitsubishi_itp) ESPHome component expects the MIFH1/MIFH2 wireless receiver to connect to the same hardware on which it is running.
 
 Therefore, the wireless adapter must provide a connector for connecting a MIFH1/MIFH2 wireless receiver.
 
