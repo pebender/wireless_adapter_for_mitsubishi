@@ -1770,7 +1770,7 @@
 			(uuid "12083201-feb5-49d4-9adc-ce7bcc144f02")
 		)
 		(instances
-			(project "mitsubishi_wireless_adapter"
+			(project "wireless_adapter_for_mitsubishi"
 				(path "/f70a83b0-34a1-41b3-a332-066c3f3f3918/c857e4aa-d051-450c-8a47-19137a76269f"
 					(reference "D7")
 					(unit 1)
@@ -1950,7 +1950,7 @@
 			(uuid "09443586-9011-4553-8103-dea32f4d7463")
 		)
 		(instances
-			(project "mitsubishi_wireless_adapter"
+			(project "wireless_adapter_for_mitsubishi"
 				(path "/f70a83b0-34a1-41b3-a332-066c3f3f3918/c857e4aa-d051-450c-8a47-19137a76269f"
 					(reference "J3")
 					(unit 1)
@@ -2064,7 +2064,7 @@
 			(uuid "2cc9c2d4-6e68-4db9-a007-7ef8d48853c9")
 		)
 		(instances
-			(project "mitsubishi_wireless_adapter"
+			(project "wireless_adapter_for_mitsubishi"
 				(path "/f70a83b0-34a1-41b3-a332-066c3f3f3918/c857e4aa-d051-450c-8a47-19137a76269f"
 					(reference "R9")
 					(unit 1)
@@ -2143,7 +2143,7 @@
 			(uuid "4d3e5059-41fe-4d1b-9c02-8365c6f14f71")
 		)
 		(instances
-			(project "mitsubishi_wireless_adapter"
+			(project "wireless_adapter_for_mitsubishi"
 				(path "/f70a83b0-34a1-41b3-a332-066c3f3f3918/c857e4aa-d051-450c-8a47-19137a76269f"
 					(reference "#FLG05")
 					(unit 1)
@@ -2257,7 +2257,7 @@
 			(uuid "2e9b1d29-52e7-43a1-98ac-45c6c87b72ca")
 		)
 		(instances
-			(project "mitsubishi_wireless_adapter"
+			(project "wireless_adapter_for_mitsubishi"
 				(path "/f70a83b0-34a1-41b3-a332-066c3f3f3918/c857e4aa-d051-450c-8a47-19137a76269f"
 					(reference "D5")
 					(unit 1)
@@ -2371,7 +2371,7 @@
 			(uuid "011489ea-ca8a-472d-bda0-423a1cb77f83")
 		)
 		(instances
-			(project "mitsubishi_wireless_adapter"
+			(project "wireless_adapter_for_mitsubishi"
 				(path "/f70a83b0-34a1-41b3-a332-066c3f3f3918/c857e4aa-d051-450c-8a47-19137a76269f"
 					(reference "R8")
 					(unit 1)
@@ -2485,7 +2485,7 @@
 			(uuid "ac286e70-1a1f-4325-996a-866c0fe4f5bf")
 		)
 		(instances
-			(project "mitsubishi_wireless_adapter"
+			(project "wireless_adapter_for_mitsubishi"
 				(path "/f70a83b0-34a1-41b3-a332-066c3f3f3918/c857e4aa-d051-450c-8a47-19137a76269f"
 					(reference "D6")
 					(unit 1)

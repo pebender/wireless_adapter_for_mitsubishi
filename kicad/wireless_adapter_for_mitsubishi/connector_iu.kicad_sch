@@ -2267,7 +2267,7 @@
 			(uuid "fa580f52-3deb-4569-ba6f-62dff0acb2c1")
 		)
 		(instances
-			(project "mitsubishi_wireless_adapter"
+			(project "wireless_adapter_for_mitsubishi"
 				(path "/f70a83b0-34a1-41b3-a332-066c3f3f3918/2723714d-b6b0-4cdf-8f9b-cc8163b6281c"
 					(reference "D2")
 					(unit 1)
@@ -2379,7 +2379,7 @@
 			(uuid "4f35f165-a1a7-4786-849a-e2034f651d3a")
 		)
 		(instances
-			(project "mitsubishi_wireless_adapter"
+			(project "wireless_adapter_for_mitsubishi"
 				(path "/f70a83b0-34a1-41b3-a332-066c3f3f3918/2723714d-b6b0-4cdf-8f9b-cc8163b6281c"
 					(reference "R4")
 					(unit 1)
@@ -2458,7 +2458,7 @@
 			(uuid "1582a8e6-e8a3-409b-8658-bcc748dcd293")
 		)
 		(instances
-			(project "mitsubishi_wireless_adapter"
+			(project "wireless_adapter_for_mitsubishi"
 				(path "/f70a83b0-34a1-41b3-a332-066c3f3f3918/2723714d-b6b0-4cdf-8f9b-cc8163b6281c"
 					(reference "#FLG01")
 					(unit 1)
@@ -2572,7 +2572,7 @@
 			(uuid "bff3e835-c6ae-49b0-a1a9-a16319ed69f0")
 		)
 		(instances
-			(project "mitsubishi_wireless_adapter"
+			(project "wireless_adapter_for_mitsubishi"
 				(path "/f70a83b0-34a1-41b3-a332-066c3f3f3918/2723714d-b6b0-4cdf-8f9b-cc8163b6281c"
 					(reference "D1")
 					(unit 1)
@@ -2712,7 +2712,7 @@
 			(uuid "d4706672-abee-482b-a5ff-54735cbd85e5")
 		)
 		(instances
-			(project "mitsubishi_wireless_adapter"
+			(project "wireless_adapter_for_mitsubishi"
 				(path "/f70a83b0-34a1-41b3-a332-066c3f3f3918/2723714d-b6b0-4cdf-8f9b-cc8163b6281c"
 					(reference "U4")
 					(unit 1)
@@ -2791,7 +2791,7 @@
 			(uuid "13005e05-83ec-424c-ac13-7fa4798b2fd2")
 		)
 		(instances
-			(project "mitsubishi_wireless_adapter"
+			(project "wireless_adapter_for_mitsubishi"
 				(path "/f70a83b0-34a1-41b3-a332-066c3f3f3918/2723714d-b6b0-4cdf-8f9b-cc8163b6281c"
 					(reference "#FLG03")
 					(unit 1)
@@ -2870,7 +2870,7 @@
 			(uuid "8a9a17c3-a13e-40ee-ac93-8a7ac247dd41")
 		)
 		(instances
-			(project "mitsubishi_wireless_adapter"
+			(project "wireless_adapter_for_mitsubishi"
 				(path "/f70a83b0-34a1-41b3-a332-066c3f3f3918/2723714d-b6b0-4cdf-8f9b-cc8163b6281c"
 					(reference "#FLG02")
 					(unit 1)
@@ -2982,7 +2982,7 @@
 			(uuid "5ccbdf52-575d-49cd-8faa-391f61b0065b")
 		)
 		(instances
-			(project "mitsubishi_wireless_adapter"
+			(project "wireless_adapter_for_mitsubishi"
 				(path "/f70a83b0-34a1-41b3-a332-066c3f3f3918/2723714d-b6b0-4cdf-8f9b-cc8163b6281c"
 					(reference "R5")
 					(unit 1)
@@ -3122,7 +3122,7 @@
 			(uuid "876bdac0-f64c-47b9-827c-a4fa29679be5")
 		)
 		(instances
-			(project "mitsubishi_wireless_adapter"
+			(project "wireless_adapter_for_mitsubishi"
 				(path "/f70a83b0-34a1-41b3-a332-066c3f3f3918/2723714d-b6b0-4cdf-8f9b-cc8163b6281c"
 					(reference "U3")
 					(unit 1)
@@ -3278,7 +3278,7 @@
 			(uuid "142f8faf-31f9-4d62-8c29-acb0a51772d5")
 		)
 		(instances
-			(project "mitsubishi_wireless_adapter"
+			(project "wireless_adapter_for_mitsubishi"
 				(path "/f70a83b0-34a1-41b3-a332-066c3f3f3918/2723714d-b6b0-4cdf-8f9b-cc8163b6281c"
 					(reference "J1")
 					(unit 1)

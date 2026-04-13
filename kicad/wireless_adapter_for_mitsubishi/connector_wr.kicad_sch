@@ -2084,7 +2084,7 @@
 			(uuid "b0973272-0f40-4ca6-a2f3-d0a19a22d1f0")
 		)
 		(instances
-			(project "mitsubishi_wireless_adapter"
+			(project "wireless_adapter_for_mitsubishi"
 				(path "/f70a83b0-34a1-41b3-a332-066c3f3f3918/9d50b435-dd7f-4655-b889-9471e30194bd"
 					(reference "D3")
 					(unit 1)
@@ -2224,7 +2224,7 @@
 			(uuid "5ffd1cd8-fc9e-4ac9-9db6-df31e4aec862")
 		)
 		(instances
-			(project "mitsubishi_wireless_adapter"
+			(project "wireless_adapter_for_mitsubishi"
 				(path "/f70a83b0-34a1-41b3-a332-066c3f3f3918/9d50b435-dd7f-4655-b889-9471e30194bd"
 					(reference "U5")
 					(unit 1)
@@ -2336,7 +2336,7 @@
 			(uuid "8b41fafb-1c3d-484c-95ce-8973278b9930")
 		)
 		(instances
-			(project "mitsubishi_wireless_adapter"
+			(project "wireless_adapter_for_mitsubishi"
 				(path "/f70a83b0-34a1-41b3-a332-066c3f3f3918/9d50b435-dd7f-4655-b889-9471e30194bd"
 					(reference "R7")
 					(unit 1)
@@ -2476,7 +2476,7 @@
 			(uuid "b21e46fd-3bd9-4ea2-87ce-76a7c1d0f775")
 		)
 		(instances
-			(project "mitsubishi_wireless_adapter"
+			(project "wireless_adapter_for_mitsubishi"
 				(path "/f70a83b0-34a1-41b3-a332-066c3f3f3918/9d50b435-dd7f-4655-b889-9471e30194bd"
 					(reference "U6")
 					(unit 1)
@@ -2632,7 +2632,7 @@
 			(uuid "ad088cbb-67a9-4844-9494-54c33781e54e")
 		)
 		(instances
-			(project "mitsubishi_wireless_adapter"
+			(project "wireless_adapter_for_mitsubishi"
 				(path "/f70a83b0-34a1-41b3-a332-066c3f3f3918/9d50b435-dd7f-4655-b889-9471e30194bd"
 					(reference "J2")
 					(unit 1)
@@ -2746,7 +2746,7 @@
 			(uuid "006badd9-543a-4fc5-9b6b-e0dd2b046fb2")
 		)
 		(instances
-			(project "mitsubishi_wireless_adapter"
+			(project "wireless_adapter_for_mitsubishi"
 				(path "/f70a83b0-34a1-41b3-a332-066c3f3f3918/9d50b435-dd7f-4655-b889-9471e30194bd"
 					(reference "D4")
 					(unit 1)
@@ -2858,7 +2858,7 @@
 			(uuid "2d8c7d0b-020e-4bb4-894f-76d176f1d2c1")
 		)
 		(instances
-			(project "mitsubishi_wireless_adapter"
+			(project "wireless_adapter_for_mitsubishi"
 				(path "/f70a83b0-34a1-41b3-a332-066c3f3f3918/9d50b435-dd7f-4655-b889-9471e30194bd"
 					(reference "R6")
 					(unit 1)
