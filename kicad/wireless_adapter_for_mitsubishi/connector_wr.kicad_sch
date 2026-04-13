@@ -1923,7 +1923,7 @@
 		)
 		(uuid "f03b060a-cfea-474c-9f3f-e61fe2e162a6")
 	)
-	(hierarchical_label "WR_RX_WA_TX"
+	(hierarchical_label "WR_UART_RX"
 		(shape input)
 		(at 205.74 86.36 0)
 		(effects
@@ -1945,8 +1945,8 @@
 		)
 		(uuid "1d8b3523-e76e-44a1-9cac-1f5ba3e6bdf8")
 	)
-	(hierarchical_label "WR_TX_WA_RX"
-		(shape input)
+	(hierarchical_label "WR_UART_TX"
+		(shape output)
 		(at 205.74 99.06 0)
 		(effects
 			(font

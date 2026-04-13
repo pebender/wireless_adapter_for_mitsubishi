@@ -6879,7 +6879,7 @@
 				(justify left)
 			)
 		)
-		(pin "IU_RX_WA_TX" output
+		(pin "IU_UART_RX" input
 			(at 38.1 76.2 0)
 			(uuid "0255ee5e-29d4-47c7-b378-0365ac44bd68")
 			(effects
@@ -6889,7 +6889,7 @@
 				(justify right)
 			)
 		)
-		(pin "IU_TX_WA_RX" output
+		(pin "IU_UART_TX" output
 			(at 38.1 73.66 0)
 			(uuid "8e317c01-388d-409e-8d61-8104828347fc")
 			(effects
@@ -7061,7 +7061,7 @@
 				(justify left)
 			)
 		)
-		(pin "WR_RX_WA_TX" input
+		(pin "WR_UART_RX" input
 			(at 38.1 106.68 0)
 			(uuid "5eb971ca-258d-4646-862d-f713088b40ae")
 			(effects
@@ -7071,7 +7071,7 @@
 				(justify right)
 			)
 		)
-		(pin "WR_TX_WA_RX" input
+		(pin "WR_UART_TX" output
 			(at 38.1 109.22 0)
 			(uuid "63ede84e-2fef-4e4b-bcbd-6ee92ceec147")
 			(effects
