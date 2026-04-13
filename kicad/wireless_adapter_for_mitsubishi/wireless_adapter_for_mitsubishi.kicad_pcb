@@ -1278,7 +1278,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/99cb4ce8-503d-4097-8496-c0f43de1801a")
-		(sheetname "/Power System/")
+		(sheetname "/Power Subsystem/")
 		(sheetfile "power_subsystem.kicad_sch")
 		(units
 			(unit
@@ -1346,7 +1346,7 @@
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
-			(net "/Power System/Regulator_Input")
+			(net "/Power Subsystem/Regulator_Input")
 			(pintype "passive")
 			(uuid "4e427459-f372-4993-b042-fae3c20e7388")
 		)
@@ -2128,7 +2128,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/c640fb50-eebe-4d00-8036-70d002464280")
-		(sheetname "/Power System/")
+		(sheetname "/Power Subsystem/")
 		(sheetfile "power_subsystem.kicad_sch")
 		(units
 			(unit
@@ -4247,7 +4247,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/7d4365e2-bbe6-4e4d-bad7-fb8869174d17")
-		(sheetname "/Power System/")
+		(sheetname "/Power Subsystem/")
 		(sheetfile "power_subsystem.kicad_sch")
 		(units
 			(unit
@@ -4315,7 +4315,7 @@
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
-			(net "/Power System/Power_Multiplexed")
+			(net "/Power Subsystem/Power_Multiplexed")
 			(pintype "passive")
 			(uuid "cdfdb0b3-8285-4448-990f-dac0622da694")
 		)
@@ -5631,7 +5631,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/5d512374-d3cb-4054-a387-a0aa423f5d7b")
-		(sheetname "/Power System/")
+		(sheetname "/Power Subsystem/")
 		(sheetfile "power_subsystem.kicad_sch")
 		(units
 			(unit
@@ -5819,7 +5819,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/c1f90c57-7214-48cb-82a9-347e83c16e47")
-		(sheetname "/Power System/")
+		(sheetname "/Power Subsystem/")
 		(sheetfile "power_subsystem.kicad_sch")
 		(units
 			(unit
@@ -6009,7 +6009,7 @@
 		)
 		(property ki_fp_filters "Texas_RUX0012A_* Texas_VQFN-HR-12_*")
 		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/d76737ee-87ba-4d9b-8876-6800ac11671e")
-		(sheetname "/Power System/")
+		(sheetname "/Power Subsystem/")
 		(sheetfile "power_subsystem.kicad_sch")
 		(units
 			(unit
@@ -6167,7 +6167,7 @@
 			(size 1.05 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Power System/Power_Multiplexed")
+			(net "/Power Subsystem/Power_Multiplexed")
 			(pinfunction "OUT_1")
 			(pintype "power_out")
 			(teardrops
@@ -6188,7 +6188,7 @@
 			(size 1.05 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Power System/USB_5V")
+			(net "/Power Subsystem/USB_5V")
 			(pinfunction "IN2_2")
 			(pintype "power_in")
 			(teardrops
@@ -6314,7 +6314,7 @@
 			(size 1.05 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Power System/Power_Multiplexed")
+			(net "/Power Subsystem/Power_Multiplexed")
 			(pinfunction "OUT_8")
 			(pintype "passive")
 			(teardrops
@@ -9618,7 +9618,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/939a095f-9912-46e9-a144-8eb2b051e2ad")
-		(sheetname "/Power System/")
+		(sheetname "/Power Subsystem/")
 		(sheetfile "power_subsystem.kicad_sch")
 		(units
 			(unit
@@ -9686,7 +9686,7 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Power System/Regulator_Input")
+			(net "/Power Subsystem/Regulator_Input")
 			(pintype "passive")
 			(uuid "229295d9-4c8f-4cd5-b77c-43e830e834eb")
 		)
@@ -10674,7 +10674,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/728d8d48-a368-43d9-80e4-639f187fcf39")
-		(sheetname "/Power System/")
+		(sheetname "/Power Subsystem/")
 		(sheetfile "power_subsystem.kicad_sch")
 		(units
 			(unit
@@ -10742,7 +10742,7 @@
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
-			(net "/Power System/Regulator_Input")
+			(net "/Power Subsystem/Regulator_Input")
 			(pintype "passive")
 			(uuid "1ed6a2dc-e51b-4681-a664-ce85b83ed33f")
 		)
@@ -10864,7 +10864,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/6016cad1-fbaf-4065-940c-51e32993be75")
-		(sheetname "/Power System/")
+		(sheetname "/Power Subsystem/")
 		(sheetfile "power_subsystem.kicad_sch")
 		(units
 			(unit
@@ -11125,7 +11125,7 @@
 		)
 		(property ki_fp_filters "Texas_RDA0015A_* Texas_B3QFN-14-1EP_*")
 		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/00c5f976-41cf-446b-9610-acd6a3673ef5")
-		(sheetname "/Power System/")
+		(sheetname "/Power Subsystem/")
 		(sheetfile "power_subsystem.kicad_sch")
 		(units
 			(unit
@@ -11273,7 +11273,7 @@
 			(size 1.4 0.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
-			(net "/Power System/Regulator_Input")
+			(net "/Power Subsystem/Regulator_Input")
 			(pinfunction "VIN_1")
 			(pintype "power_in")
 			(uuid "c10ee71e-85d3-427d-85a1-c339f92b0808")
@@ -11283,7 +11283,7 @@
 			(size 0.7 0.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.143)
-			(net "/Power System/Regulator_Input")
+			(net "/Power Subsystem/Regulator_Input")
 			(pinfunction "EN_2")
 			(pintype "input")
 			(uuid "423c12f5-c975-4438-b6a7-bd463c50df0c")
@@ -11403,7 +11403,7 @@
 			(size 1.4 0.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
-			(net "/Power System/Regulator_Input")
+			(net "/Power Subsystem/Regulator_Input")
 			(pinfunction "VIN_14")
 			(pintype "passive")
 			(uuid "15005bdb-2ad6-4096-8efe-1be1d937b1c1")
@@ -11652,7 +11652,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/0efdb167-5088-4416-ab30-1056bb29fea3")
-		(sheetname "/Power System/")
+		(sheetname "/Power Subsystem/")
 		(sheetfile "power_subsystem.kicad_sch")
 		(units
 			(unit
@@ -11840,7 +11840,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/0793b1ad-88f4-4c25-85c3-71967b1c2d2a")
-		(sheetname "/Power System/")
+		(sheetname "/Power Subsystem/")
 		(sheetfile "power_subsystem.kicad_sch")
 		(units
 			(unit
@@ -11908,7 +11908,7 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Power System/Regulator_Input")
+			(net "/Power Subsystem/Regulator_Input")
 			(pintype "passive")
 			(uuid "13a0b264-dc4c-4e11-ab97-3d966a1d8ba5")
 		)
@@ -12278,7 +12278,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/7dfa408a-375f-426e-bff4-3300ef0f279b")
-		(sheetname "/Power System/")
+		(sheetname "/Power Subsystem/")
 		(sheetfile "power_subsystem.kicad_sch")
 		(units
 			(unit
@@ -13184,7 +13184,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/4cc014ce-999e-4937-beda-085f9654d420")
-		(sheetname "/Power System/")
+		(sheetname "/Power Subsystem/")
 		(sheetfile "power_subsystem.kicad_sch")
 		(units
 			(unit
@@ -13252,7 +13252,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.222222)
-			(net "/Power System/Regulator_Input")
+			(net "/Power Subsystem/Regulator_Input")
 			(pintype "passive")
 			(uuid "7a48d7da-3d3c-43c0-b011-02d2a3f3391f")
 		)
@@ -13561,7 +13561,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Power System/USB_5V")
+			(net "/Power Subsystem/USB_5V")
 			(pinfunction "VBUS_A4")
 			(pintype "passive")
 			(uuid "efe93997-b52f-4d0f-afe1-b1a57b2b697f")
@@ -13611,7 +13611,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Power System/USB_5V")
+			(net "/Power Subsystem/USB_5V")
 			(pinfunction "VBUS_A9")
 			(pintype "passive")
 			(uuid "8fc77f07-6f7e-4d4b-a70a-54d57fb01110")
@@ -13641,7 +13641,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Power System/USB_5V")
+			(net "/Power Subsystem/USB_5V")
 			(pinfunction "VBUS_B4")
 			(pintype "passive")
 			(uuid "34ddff92-fb93-4aef-ba52-8016839509f6")
@@ -13691,7 +13691,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Power System/USB_5V")
+			(net "/Power Subsystem/USB_5V")
 			(pinfunction "VBUS_B9")
 			(pintype "passive")
 			(uuid "cd3b46b7-214b-4bf3-b29e-77d03c15dbc3")
@@ -14064,7 +14064,7 @@
 			(size 0.4 0.7)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.125)
-			(net "/Power System/USB_5V")
+			(net "/Power Subsystem/USB_5V")
 			(pinfunction "A1_1")
 			(pintype "passive")
 			(solder_paste_margin -0.05)
@@ -14188,7 +14188,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/0007b1fa-0586-49be-b9fc-7ee27bf8f44c")
-		(sheetname "/Power System/")
+		(sheetname "/Power Subsystem/")
 		(sheetfile "power_subsystem.kicad_sch")
 		(units
 			(unit
@@ -14314,7 +14314,7 @@
 			(size 0.55 1.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Power System/Power_Multiplexed")
+			(net "/Power Subsystem/Power_Multiplexed")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "f9b0498a-e205-4b3f-b80f-a18b65f01a05")
@@ -14324,7 +14324,7 @@
 			(size 0.55 1.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Power System/Regulator_Input")
+			(net "/Power Subsystem/Regulator_Input")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "b2ef1f5b-c903-400a-ae38-9d31b97371c3")
@@ -14438,7 +14438,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/37849270-c57f-4abd-8062-6e49e8863e44")
-		(sheetname "/Power System/")
+		(sheetname "/Power Subsystem/")
 		(sheetfile "power_subsystem.kicad_sch")
 		(units
 			(unit
@@ -19191,7 +19191,7 @@
 		(end 112.75 91.75)
 		(width 0.4)
 		(layer "F.Cu")
-		(net "/Power System/Power_Multiplexed")
+		(net "/Power Subsystem/Power_Multiplexed")
 		(uuid "3ae8a4d2-8379-4fb5-a834-e189c054afb0")
 	)
 	(segment
@@ -19199,7 +19199,7 @@
 		(end 115.5 89)
 		(width 1.2)
 		(layer "F.Cu")
-		(net "/Power System/Power_Multiplexed")
+		(net "/Power Subsystem/Power_Multiplexed")
 		(uuid "7b13716b-3707-48fa-9e54-9271df9b1c6a")
 	)
 	(segment
@@ -19207,7 +19207,7 @@
 		(end 112.325 94.425)
 		(width 0.4)
 		(layer "F.Cu")
-		(net "/Power System/Power_Multiplexed")
+		(net "/Power Subsystem/Power_Multiplexed")
 		(uuid "ac2cfc04-19ff-4de0-9e23-ccb3744d6b31")
 	)
 	(segment
@@ -19215,7 +19215,7 @@
 		(end 113.375 89)
 		(width 1.2)
 		(layer "F.Cu")
-		(net "/Power System/Power_Multiplexed")
+		(net "/Power Subsystem/Power_Multiplexed")
 		(uuid "af06b52a-ae6c-476b-ad09-e4470705da8b")
 	)
 	(segment
@@ -19223,7 +19223,7 @@
 		(end 112.325 92.175)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/Power System/Power_Multiplexed")
+		(net "/Power Subsystem/Power_Multiplexed")
 		(uuid "d8cdec53-a910-4f28-9953-b544af919789")
 	)
 	(segment
@@ -19231,7 +19231,7 @@
 		(end 113 89.375)
 		(width 1.2)
 		(layer "F.Cu")
-		(net "/Power System/Power_Multiplexed")
+		(net "/Power Subsystem/Power_Multiplexed")
 		(uuid "e2106898-33a6-4430-8568-d21c6bf67cde")
 	)
 	(segment
@@ -19239,7 +19239,7 @@
 		(end 113 91.5)
 		(width 1.2)
 		(layer "F.Cu")
-		(net "/Power System/Power_Multiplexed")
+		(net "/Power Subsystem/Power_Multiplexed")
 		(uuid "e68e6db3-364e-4557-9fe3-7623b3cfd5df")
 	)
 	(segment
@@ -19247,7 +19247,7 @@
 		(end 123.25 89)
 		(width 1.2)
 		(layer "F.Cu")
-		(net "/Power System/Regulator_Input")
+		(net "/Power Subsystem/Regulator_Input")
 		(uuid "2ae3fd30-1b70-4a65-9ee8-8933e7b312d3")
 	)
 	(segment
@@ -19255,7 +19255,7 @@
 		(end 132.705 86.95)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/Power System/Regulator_Input")
+		(net "/Power Subsystem/Regulator_Input")
 		(uuid "67e0418f-d664-4cf0-acc0-80b362eb68da")
 	)
 	(segment
@@ -19263,7 +19263,7 @@
 		(end 122.75 87.5)
 		(width 1.2)
 		(layer "F.Cu")
-		(net "/Power System/Regulator_Input")
+		(net "/Power Subsystem/Regulator_Input")
 		(uuid "b93b7a64-540c-42f4-800c-63bc753f8e40")
 	)
 	(segment
@@ -19271,7 +19271,7 @@
 		(end 121.25 89)
 		(width 1.2)
 		(layer "F.Cu")
-		(net "/Power System/Regulator_Input")
+		(net "/Power Subsystem/Regulator_Input")
 		(uuid "bc927a69-f691-41bc-8ab5-e6a1486947ae")
 	)
 	(segment
@@ -19279,7 +19279,7 @@
 		(end 132.355 86.6)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/Power System/Regulator_Input")
+		(net "/Power Subsystem/Regulator_Input")
 		(uuid "fc8f4b54-16b0-4b82-a2e6-a87029e1e569")
 	)
 	(segment
@@ -19287,7 +19287,7 @@
 		(end 159.63 80.675002)
 		(width 0.6)
 		(layer "F.Cu")
-		(net "/Power System/USB_5V")
+		(net "/Power Subsystem/USB_5V")
 		(uuid "09f35713-f70f-40b6-96d2-17e6df662de9")
 	)
 	(segment
@@ -19295,7 +19295,7 @@
 		(end 158.745 79.521907)
 		(width 0.9)
 		(layer "F.Cu")
-		(net "/Power System/USB_5V")
+		(net "/Power Subsystem/USB_5V")
 		(uuid "0c3f3877-b8e6-4651-bd82-b5043a727cd5")
 	)
 	(segment
@@ -19303,7 +19303,7 @@
 		(end 159.63 81.175)
 		(width 0.6)
 		(layer "F.Cu")
-		(net "/Power System/USB_5V")
+		(net "/Power Subsystem/USB_5V")
 		(uuid "106a933c-925e-4b5f-864a-efa67ed3f8b8")
 	)
 	(segment
@@ -19311,7 +19311,7 @@
 		(end 150.866907 79.521907)
 		(width 0.9)
 		(layer "F.Cu")
-		(net "/Power System/USB_5V")
+		(net "/Power Subsystem/USB_5V")
 		(uuid "29d77cd0-5dbd-4c4e-afe5-209361d2d8dd")
 	)
 	(segment
@@ -19319,7 +19319,7 @@
 		(end 147.845 76.5)
 		(width 0.9)
 		(layer "F.Cu")
-		(net "/Power System/USB_5V")
+		(net "/Power Subsystem/USB_5V")
 		(uuid "29f5dfae-12b4-4bef-85ef-d7d673e26d23")
 	)
 	(segment
@@ -19327,7 +19327,7 @@
 		(end 110.25 80)
 		(width 0.9)
 		(layer "F.Cu")
-		(net "/Power System/USB_5V")
+		(net "/Power Subsystem/USB_5V")
 		(uuid "3bb04f4b-cf60-4511-9600-3be4efb74826")
 	)
 	(segment
@@ -19335,7 +19335,7 @@
 		(end 113.75 76.5)
 		(width 0.9)
 		(layer "F.Cu")
-		(net "/Power System/USB_5V")
+		(net "/Power Subsystem/USB_5V")
 		(uuid "8ac3f839-208b-49ec-9e0c-3deb5e7fa24f")
 	)
 	(segment
@@ -19343,7 +19343,7 @@
 		(end 111.625 92.15)
 		(width 0.4)
 		(layer "F.Cu")
-		(net "/Power System/USB_5V")
+		(net "/Power Subsystem/USB_5V")
 		(uuid "cad128cc-c3e7-46ac-b83f-ad92306b061a")
 	)
 	(segment
@@ -19351,7 +19351,7 @@
 		(end 111.625 93.075)
 		(width 0.4)
 		(layer "F.Cu")
-		(net "/Power System/USB_5V")
+		(net "/Power Subsystem/USB_5V")
 		(uuid "ccf6cc4d-99c7-469d-aa07-ef755a4f8777")
 	)
 	(segment
@@ -19359,7 +19359,7 @@
 		(end 110.25 90.775)
 		(width 0.9)
 		(layer "F.Cu")
-		(net "/Power System/USB_5V")
+		(net "/Power Subsystem/USB_5V")
 		(uuid "eb758737-ba27-4141-9e37-90e60fb1a0bd")
 	)
 	(segment
@@ -19367,7 +19367,7 @@
 		(end 155.63 80.675)
 		(width 0.6)
 		(layer "F.Cu")
-		(net "/Power System/USB_5V")
+		(net "/Power Subsystem/USB_5V")
 		(uuid "eb94c540-209c-4ddb-a905-6a3887700ac1")
 	)
 	(segment
@@ -19375,7 +19375,7 @@
 		(end 150.866907 79.521907)
 		(width 0.9)
 		(layer "F.Cu")
-		(net "/Power System/USB_5V")
+		(net "/Power Subsystem/USB_5V")
 		(uuid "ef606123-fb8f-4a13-932f-6fb20c7e7915")
 	)
 	(arc
@@ -19384,7 +19384,7 @@
 		(end 156.495 79.521907)
 		(width 0.9)
 		(layer "F.Cu")
-		(net "/Power System/USB_5V")
+		(net "/Power Subsystem/USB_5V")
 		(uuid "9c79a212-05d3-478f-acc0-90d21fbc0baa")
 	)
 	(arc
@@ -19393,7 +19393,7 @@
 		(end 159.745 80.521907)
 		(width 0.9)
 		(layer "F.Cu")
-		(net "/Power System/USB_5V")
+		(net "/Power Subsystem/USB_5V")
 		(uuid "b2834499-578b-4e44-8b16-8152121f7577")
 	)
 	(arc
@@ -19402,7 +19402,7 @@
 		(end 154.495 79.521907)
 		(width 0.9)
 		(layer "F.Cu")
-		(net "/Power System/USB_5V")
+		(net "/Power Subsystem/USB_5V")
 		(uuid "e9e8c36f-678f-40db-9cf7-97c8a65b6d1b")
 	)
 	(zone
@@ -19441,7 +19441,7 @@
 		)
 	)
 	(zone
-		(net "/Power System/Regulator_Input")
+		(net "/Power Subsystem/Regulator_Input")
 		(layer "F.Cu")
 		(uuid "09d99492-f6a1-4c86-be3a-6d9fcee0baf9")
 		(name "REGULATOR_INPUT")
@@ -19782,7 +19782,7 @@
 		(net "Net-(J3-CC1)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30028)
+		(priority 30031)
 		(attr
 			(teardrop
 				(type padvia)
@@ -19811,7 +19811,7 @@
 		)
 	)
 	(zone
-		(net "/Power System/USB_5V")
+		(net "/Power Subsystem/USB_5V")
 		(layer "F.Cu")
 		(uuid "3fb61531-5c41-4607-b144-396aedcdbb7f")
 		(hatch edge 0.5)
@@ -19997,7 +19997,7 @@
 		(net "/WR Connector/WR_RX_WA_TX")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30031)
+		(priority 30028)
 		(attr
 			(teardrop
 				(type padvia)
@@ -21034,7 +21034,7 @@
 		)
 	)
 	(zone
-		(net "/Power System/USB_5V")
+		(net "/Power Subsystem/USB_5V")
 		(layer "F.Cu")
 		(uuid "ffa6b1cd-a9c4-4f6e-b35e-2212f496994f")
 		(hatch edge 0.5)

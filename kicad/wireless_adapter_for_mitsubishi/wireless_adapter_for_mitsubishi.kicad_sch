@@ -6922,7 +6922,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "6ea5ce35-50d4-4344-b6c8-7340368fbabe")
-		(property "Sheetname" "Power System"
+		(property "Sheetname" "Power Subsystem"
 			(at 60.96 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
