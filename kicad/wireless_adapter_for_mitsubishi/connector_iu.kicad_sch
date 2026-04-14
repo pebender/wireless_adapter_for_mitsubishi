@@ -6,6 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "Wireless Adapter for a Mitsubishi Head Pump Indoor Unit")
+		(date "2026-04-14")
+		(rev "1.1")
 	)
 	(lib_symbols
 		(symbol "Project:JST_S05B-PASK-2(LF)(SN)"
@@ -2261,10 +2263,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "7f52cca1-565a-416e-a7ce-7ec42e86ef4c")
+			(uuid "871c4220-99bc-46fa-9ffb-ea4526565b5a")
 		)
 		(pin "1"
-			(uuid "fa580f52-3deb-4569-ba6f-62dff0acb2c1")
+			(uuid "8b6f78a6-1d6a-4e9f-8b04-e14030cb323a")
 		)
 		(instances
 			(project "wireless_adapter_for_mitsubishi"
@@ -2373,10 +2375,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "13c11d76-b487-41c2-826e-2797eb688e01")
+			(uuid "795a4952-5edd-4243-9b2e-80791b8bbfe0")
 		)
 		(pin "2"
-			(uuid "4f35f165-a1a7-4786-849a-e2034f651d3a")
+			(uuid "856efcd3-d64b-471c-b9fa-271b4ddc382c")
 		)
 		(instances
 			(project "wireless_adapter_for_mitsubishi"
@@ -2455,7 +2457,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1582a8e6-e8a3-409b-8658-bcc748dcd293")
+			(uuid "f62b8b17-3f79-41ab-8492-e5287eadda40")
 		)
 		(instances
 			(project "wireless_adapter_for_mitsubishi"
@@ -2566,10 +2568,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d607ddb9-f405-4ff9-84d8-c0e38f5de1a2")
+			(uuid "7c1ed262-52f1-4dca-bf8d-b45e73c363c1")
 		)
 		(pin "1"
-			(uuid "bff3e835-c6ae-49b0-a1a9-a16319ed69f0")
+			(uuid "d7758f3d-78b7-4a21-88a7-b0f14bb81aaf")
 		)
 		(instances
 			(project "wireless_adapter_for_mitsubishi"
@@ -2691,25 +2693,25 @@
 			)
 		)
 		(pin "4"
-			(uuid "25a76448-6444-4005-a9c0-f9d83d6e911d")
+			(uuid "3ea75b20-5296-4860-ace8-f4513e3a7515")
 		)
 		(pin "5"
-			(uuid "bfb2ce77-97e9-46d4-89ef-251312073684")
+			(uuid "fea42644-b955-4e89-85d3-86010c4aeaf4")
 		)
 		(pin "6"
-			(uuid "2c1b557e-e35b-490f-93ce-09f27c8571f4")
+			(uuid "379b61d3-6120-455f-b0bb-9f6f7bd9a8c6")
 		)
 		(pin "1"
-			(uuid "b9e823a0-487d-483b-8c53-6260dfc59960")
+			(uuid "8ff50011-8a50-4f1f-bc77-b769ca18d17d")
 		)
 		(pin "2"
-			(uuid "c77848b6-236b-4e85-83c8-3956688b76b8")
+			(uuid "c9eb6f47-7f25-4650-bedf-90d50cbe78c4")
 		)
 		(pin "3"
-			(uuid "d908fbe3-b158-48db-8dbd-8bb6a044cae6")
+			(uuid "8572e0e2-8bc5-4574-b44b-60d4dc0958e0")
 		)
 		(pin "7"
-			(uuid "d4706672-abee-482b-a5ff-54735cbd85e5")
+			(uuid "b341d058-56fd-4940-b116-d453eb32416e")
 		)
 		(instances
 			(project "wireless_adapter_for_mitsubishi"
@@ -2788,7 +2790,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "13005e05-83ec-424c-ac13-7fa4798b2fd2")
+			(uuid "13322ec9-3245-41e8-abc2-74f3739014f6")
 		)
 		(instances
 			(project "wireless_adapter_for_mitsubishi"
@@ -2867,7 +2869,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8a9a17c3-a13e-40ee-ac93-8a7ac247dd41")
+			(uuid "0f89e073-a5e7-4b0c-adba-f4afe067652c")
 		)
 		(instances
 			(project "wireless_adapter_for_mitsubishi"
@@ -2976,10 +2978,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "124c3b9d-676d-4188-a857-db79bbfed0cc")
+			(uuid "5cf8db74-f791-4e0c-b99e-978e06e203e2")
 		)
 		(pin "2"
-			(uuid "5ccbdf52-575d-49cd-8faa-391f61b0065b")
+			(uuid "e4f8dec2-8fde-49de-956c-7a5d9134fcda")
 		)
 		(instances
 			(project "wireless_adapter_for_mitsubishi"
@@ -3101,25 +3103,25 @@
 			)
 		)
 		(pin "4"
-			(uuid "79d5c771-99fe-4fbb-afbf-66a9c3e621d8")
+			(uuid "4beb739e-c889-4030-a66c-1ca981616c0c")
 		)
 		(pin "5"
-			(uuid "283a26ed-501a-4df4-a726-2c9100cf6d8b")
+			(uuid "88feacce-35b7-46d5-b1a1-fbbe01cc3997")
 		)
 		(pin "6"
-			(uuid "7d66df7f-5b5c-4e2c-a814-f1e6781fe470")
+			(uuid "4a8ce793-9be1-4d76-8414-600903297b84")
 		)
 		(pin "1"
-			(uuid "9f9e8096-21b4-435b-bc8b-8ead98fbd0d2")
+			(uuid "6f79956e-c544-4ddf-9c54-099281999113")
 		)
 		(pin "2"
-			(uuid "5d1782fa-8acc-4ac7-87ad-f4a755b0c677")
+			(uuid "b3383ce9-8be8-4655-9895-e55e3c5cf0a9")
 		)
 		(pin "3"
-			(uuid "87fc9ac4-e5fe-4932-8510-6d094e39fa2d")
+			(uuid "42dcab41-6045-471b-9483-bc81c151bdcd")
 		)
 		(pin "7"
-			(uuid "876bdac0-f64c-47b9-827c-a4fa29679be5")
+			(uuid "9d5dfbaa-5826-4bd7-a181-49cf662bbbe9")
 		)
 		(instances
 			(project "wireless_adapter_for_mitsubishi"
@@ -3263,19 +3265,19 @@
 			)
 		)
 		(pin "4"
-			(uuid "e14fa039-9b7d-41a6-a359-13edc4665a77")
+			(uuid "deb56e46-f43c-4e16-abdf-9c3ff7467769")
 		)
 		(pin "3"
-			(uuid "c4175964-294c-487d-a934-8efdd5c54d0a")
+			(uuid "d413d9d5-097d-400b-93ec-72825e50b15c")
 		)
 		(pin "2"
-			(uuid "fdf17ed3-bf9e-4440-8d29-36e82292bea7")
+			(uuid "27619b26-acde-4679-ba4a-21492a5afe5a")
 		)
 		(pin "1"
-			(uuid "8a5622c0-712d-4666-88fe-84a945b5dd68")
+			(uuid "9cb094d7-c19b-4b7c-8d1d-81824dcb1104")
 		)
 		(pin "5"
-			(uuid "142f8faf-31f9-4d62-8c29-acb0a51772d5")
+			(uuid "c35faac1-ddcf-4ffb-85f0-6f3c7a873ae7")
 		)
 		(instances
 			(project "wireless_adapter_for_mitsubishi"

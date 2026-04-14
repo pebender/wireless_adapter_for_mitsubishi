@@ -6,6 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "Wireless Adapter for a Mitsubishi Head Pump Indoor Unit")
+		(date "2026-04-14")
+		(rev "1.1")
 	)
 	(lib_symbols
 		(symbol "Project:JST_S05B-PASK-2(LF)(SN)"
