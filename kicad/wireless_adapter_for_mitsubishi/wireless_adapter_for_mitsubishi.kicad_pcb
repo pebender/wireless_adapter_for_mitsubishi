@@ -448,7 +448,7 @@
 		(property "Reference" "H4"
 			(at -3.5 3.5 0)
 			(layer "F.SilkS")
-			(uuid "3c34987e-575d-4eb2-a6a0-0be847323abc")
+			(uuid "07d4ef9e-3d26-4f79-8948-f0045156d2ad")
 			(effects
 				(font
 					(size 1 1)
@@ -460,7 +460,7 @@
 			(at 0 4.15 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b5326d67-b6dd-4ae5-9996-c6ef545850dc")
+			(uuid "8b6cabb2-8743-44fd-bf17-646f3c6fc80e")
 			(effects
 				(font
 					(size 1 1)
@@ -472,7 +472,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "378e644f-6265-413b-9761-14e224741795")
+			(uuid "41fe6bef-6c09-4459-a64a-9c85894d17d2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -484,7 +484,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "16aa890b-83a8-421c-8431-4caa1e00b057")
+			(uuid "210ffc93-8183-4493-92ad-b147bceb8b4c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -493,7 +493,7 @@
 			)
 		)
 		(property ki_fp_filters "MountingHole*")
-		(path "/d15eac5e-8c86-4e63-ab8e-ef4e9072c3ff")
+		(path "/1979514b-64b4-41df-8ded-9a2c55b2b0ac")
 		(sheetname "/")
 		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
@@ -555,7 +555,7 @@
 		(property "Reference" "C6"
 			(at -1.98 0 180)
 			(layer "F.SilkS")
-			(uuid "70840026-0231-4094-aa46-9e52a73e8a54")
+			(uuid "e5971a4d-0281-4511-b97e-1d5732e0d501")
 			(effects
 				(font
 					(size 1 1)
@@ -567,7 +567,7 @@
 			(at 0 1.16 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "060545f2-faf9-4b72-966b-cffe307f8bf4")
+			(uuid "d7f7d060-0856-4fc0-accf-a96e7725373e")
 			(effects
 				(font
 					(size 1 1)
@@ -580,7 +580,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "21bf0a27-26ec-4404-81e1-8672616df7fb")
+			(uuid "0c0d7d98-b0f8-4446-b6df-343aa328e440")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -593,7 +593,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2a669049-bd23-4ac8-9867-5b9210d800aa")
+			(uuid "1c5816b5-48b9-46d0-99c2-2e81e43c95c5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -768,7 +768,7 @@
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/IU Connector/IU_5V")
+			(net "/IU_5V")
 			(pintype "passive")
 			(uuid "597fe7f7-cae1-41f1-8e1d-0bfc8445d169")
 		)
@@ -803,7 +803,7 @@
 		(property "Reference" "U6"
 			(at 2.25 0 90)
 			(layer "F.SilkS")
-			(uuid "53c7814d-ae79-4bbe-849a-3b5823817a1f")
+			(uuid "33ae5c2e-2fc9-4350-8085-336774b32040")
 			(effects
 				(font
 					(size 1 1)
@@ -815,7 +815,7 @@
 			(at 0 1.95 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ceb89127-cdc9-4fdb-95f7-f32827ff182a")
+			(uuid "348e1e3c-9fff-4d9a-bde8-f1c0b155e004")
 			(effects
 				(font
 					(size 1 1)
@@ -827,7 +827,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e8b3c458-bcb5-4349-a165-15649c338ff9")
+			(uuid "a2dbfc41-dba0-4e88-86a6-dca19e7c87af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -839,7 +839,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4c84b44e-6c03-436e-9c88-824e578da9ba")
+			(uuid "95db1de2-c75e-4bbc-a6d2-51f66b91f673")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -900,9 +900,9 @@
 			)
 		)
 		(property ki_fp_filters "WSON*1EP*2x2mm*P0.65mm*EP1x1.6mm*")
-		(path "/9d50b435-dd7f-4655-b889-9471e30194bd/99526560-5943-4258-93c4-2f6741edb6e1")
-		(sheetname "/WR Connector/")
-		(sheetfile "connector_wr.kicad_sch")
+		(path "/cc7ae3a7-188b-4011-81fe-c30d890b7ef3")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1135,7 +1135,7 @@
 			(size 0.375 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/IU Connector/IU_5V")
+			(net "/IU_5V")
 			(pinfunction "IN_4")
 			(pintype "passive")
 			(uuid "0caf56ab-6a4a-4b4c-be32-1f4a8adea9ec")
@@ -1145,7 +1145,7 @@
 			(size 0.375 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/IU Connector/IU_5V")
+			(net "/IU_5V")
 			(pinfunction "IN_5")
 			(pintype "passive")
 			(uuid "bef358e3-92ce-45a5-8604-2b0f45ff8658")
@@ -1155,7 +1155,7 @@
 			(size 0.375 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/IU Connector/IU_5V")
+			(net "/IU_5V")
 			(pinfunction "IN_6")
 			(pintype "passive")
 			(uuid "18e682d8-d488-4840-a3cd-38907886510d")
@@ -1193,7 +1193,7 @@
 		(property "Reference" "C11"
 			(at -1 2 90)
 			(layer "F.SilkS")
-			(uuid "1348ecf6-7269-4f87-8962-20b02412a461")
+			(uuid "140c40ad-a479-4cf0-8ad9-8f615766042d")
 			(effects
 				(font
 					(size 1 1)
@@ -1205,7 +1205,7 @@
 			(at 0 1.85 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f3380224-fd38-41a8-9ab2-5acd2563a23a")
+			(uuid "d1b7c574-4532-4f26-bc65-ac09d3b383b4")
 			(effects
 				(font
 					(size 1 1)
@@ -1217,7 +1217,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "46e35745-cc97-498c-9375-4c31217874e1")
+			(uuid "6479eb90-7893-4173-9122-526bc337ecaa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1229,7 +1229,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bc4e9177-96c4-4fbe-b26a-981e16bbac6f")
+			(uuid "d0be60ff-e80c-446d-a8c8-20f83c01c187")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1277,9 +1277,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/99cb4ce8-503d-4097-8496-c0f43de1801a")
-		(sheetname "/Power Subsystem/")
-		(sheetfile "power_subsystem.kicad_sch")
+		(path "/88fa8ba0-39a6-4d47-a55d-63c5985a3f90")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1346,7 +1346,7 @@
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
-			(net "/Power Subsystem/Regulator_Input")
+			(net "/Regulator_Input")
 			(pintype "passive")
 			(uuid "4e427459-f372-4993-b042-fae3c20e7388")
 		)
@@ -2041,7 +2041,7 @@
 		(property "Reference" "R10"
 			(at 0 1.25 0)
 			(layer "F.SilkS")
-			(uuid "ae642011-4c8b-4f06-8847-cf3d40c53d7d")
+			(uuid "619d65a3-ecfb-437a-b754-d027919d1085")
 			(effects
 				(font
 					(size 1 1)
@@ -2053,7 +2053,7 @@
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4f47c5e7-74cd-4bbf-ab2b-e52e8d1dc4b8")
+			(uuid "e533dcd4-e386-4d94-b66d-45dbf7a596d2")
 			(effects
 				(font
 					(size 1 1)
@@ -2066,7 +2066,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5a12fe64-899f-4ed1-b51f-7e82433fbeeb")
+			(uuid "8a9030b2-9808-4c52-beaf-0f6dc33aee44")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2079,7 +2079,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "65b45305-9721-4f2e-bab8-ddbfde379faa")
+			(uuid "5b8c3ccc-1b29-4c72-98ea-062d45e6045f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2127,9 +2127,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/c640fb50-eebe-4d00-8036-70d002464280")
-		(sheetname "/Power Subsystem/")
-		(sheetfile "power_subsystem.kicad_sch")
+		(path "/d1f0d2f9-105c-4702-bec5-22669f64fd12")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2311,7 +2311,7 @@
 		(property "Reference" "D6"
 			(at 0 2.15 0)
 			(layer "F.SilkS")
-			(uuid "5e953238-315d-4ba8-8ced-7c7ca245fd08")
+			(uuid "c1221e5c-66b8-42fa-8253-089909dc10a3")
 			(effects
 				(font
 					(size 1 1)
@@ -2323,7 +2323,7 @@
 			(at 0 1.35 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d67f9780-33f2-4601-a75e-74287dd09ba3")
+			(uuid "0b2db958-dd0f-426c-a2ea-2671e86569fa")
 			(effects
 				(font
 					(size 1 1)
@@ -2336,7 +2336,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "61ff616b-5487-47b4-9e3b-7021553dbf17")
+			(uuid "0e510bb0-b747-49f6-9ebd-81c2420e5673")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2349,7 +2349,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c58112ca-e5d2-4ed1-91a9-04058af11060")
+			(uuid "b9823b87-7564-42c7-b1fb-789c5bc161b7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2397,9 +2397,9 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/c857e4aa-d051-450c-8a47-19137a76269f/fe0e6d23-c766-4692-8b0e-f4026994a647")
-		(sheetname "/USB Connector/")
-		(sheetfile "connector_usb.kicad_sch")
+		(path "/94c37c72-c140-4d18-89c3-c121f1dc76ef")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2724,9 +2724,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c857e4aa-d051-450c-8a47-19137a76269f/bfcdc091-c9e1-4c8f-9772-775d3efc4018")
-		(sheetname "/USB Connector/")
-		(sheetfile "connector_usb.kicad_sch")
+		(path "/485e8c42-a337-4243-8b24-0ff2c5dedd73")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2908,7 +2908,7 @@
 		(property "Reference" "R6"
 			(at 3 0 90)
 			(layer "F.SilkS")
-			(uuid "00ca0887-9a93-43a6-82ce-ed26cf933d6c")
+			(uuid "bc5e6a80-84f7-4561-a587-1fcfe13e822b")
 			(effects
 				(font
 					(size 1 1)
@@ -2921,7 +2921,7 @@
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dd99c557-a8a5-40cb-982f-7551bc49ae58")
+			(uuid "15a30819-2344-4d58-a80b-ff4dec7e6846")
 			(effects
 				(font
 					(size 1 1)
@@ -2934,7 +2934,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f36bd1b1-04a2-4ede-9315-b44d51e255bf")
+			(uuid "eb1d8ca8-b30a-4202-84a6-388f154d346e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2947,7 +2947,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b1d95aa-f86c-494c-b9ac-45aa4d5a8b29")
+			(uuid "2f193f6f-80e6-4907-bdb8-411b7fbed295")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2995,9 +2995,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/9d50b435-dd7f-4655-b889-9471e30194bd/bc7da683-7d6b-4027-8aca-ce0e8e9a7713")
-		(sheetname "/WR Connector/")
-		(sheetfile "connector_wr.kicad_sch")
+		(path "/3de45224-ebb6-43f6-873f-39edbebfeb9b")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3142,7 +3142,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/WR Connector/WR_UART_RX")
+			(net "Net-(U2-A3)")
 			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
@@ -3179,7 +3179,7 @@
 		(property "Reference" "H1"
 			(at -3.5 -3.5 0)
 			(layer "F.SilkS")
-			(uuid "3f9af132-2f75-419d-ad54-7d8719dfadfe")
+			(uuid "f793e3ac-1523-42a6-a97f-1407d0431429")
 			(effects
 				(font
 					(size 1 1)
@@ -3191,7 +3191,7 @@
 			(at 0 4.15 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a3fc1d80-2d5d-4484-8b26-628111beebaf")
+			(uuid "66afbbc2-ca45-4bec-9f5c-e42443914ee4")
 			(effects
 				(font
 					(size 1 1)
@@ -3203,7 +3203,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c7b4eb03-5d2f-41cf-9f7f-9a85a00b240e")
+			(uuid "eecdb1c4-5ec7-4c8d-aaac-f22ef5294216")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3215,7 +3215,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "23e6da35-d8d3-45cf-b773-1e63980e35c8")
+			(uuid "2948c225-baf0-463c-8a08-2e713a0845eb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3224,7 +3224,7 @@
 			)
 		)
 		(property ki_fp_filters "MountingHole*")
-		(path "/e4ff447e-b3d4-4628-b82b-3ee9ac1ffa76")
+		(path "/1d42760f-f8cb-4f94-9b25-73ff75ffd11d")
 		(sheetname "/")
 		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
@@ -3835,7 +3835,7 @@
 		(property "Reference" "D1"
 			(at 0.3 3.75 90)
 			(layer "F.SilkS")
-			(uuid "c9b66c41-1c8c-4a29-bed4-e3efbd0113de")
+			(uuid "7c6240a1-51c2-43a5-9ae3-342ee779dfed")
 			(effects
 				(font
 					(size 1 1)
@@ -3847,7 +3847,7 @@
 			(at 0 1.35 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6298172f-3187-4bbc-9195-f32f3e8d1172")
+			(uuid "ba1727fd-b077-478b-ab9a-3e6e1bf45c29")
 			(effects
 				(font
 					(size 1 1)
@@ -3860,7 +3860,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fbc34001-5560-43a0-99e4-e46312b7fad0")
+			(uuid "a71a092a-f128-48b7-bd6b-20bbc3916874")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,7 +3873,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "776752ba-1335-49d6-9781-e3a0a34cd256")
+			(uuid "0e04ac13-9f0a-46f2-beb6-fe3c03e2faab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3921,9 +3921,9 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/2723714d-b6b0-4cdf-8f9b-cc8163b6281c/70f441b4-42d5-4c55-a645-cf4fb5b8f925")
-		(sheetname "/IU Connector/")
-		(sheetfile "connector_iu.kicad_sch")
+		(path "/a3ccd8a4-f7ae-4ab0-85bf-82a594c428b4")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4162,7 +4162,7 @@
 		(property "Reference" "C8"
 			(at 0 -2 90)
 			(layer "F.SilkS")
-			(uuid "15996291-17e7-464e-80fa-74791bfa46f9")
+			(uuid "1a0d6f31-ae05-40ce-a823-e098628bc4fe")
 			(effects
 				(font
 					(size 1 1)
@@ -4174,7 +4174,7 @@
 			(at 0 1.85 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "061ef18f-56f9-4b8c-a7a9-c81097f9014a")
+			(uuid "b04135e2-b6a8-4991-8a9f-b8333f4d1682")
 			(effects
 				(font
 					(size 1 1)
@@ -4186,7 +4186,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "216aeef0-5af7-47f7-b8d4-232900b0e4c8")
+			(uuid "00e96b00-8488-4c78-a077-b95d9a49e14e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,7 +4198,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eee32354-67a4-4b12-b765-b96263ef93ce")
+			(uuid "09077b20-4a1f-44b3-920b-4f498208469e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4246,9 +4246,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/7d4365e2-bbe6-4e4d-bad7-fb8869174d17")
-		(sheetname "/Power Subsystem/")
-		(sheetfile "power_subsystem.kicad_sch")
+		(path "/4c9ea0d2-8167-494d-b31f-f8ed76f2342f")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4315,7 +4315,7 @@
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
-			(net "/Power Subsystem/Multiplexer_Output")
+			(net "/Multiplexer_Output")
 			(pintype "passive")
 			(uuid "cdfdb0b3-8285-4448-990f-dac0622da694")
 		)
@@ -4350,7 +4350,7 @@
 		(property "Reference" "R4"
 			(at 5.26 -0.75 90)
 			(layer "F.SilkS")
-			(uuid "239b7387-efaa-4e20-8391-37df0264ddc6")
+			(uuid "bbec66fc-8df4-46c4-a86b-3cd3bae19f43")
 			(effects
 				(font
 					(size 1 1)
@@ -4363,7 +4363,7 @@
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "953c953b-4e35-4184-9f4d-87b9bf3cca8d")
+			(uuid "ee2c9795-483a-484c-9177-0ca7a75259e1")
 			(effects
 				(font
 					(size 1 1)
@@ -4376,7 +4376,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff1ba89d-fda3-49a7-b0e1-9ac233dd09bb")
+			(uuid "707ad8da-e871-4d5c-9c9f-0e7938e43761")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,7 +4389,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "75cbd7ed-40dc-4182-be16-9183d1c696a8")
+			(uuid "809d00b8-c716-4ffc-ae1a-3cae3d3202fa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4437,9 +4437,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/2723714d-b6b0-4cdf-8f9b-cc8163b6281c/676a9ac2-499c-42b4-ad80-1f04d814e220")
-		(sheetname "/IU Connector/")
-		(sheetfile "connector_iu.kicad_sch")
+		(path "/49c68e94-afd3-4737-8efb-31f6c053c940")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4584,7 +4584,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/IU Connector/IU_UART_TX")
+			(net "Net-(U2-A1)")
 			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
@@ -4621,7 +4621,7 @@
 		(property "Reference" "R5"
 			(at 5.25 -0.75 90)
 			(layer "F.SilkS")
-			(uuid "83c9729d-2bf7-47ad-b520-b6eec699a967")
+			(uuid "90e02d4e-206d-4be8-81cb-4ec972106dc9")
 			(effects
 				(font
 					(size 1 1)
@@ -4634,7 +4634,7 @@
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "412a9699-7e72-4915-983f-9cbbc3e08e26")
+			(uuid "01ff6fd5-94e0-4e04-b0be-f22bd6e69d38")
 			(effects
 				(font
 					(size 1 1)
@@ -4647,7 +4647,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9f040da5-a3f1-49de-9557-b775e4b2eb60")
+			(uuid "76c761dd-4f94-4f9e-ab45-04d6abafab21")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4660,7 +4660,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0c4ef20a-c559-448d-b48c-00d38315a503")
+			(uuid "2ea6f176-4c33-4195-90c3-b16dc4bd9314")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4708,9 +4708,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/2723714d-b6b0-4cdf-8f9b-cc8163b6281c/f9ec395b-5499-4cc1-8ed9-767256240bea")
-		(sheetname "/IU Connector/")
-		(sheetfile "connector_iu.kicad_sch")
+		(path "/acdabc95-d9a5-4c28-ae48-d8fe79627e0f")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4855,7 +4855,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/IU Connector/IU_UART_RX")
+			(net "Net-(U2-A2)")
 			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
@@ -4892,7 +4892,7 @@
 		(property "Reference" "D4"
 			(at -1.7 0 90)
 			(layer "F.SilkS")
-			(uuid "aef2b653-5f6f-49e4-b67e-348f7f680aad")
+			(uuid "a2cf4c3b-eed2-4307-b72d-3c9d63202848")
 			(effects
 				(font
 					(size 1 1)
@@ -4904,7 +4904,7 @@
 			(at 0 1.35 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5c67908b-6526-42d4-944f-70207df343dc")
+			(uuid "d7da3790-8dfa-4773-a992-020e67e128e6")
 			(effects
 				(font
 					(size 1 1)
@@ -4917,7 +4917,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d34d8efe-b079-4437-89fb-6214edea9df4")
+			(uuid "f56150d9-50a6-4599-80ce-7d7aeac316da")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4930,7 +4930,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1f5d9400-1b15-4c25-87f1-a89edc804b1e")
+			(uuid "2db8e6d9-b048-4e66-bc4a-3c96a3e4e9d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4978,9 +4978,9 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/9d50b435-dd7f-4655-b889-9471e30194bd/b0f54061-6048-4b1c-94f9-a8e4e74ad53d")
-		(sheetname "/WR Connector/")
-		(sheetfile "connector_wr.kicad_sch")
+		(path "/5eea7304-572f-4175-8bfc-4e4686f08324")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5219,7 +5219,7 @@
 		(property "Reference" "D2"
 			(at 0.3 3.75 90)
 			(layer "F.SilkS")
-			(uuid "4a4d4b66-9cd3-4294-906a-57afa941603d")
+			(uuid "6b8b8f6b-35d9-442e-95cf-b64fe7791474")
 			(effects
 				(font
 					(size 1 1)
@@ -5231,7 +5231,7 @@
 			(at 0 1.35 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e911288-a36a-4091-9fa3-b03beca0649a")
+			(uuid "5006b2a1-a844-4ff8-aa99-2fbd782c6aee")
 			(effects
 				(font
 					(size 1 1)
@@ -5244,7 +5244,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6896fd95-eadd-4611-b568-7706116a4c7f")
+			(uuid "5e547522-77bb-42f5-b824-0c6282e0c1ee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5257,7 +5257,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d01e89d3-5c4a-478e-9a94-d0cbb6d693de")
+			(uuid "0a5aad63-1ba8-46ae-9d9f-0aba28322868")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,9 +5305,9 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/2723714d-b6b0-4cdf-8f9b-cc8163b6281c/23883504-0d99-434b-a9db-79dd64d35f7c")
-		(sheetname "/IU Connector/")
-		(sheetfile "connector_iu.kicad_sch")
+		(path "/0b7e20b8-8065-4134-bdc9-63fad8f64f4d")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5546,7 +5546,7 @@
 		(property "Reference" "C9"
 			(at 0 2 90)
 			(layer "F.SilkS")
-			(uuid "119db179-aaf4-4d21-aa3c-e65994a50fc6")
+			(uuid "e5b91663-d1c9-4824-a422-2e1a2709de9b")
 			(effects
 				(font
 					(size 1 1)
@@ -5558,7 +5558,7 @@
 			(at 0 1.85 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "14fcb742-aee1-44f1-bb83-d2c76d5c5d2e")
+			(uuid "68b23e55-451b-4b5f-8b41-731d7463140c")
 			(effects
 				(font
 					(size 1 1)
@@ -5570,7 +5570,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b8a03fe6-2808-45d2-9090-32f9f487a2e6")
+			(uuid "f82d3815-74eb-4983-9c9f-7d4ff74abb21")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5582,7 +5582,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6d909aec-e43b-454a-81e9-b58b8a6700ce")
+			(uuid "b04a46a7-df2e-4d23-8863-d653505a3a79")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5630,9 +5630,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/5d512374-d3cb-4054-a387-a0aa423f5d7b")
-		(sheetname "/Power Subsystem/")
-		(sheetfile "power_subsystem.kicad_sch")
+		(path "/6917d197-1aa6-4a43-82aa-3785936c56af")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5734,7 +5734,7 @@
 		(property "Reference" "C15"
 			(at -1 -2 90)
 			(layer "F.SilkS")
-			(uuid "d81da9d3-1d97-439d-a3a9-2959c542c6a6")
+			(uuid "dc5439e5-24d3-40f8-aa71-83db10282f2f")
 			(effects
 				(font
 					(size 1 1)
@@ -5746,7 +5746,7 @@
 			(at 0 1.85 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1b7f9754-6405-4203-b039-dde0818add27")
+			(uuid "3e118e46-0b6a-444f-8976-f596bd253ddc")
 			(effects
 				(font
 					(size 1 1)
@@ -5758,7 +5758,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e8607600-c1c1-4aa8-96a6-1aad417b48a5")
+			(uuid "2a16db87-d3d2-43c8-ae10-01e8cfd144c9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5770,7 +5770,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "07d317b9-4728-4c9c-a58a-f0454b3a8575")
+			(uuid "a6bba0a0-848d-49ec-a25c-37f9e604c65a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5818,9 +5818,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/c1f90c57-7214-48cb-82a9-347e83c16e47")
-		(sheetname "/Power Subsystem/")
-		(sheetfile "power_subsystem.kicad_sch")
+		(path "/7495ad14-335b-47b8-a77f-6266a4feed0a")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5922,7 +5922,7 @@
 		(property "Reference" "U7"
 			(at -2.5 0 90)
 			(layer "F.SilkS")
-			(uuid "6be372d9-8e1a-434f-b707-8956b9f022c7")
+			(uuid "32af85e1-6c0c-4b0f-ab5b-fe816c8cd1b0")
 			(effects
 				(font
 					(size 1 1)
@@ -5934,7 +5934,7 @@
 			(at 0 2.58 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b305411-d346-46b8-8c1f-ff96cb01bc49")
+			(uuid "f8b0f1c2-f055-4b10-a5f8-3f5ba8995a6c")
 			(effects
 				(font
 					(size 1 1)
@@ -5947,7 +5947,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "29458eae-596d-470a-9c49-0cc11c8841ab")
+			(uuid "c93325f8-f505-4839-851e-387608eb2dc3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5960,7 +5960,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6fd39b02-8ac9-4ccc-b0c1-50eb22570d00")
+			(uuid "967f97d6-bb52-4025-9569-4389badd7ce8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6008,9 +6008,9 @@
 			)
 		)
 		(property ki_fp_filters "Texas_RUX0012A_* Texas_VQFN-HR-12_*")
-		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/d76737ee-87ba-4d9b-8876-6800ac11671e")
-		(sheetname "/Power Subsystem/")
-		(sheetfile "power_subsystem.kicad_sch")
+		(path "/b3d54dd9-410d-4e08-8b60-4c99d48f448a")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6167,7 +6167,7 @@
 			(size 1.05 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Power Subsystem/Multiplexer_Output")
+			(net "/Multiplexer_Output")
 			(pinfunction "OUT_1")
 			(pintype "power_out")
 			(teardrops
@@ -6188,7 +6188,7 @@
 			(size 1.05 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Power Subsystem/USB_5V")
+			(net "/USB_5V")
 			(pinfunction "IN2_2")
 			(pintype "power_in")
 			(teardrops
@@ -6293,7 +6293,7 @@
 			(size 1.05 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/IU Connector/IU_12V7")
+			(net "/IU_12V7")
 			(pinfunction "IN1_7")
 			(pintype "power_in")
 			(teardrops
@@ -6314,7 +6314,7 @@
 			(size 1.05 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Power Subsystem/Multiplexer_Output")
+			(net "/Multiplexer_Output")
 			(pinfunction "OUT_8")
 			(pintype "passive")
 			(teardrops
@@ -6706,7 +6706,7 @@
 		(property "Reference" "J1"
 			(at 7.5 0 180)
 			(layer "F.SilkS")
-			(uuid "d7e9662e-0e97-4e61-898d-bf5ca8d182af")
+			(uuid "31406382-20f9-4f13-8830-ca5608c13463")
 			(effects
 				(font
 					(size 1 1)
@@ -6718,7 +6718,7 @@
 			(at 0 8.35 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6070e29e-8f49-4d70-aede-f317e560aed9")
+			(uuid "a0660265-ba72-47ac-b170-0f763978273b")
 			(effects
 				(font
 					(size 1 1)
@@ -6730,7 +6730,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "48b5ecb6-c298-42fc-b12c-8f3b3c572440")
+			(uuid "2f4cd439-3fc4-43bc-b38b-16aebbdef1ea")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6742,7 +6742,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5476a691-b4a1-44f4-a8dc-45edad5ed070")
+			(uuid "f6dea160-06c4-4919-b474-cf39b265caf5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6829,9 +6829,9 @@
 			)
 		)
 		(property ki_fp_filters "JST_PA_S05B-PASK-2*")
-		(path "/2723714d-b6b0-4cdf-8f9b-cc8163b6281c/fc7477d0-c7e0-4e5d-b9e6-1e67c14f242e")
-		(sheetname "/IU Connector/")
-		(sheetfile "connector_iu.kicad_sch")
+		(path "/8cd2bb89-a78e-4f90-8e73-6761a377856d")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7131,7 +7131,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/IU Connector/IU_12V7")
+			(net "/IU_12V7")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "a14e937f-9914-44a0-b9fd-87e7a2074f8b")
@@ -7153,7 +7153,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/IU Connector/IU_5V")
+			(net "/IU_5V")
 			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "a1827fb4-d42e-4878-a814-632dc8abe983")
@@ -7202,7 +7202,7 @@
 		(property "Reference" "D3"
 			(at 1.55 0 90)
 			(layer "F.SilkS")
-			(uuid "a7888450-4d41-49e3-9469-d890b911c40c")
+			(uuid "cb9ccb09-f0b7-41a8-9a86-0e5c14e0e07c")
 			(effects
 				(font
 					(size 1 1)
@@ -7214,7 +7214,7 @@
 			(at 0 1.35 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b61049c9-d87a-4f5c-8dfa-3104843f40b5")
+			(uuid "e8bc2f47-506d-4d0d-9e23-d8d9a5c3426c")
 			(effects
 				(font
 					(size 1 1)
@@ -7227,7 +7227,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ef31590d-55a0-4c1f-8773-068264456964")
+			(uuid "a1ef8a3e-73c4-4fc1-a36d-ac67fe075022")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7240,7 +7240,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "92da124f-ce6b-433c-907e-2e1ba9869cdc")
+			(uuid "208555c2-e291-479a-a102-97b378581ade")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7288,9 +7288,9 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/9d50b435-dd7f-4655-b889-9471e30194bd/253163a3-7e1a-4e54-b773-a9b34cee7ffc")
-		(sheetname "/WR Connector/")
-		(sheetfile "connector_wr.kicad_sch")
+		(path "/32179a03-c95c-47b1-9a00-5884694aefac")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7529,7 +7529,7 @@
 		(property "Reference" "H2"
 			(at 3.5 -3.5 0)
 			(layer "F.SilkS")
-			(uuid "e7ef4856-f565-4909-b30c-591db68d0809")
+			(uuid "a0ab1dde-2bfe-4ac3-9e9b-0bd4080af2d4")
 			(effects
 				(font
 					(size 1 1)
@@ -7541,7 +7541,7 @@
 			(at 0 4.15 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d4ca9c87-6f49-44b3-a003-8f560451b8f4")
+			(uuid "34d065c7-6c2e-4915-8943-fcbd77f682c5")
 			(effects
 				(font
 					(size 1 1)
@@ -7553,7 +7553,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "426da19e-25bb-4a14-ac64-d72c9916eb81")
+			(uuid "a2074f13-b2a9-4896-9343-369a3e81beec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7565,7 +7565,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a1f609bf-e966-4e3d-bb69-994c5bf5218e")
+			(uuid "9c4e71dd-636b-478b-b2f2-5ed7b96f4aff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7574,7 +7574,7 @@
 			)
 		)
 		(property ki_fp_filters "MountingHole*")
-		(path "/7edcb5f7-bef3-48b4-9747-ccba42a39afc")
+		(path "/6b1d0730-ed14-457e-b443-22b5df548835")
 		(sheetname "/")
 		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
@@ -7992,9 +7992,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c857e4aa-d051-450c-8a47-19137a76269f/220fdbe8-c82d-4eb1-8abb-53199c4ae1de")
-		(sheetname "/USB Connector/")
-		(sheetfile "connector_usb.kicad_sch")
+		(path "/431ffe61-c1c0-4b7e-86ad-9e906dfbae26")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8176,7 +8176,7 @@
 		(property "Reference" "U5"
 			(at 2.25 0 90)
 			(layer "F.SilkS")
-			(uuid "ba751cbd-ed09-4bf5-8691-8a7cdcaed01b")
+			(uuid "2e3353a9-098a-4351-873c-484e51c3c646")
 			(effects
 				(font
 					(size 1 1)
@@ -8188,7 +8188,7 @@
 			(at 0 1.95 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a5756e49-3f48-4fd5-8858-8743583c025f")
+			(uuid "eb642297-c066-4032-88f0-e737239eba03")
 			(effects
 				(font
 					(size 1 1)
@@ -8200,7 +8200,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fe5fb175-ac88-4306-987a-bd2c32f4b0d9")
+			(uuid "bddd960b-4c8b-4733-87e0-1551d6c1f8cc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8212,7 +8212,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a8ef5aa9-c751-412a-b12c-29712c24275b")
+			(uuid "7ba2cea4-e38b-4ee3-89bf-e2204ed83064")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8273,9 +8273,9 @@
 			)
 		)
 		(property ki_fp_filters "WSON*1EP*2x2mm*P0.65mm*EP1x1.6mm*")
-		(path "/9d50b435-dd7f-4655-b889-9471e30194bd/407c0367-11f6-4102-be15-11cdeb40d6af")
-		(sheetname "/WR Connector/")
-		(sheetfile "connector_wr.kicad_sch")
+		(path "/ff837e9f-dd1b-41c2-b839-f1e26a6d8b3a")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8508,7 +8508,7 @@
 			(size 0.375 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/IU Connector/IU_12V7")
+			(net "/IU_12V7")
 			(pinfunction "IN_4")
 			(pintype "passive")
 			(uuid "deb5c354-fac4-40ba-9a46-63d00cd4a811")
@@ -8518,7 +8518,7 @@
 			(size 0.375 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/IU Connector/IU_12V7")
+			(net "/IU_12V7")
 			(pinfunction "IN_5")
 			(pintype "passive")
 			(uuid "5e28666d-78f8-456a-b7f3-0130ca226f06")
@@ -8528,7 +8528,7 @@
 			(size 0.375 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/IU Connector/IU_12V7")
+			(net "/IU_12V7")
 			(pinfunction "IN_6")
 			(pintype "passive")
 			(uuid "71d90100-bc3d-45cb-9c40-dc3d49476c50")
@@ -8566,7 +8566,7 @@
 		(property "Reference" "U2"
 			(at -0.1375 3.5 0)
 			(layer "F.SilkS")
-			(uuid "15cc2105-da08-4e12-9f8b-95d6f1f9a86c")
+			(uuid "545a707d-5c09-498e-8a19-22eab5961b38")
 			(effects
 				(font
 					(size 1 1)
@@ -8578,7 +8578,7 @@
 			(at 0 3.45 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9b49b866-c8ce-469f-bc8d-459793334c1e")
+			(uuid "aead198d-1f4b-489c-8417-ceed5613fca9")
 			(effects
 				(font
 					(size 1 1)
@@ -8590,7 +8590,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "688fc2da-fe5e-4e9a-8fd7-486b38beaf16")
+			(uuid "89c46079-ef28-477e-b3b9-304416567976")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8602,7 +8602,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6b9344d4-719d-4cae-a1f2-08e028c07934")
+			(uuid "b54bff3d-9c9c-4675-ac7f-1f42df74ac5d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8881,7 +8881,7 @@
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/IU Connector/IU_5V")
+			(net "/IU_5V")
 			(pinfunction "V_{CCA}_1")
 			(pintype "power_in")
 			(uuid "d51c5b78-a3c1-4aae-8231-2936b40f76d2")
@@ -8891,7 +8891,7 @@
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/IU Connector/IU_UART_TX")
+			(net "Net-(U2-A1)")
 			(pinfunction "A1_2")
 			(pintype "bidirectional")
 			(uuid "92030035-64ce-4f99-956c-4ee7c8732f2f")
@@ -8901,7 +8901,7 @@
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/IU Connector/IU_UART_RX")
+			(net "Net-(U2-A2)")
 			(pinfunction "A2_3")
 			(pintype "bidirectional")
 			(uuid "97ec50bd-e787-41fb-93b9-8a1a950bb21c")
@@ -8911,7 +8911,7 @@
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/WR Connector/WR_UART_RX")
+			(net "Net-(U2-A3)")
 			(pinfunction "A3_4")
 			(pintype "bidirectional")
 			(uuid "085540d1-bdc3-4178-a8f9-06620f128505")
@@ -8921,7 +8921,7 @@
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/WR Connector/WR_UART_TX")
+			(net "Net-(U2-A4)")
 			(pinfunction "A4_5")
 			(pintype "bidirectional")
 			(uuid "ba076550-c28f-4a5d-b116-df57a7fcaad7")
@@ -9038,7 +9038,7 @@
 		(property "Reference" "J2"
 			(at -7.5 0 180)
 			(layer "F.SilkS")
-			(uuid "dc5a9a04-998a-441f-9fec-6dec06768dfc")
+			(uuid "beca26b3-b030-47df-babb-08a5ce9e0717")
 			(effects
 				(font
 					(size 1 1)
@@ -9050,7 +9050,7 @@
 			(at 0 8.35 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6f4cc640-4ae4-410d-8efc-94446bded824")
+			(uuid "6313deac-ad87-428c-9bf9-9d2a2e66d15a")
 			(effects
 				(font
 					(size 1 1)
@@ -9062,7 +9062,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "495da9a2-3994-445e-9a22-da5b2377ffc9")
+			(uuid "c5d4e027-f1df-415d-b527-95f3b4519506")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9074,7 +9074,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "597a01f5-8599-4490-bf85-7106491bb9aa")
+			(uuid "23024504-fcab-4105-ba8f-c27956d50a16")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9160,9 +9160,9 @@
 			)
 		)
 		(property ki_fp_filters "JST_PA_S05B-PASK-2*")
-		(path "/9d50b435-dd7f-4655-b889-9471e30194bd/9a20b608-f5ec-4c8b-bd17-18d59cfa1399")
-		(sheetname "/WR Connector/")
-		(sheetfile "connector_wr.kicad_sch")
+		(path "/b41b3739-628a-4d3b-b9dc-646bd5af8ec6")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9462,7 +9462,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/IU Connector/IU_12V7")
+			(net "/IU_12V7")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "ef375915-e588-4ab7-aa2b-7273c5bc5d86")
@@ -9484,7 +9484,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/IU Connector/IU_5V")
+			(net "/IU_5V")
 			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "890cb17d-2b92-4c1b-bf63-0986dbbf5d11")
@@ -9533,7 +9533,7 @@
 		(property "Reference" "C12"
 			(at -3 0 90)
 			(layer "F.SilkS")
-			(uuid "2023c602-7038-4521-8cbb-1ac14005f95b")
+			(uuid "f6ab602f-2af6-4718-91b0-9c0d9fca3bf5")
 			(effects
 				(font
 					(size 1 1)
@@ -9545,7 +9545,7 @@
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6fcbca57-a19b-44c5-8891-426805313a6b")
+			(uuid "8fb449f7-ba0e-44f1-b4be-3cd0ff765616")
 			(effects
 				(font
 					(size 1 1)
@@ -9557,7 +9557,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c17181b9-4d93-4b3f-8c64-6d1c00999f8d")
+			(uuid "4f43fe4a-a1be-4ebe-8a9e-d0c77c59e553")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9569,7 +9569,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c4d3a91c-d14e-4474-a3d3-20ea9a001345")
+			(uuid "8439eee3-69be-44fb-9018-6c4e950c348a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9617,9 +9617,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/939a095f-9912-46e9-a144-8eb2b051e2ad")
-		(sheetname "/Power Subsystem/")
-		(sheetfile "power_subsystem.kicad_sch")
+		(path "/3b18f05d-f8bd-4b72-ad73-689545671192")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9686,7 +9686,7 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Power Subsystem/Regulator_Input")
+			(net "/Regulator_Input")
 			(pintype "passive")
 			(uuid "229295d9-4c8f-4cd5-b77c-43e830e834eb")
 		)
@@ -9991,7 +9991,7 @@
 		(property "Reference" "R7"
 			(at 3 0 90)
 			(layer "F.SilkS")
-			(uuid "4a92d13b-9e70-458d-b608-203c811a77cf")
+			(uuid "acc64bca-7de9-4682-860f-de7fed9b4836")
 			(effects
 				(font
 					(size 1 1)
@@ -10004,7 +10004,7 @@
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "11913e9e-db9a-4de9-8499-f2348b77c1af")
+			(uuid "d6fe6bdf-b042-4397-9226-46a60f578cf7")
 			(effects
 				(font
 					(size 1 1)
@@ -10017,7 +10017,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e413aac5-2e24-49aa-b45d-9c717f861e56")
+			(uuid "d77f1838-e4fe-49a9-9a9b-9bb7a046ec34")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10030,7 +10030,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9fac2aed-460f-4a07-b44f-a226ec1ce7df")
+			(uuid "750dac04-3b86-4301-bafa-af1784e6470d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10078,9 +10078,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/9d50b435-dd7f-4655-b889-9471e30194bd/98f1e4dd-b902-4a91-a189-8a6131749106")
-		(sheetname "/WR Connector/")
-		(sheetfile "connector_wr.kicad_sch")
+		(path "/5efdd092-85d7-41bb-bb1c-5441a3c0defd")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10225,7 +10225,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/WR Connector/WR_UART_TX")
+			(net "Net-(U2-A4)")
 			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
@@ -10262,7 +10262,7 @@
 		(property "Reference" "D7"
 			(at 0 -2.15 0)
 			(layer "F.SilkS")
-			(uuid "e844d973-e447-4c4b-9720-ebeb97318cdf")
+			(uuid "b2823a5b-6ff6-4c9d-907d-b1656c183f9f")
 			(effects
 				(font
 					(size 1 1)
@@ -10274,7 +10274,7 @@
 			(at 0 1.35 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d0a121e4-8087-4fd9-a6a9-fb773480d44d")
+			(uuid "99cc09d6-71d2-4758-a5b3-d2ae5fd17efc")
 			(effects
 				(font
 					(size 1 1)
@@ -10287,7 +10287,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c00a08e6-8868-44a8-af44-ff5d0b679078")
+			(uuid "596ee1ae-5ffc-4136-a59a-c5066accc05a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10300,7 +10300,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bc23bd87-89dc-4622-980d-8ed960718d0b")
+			(uuid "9ef4c22c-c547-431f-8539-b33176cec809")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10348,9 +10348,9 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/c857e4aa-d051-450c-8a47-19137a76269f/0d08cdc0-0f00-40f2-ab7a-ec5931ab6b7c")
-		(sheetname "/USB Connector/")
-		(sheetfile "connector_usb.kicad_sch")
+		(path "/02c01b5d-ba48-4f7c-a8e3-d4a3280ba14b")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10589,7 +10589,7 @@
 		(property "Reference" "C10"
 			(at -1 -2 90)
 			(layer "F.SilkS")
-			(uuid "9c290652-b83d-4d6d-94a2-a866667c6a2a")
+			(uuid "9930f04e-fc13-4b90-8155-c6a9ba8adef5")
 			(effects
 				(font
 					(size 1 1)
@@ -10601,7 +10601,7 @@
 			(at 0 1.85 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "13c9e8e5-54c8-493e-802e-b25630927e83")
+			(uuid "b1b9bb03-c6ec-4041-af4e-66b0bab1b01d")
 			(effects
 				(font
 					(size 1 1)
@@ -10613,7 +10613,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c3e32af8-a979-4e07-9fbf-5c31264ebac1")
+			(uuid "f907dc98-4c4f-42c9-9819-cf66dddd99e7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10625,7 +10625,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "031ca498-1881-43e9-bfaf-d27b32547f3f")
+			(uuid "ba8a0436-9a1b-4a75-8d8d-88ea12c768c3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10673,9 +10673,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/728d8d48-a368-43d9-80e4-639f187fcf39")
-		(sheetname "/Power Subsystem/")
-		(sheetfile "power_subsystem.kicad_sch")
+		(path "/dbc69675-2510-42bc-8c07-0acaea5cd833")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10742,7 +10742,7 @@
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
-			(net "/Power Subsystem/Regulator_Input")
+			(net "/Regulator_Input")
 			(pintype "passive")
 			(uuid "1ed6a2dc-e51b-4681-a664-ce85b83ed33f")
 		)
@@ -10777,7 +10777,7 @@
 		(property "Reference" "C7"
 			(at 0 -1.25 0)
 			(layer "F.SilkS")
-			(uuid "6f60c05a-a928-41aa-b2ff-02e045392aee")
+			(uuid "39297f35-6120-4f75-b4a2-cac77cc9a021")
 			(effects
 				(font
 					(size 1 1)
@@ -10789,7 +10789,7 @@
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed71f7f7-46a3-4c20-8d45-dcf803309a6f")
+			(uuid "fae98c10-0c1c-4d43-aa01-9dcb1fade4d8")
 			(effects
 				(font
 					(size 1 1)
@@ -10802,7 +10802,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b83beeae-9e44-41c8-a6d2-dd9129c763fe")
+			(uuid "8ed9d250-eaba-464f-8b61-e119024105a0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10815,7 +10815,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "40cb08ba-e4d1-4280-847b-a23340f680ea")
+			(uuid "03f8a047-e16d-4acc-88e3-a52426694b97")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10863,9 +10863,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/6016cad1-fbaf-4065-940c-51e32993be75")
-		(sheetname "/Power Subsystem/")
-		(sheetfile "power_subsystem.kicad_sch")
+		(path "/4a70e773-20d8-4f68-b700-8d83e1e73423")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11025,7 +11025,7 @@
 		(property "Reference" "U8"
 			(at -4.15 0 90)
 			(layer "F.SilkS")
-			(uuid "9247bd7a-d380-4259-aa7a-4b0cd4094b37")
+			(uuid "f6becc47-5bf9-4214-b9c7-8860cd6cd5af")
 			(effects
 				(font
 					(size 1 1)
@@ -11037,7 +11037,7 @@
 			(at 0 3.8 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "52a00e45-017f-49c8-ba08-38708fe369a7")
+			(uuid "064a67f4-b716-4317-9ad7-7c45611522ec")
 			(effects
 				(font
 					(size 1 1)
@@ -11050,7 +11050,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3b5d6fcd-250c-4ae1-810c-6ac25f5a6f33")
+			(uuid "cf57f524-9bba-4f89-8717-b559d138c54a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11063,7 +11063,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cf31d572-1edf-4dd2-b24d-90251a606f4a")
+			(uuid "e884aed1-c4c2-4ea3-8603-0cd4c1fa7ca5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11124,9 +11124,9 @@
 			)
 		)
 		(property ki_fp_filters "Texas_RDA0015A_* Texas_B3QFN-14-1EP_*")
-		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/00c5f976-41cf-446b-9610-acd6a3673ef5")
-		(sheetname "/Power Subsystem/")
-		(sheetfile "power_subsystem.kicad_sch")
+		(path "/4d65f065-80cb-4ef8-9908-52cc0c974e25")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11273,7 +11273,7 @@
 			(size 1.4 0.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
-			(net "/Power Subsystem/Regulator_Input")
+			(net "/Regulator_Input")
 			(pinfunction "VIN_1")
 			(pintype "power_in")
 			(uuid "c10ee71e-85d3-427d-85a1-c339f92b0808")
@@ -11283,7 +11283,7 @@
 			(size 0.7 0.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.143)
-			(net "/Power Subsystem/Regulator_Input")
+			(net "/Regulator_Input")
 			(pinfunction "EN_2")
 			(pintype "input")
 			(uuid "423c12f5-c975-4438-b6a7-bd463c50df0c")
@@ -11403,7 +11403,7 @@
 			(size 1.4 0.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
-			(net "/Power Subsystem/Regulator_Input")
+			(net "/Regulator_Input")
 			(pinfunction "VIN_14")
 			(pintype "passive")
 			(uuid "15005bdb-2ad6-4096-8efe-1be1d937b1c1")
@@ -11460,7 +11460,7 @@
 		(property "Reference" "H3"
 			(at 3.5 3.5 0)
 			(layer "F.SilkS")
-			(uuid "d34cfebf-72a9-4b13-a702-42004efd92ec")
+			(uuid "2af43463-83de-4f0d-9b5f-5235893556da")
 			(effects
 				(font
 					(size 1 1)
@@ -11472,7 +11472,7 @@
 			(at 0 4.15 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2305d46f-31bf-4bd4-8eb7-695ff3247ebc")
+			(uuid "81d26e88-2184-4550-9e5c-71058992a952")
 			(effects
 				(font
 					(size 1 1)
@@ -11484,7 +11484,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "79c43f5a-3388-411e-a9d9-4819132987d5")
+			(uuid "e33dc5d1-9e8e-4b78-a246-261b775a34b3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11496,7 +11496,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a3e34086-f31f-40da-8ee0-4e2848e0dc7e")
+			(uuid "24ed83a9-8bb2-4034-8b70-b8f58c22823e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11505,7 +11505,7 @@
 			)
 		)
 		(property ki_fp_filters "MountingHole*")
-		(path "/9de37708-18d1-4408-bdc7-6f66bd5cbc79")
+		(path "/d919b529-874e-49e7-bfdf-310e43c4b006")
 		(sheetname "/")
 		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
@@ -11567,7 +11567,7 @@
 		(property "Reference" "C14"
 			(at -1 2 90)
 			(layer "F.SilkS")
-			(uuid "26e3d228-357c-4b89-9882-d9edfab6fdd4")
+			(uuid "ac32fab3-b93a-44df-8114-e6a306a34ebc")
 			(effects
 				(font
 					(size 1 1)
@@ -11579,7 +11579,7 @@
 			(at 0 1.85 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "056f9205-821a-4a6a-bd63-1b6c8e7415c0")
+			(uuid "ff5b453b-8d96-4229-8673-b73444a64c20")
 			(effects
 				(font
 					(size 1 1)
@@ -11591,7 +11591,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8fc1a81a-5e80-415e-bb4b-e7445aac7adb")
+			(uuid "0245c39e-6984-4833-9afc-c88139e19abb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11603,7 +11603,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3fd685d3-9006-4cbe-bb4a-4fb1cfc32f2a")
+			(uuid "7c4411b3-fbf0-40bc-a96f-4443fb2ee08e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11651,9 +11651,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/0efdb167-5088-4416-ab30-1056bb29fea3")
-		(sheetname "/Power Subsystem/")
-		(sheetfile "power_subsystem.kicad_sch")
+		(path "/5a34842d-eaa0-4210-bd85-900ecdbbe03f")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11755,7 +11755,7 @@
 		(property "Reference" "C13"
 			(at -3 0 90)
 			(layer "F.SilkS")
-			(uuid "1ad9a6f7-4be4-455a-9ae1-41d1b7e5399c")
+			(uuid "82545f80-e67c-4c91-a179-93dbf334ed2f")
 			(effects
 				(font
 					(size 1 1)
@@ -11767,7 +11767,7 @@
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "16a17cca-cd85-4080-bf8e-0829f625a6e7")
+			(uuid "3628fc2c-8691-401a-af7f-4417d76a9548")
 			(effects
 				(font
 					(size 1 1)
@@ -11779,7 +11779,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b87c958d-f3d7-4b9e-9cce-d481ac6661f8")
+			(uuid "b1a1b87d-6411-43a7-abf3-35d36ea33156")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11791,7 +11791,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5ea578f4-6087-4668-b175-ece27d773be0")
+			(uuid "39768ecb-a2b2-43ea-85fa-b590ba6f468b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11839,9 +11839,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/0793b1ad-88f4-4c25-85c3-71967b1c2d2a")
-		(sheetname "/Power Subsystem/")
-		(sheetfile "power_subsystem.kicad_sch")
+		(path "/5afd729b-70ab-4670-b35c-4435ee1696e3")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11908,7 +11908,7 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Power Subsystem/Regulator_Input")
+			(net "/Regulator_Input")
 			(pintype "passive")
 			(uuid "13a0b264-dc4c-4e11-ab97-3d966a1d8ba5")
 		)
@@ -12191,7 +12191,7 @@
 		(property "Reference" "R12"
 			(at -0.5 1.25 180)
 			(layer "F.SilkS")
-			(uuid "0ee8d575-600a-4f3f-b308-d745bf223c12")
+			(uuid "d2c58338-6195-4714-8e02-d7515eae5594")
 			(effects
 				(font
 					(size 1 1)
@@ -12203,7 +12203,7 @@
 			(at 0 1.17 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b4785c65-cccb-4ae0-ab65-bccadb5b72e4")
+			(uuid "d010faa6-d014-4acc-96b1-dd6059c4bd7e")
 			(effects
 				(font
 					(size 1 1)
@@ -12216,7 +12216,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4a6941da-e450-4a6c-9852-af340a2b8961")
+			(uuid "d0911003-9d4f-458e-843b-da11f45149b8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12229,7 +12229,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c0d6a8c5-f70f-45eb-9650-a0f534efefe1")
+			(uuid "5ccf71a4-5005-455a-83d1-96ad9c66d05b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12277,9 +12277,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/7dfa408a-375f-426e-bff4-3300ef0f279b")
-		(sheetname "/Power Subsystem/")
-		(sheetfile "power_subsystem.kicad_sch")
+		(path "/9d58ca3f-a13d-4fe0-9aca-4dd30b26ca9b")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12709,7 +12709,7 @@
 		(property "Reference" "U4"
 			(at -0.7 -3.1 0)
 			(layer "F.SilkS")
-			(uuid "244b5d2c-ab61-4be9-959c-d8469d50cdbc")
+			(uuid "57df460e-9971-446f-8870-292815c2ebbc")
 			(effects
 				(font
 					(size 1 1)
@@ -12721,7 +12721,7 @@
 			(at 0 1.95 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4e1f48c8-5254-442e-996d-5191a1d7dfde")
+			(uuid "1feb11b2-cafd-4e30-910b-ecce178db5b2")
 			(effects
 				(font
 					(size 1 1)
@@ -12733,7 +12733,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7590fce0-115b-4221-8931-ecf3f2511ecd")
+			(uuid "78e6e918-d351-4a90-8bf8-04dc8de28447")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12745,7 +12745,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9bfdc59a-4f8f-49a7-9433-7a4e83dbf267")
+			(uuid "97847db0-0644-4687-ac88-41ef9bf60a28")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12806,9 +12806,9 @@
 			)
 		)
 		(property ki_fp_filters "WSON*1EP*2x2mm*P0.65mm*EP1x1.6mm*")
-		(path "/2723714d-b6b0-4cdf-8f9b-cc8163b6281c/7d29f11e-0afe-4443-aefa-7e1e0cb59d64")
-		(sheetname "/IU Connector/")
-		(sheetfile "connector_iu.kicad_sch")
+		(path "/e0aab1a2-a108-4223-8cf5-3e111a885ba4")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13041,7 +13041,7 @@
 			(size 0.375 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/IU Connector/IU_5V")
+			(net "/IU_5V")
 			(pinfunction "IN_4")
 			(pintype "passive")
 			(uuid "3a882aed-92d2-46f3-9a6d-86b6ddee4d89")
@@ -13051,7 +13051,7 @@
 			(size 0.375 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/IU Connector/IU_5V")
+			(net "/IU_5V")
 			(pinfunction "IN_5")
 			(pintype "passive")
 			(uuid "2aeffc19-373a-456e-a62a-d878709dc51c")
@@ -13061,7 +13061,7 @@
 			(size 0.375 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/IU Connector/IU_5V")
+			(net "/IU_5V")
 			(pinfunction "IN_6")
 			(pintype "passive")
 			(uuid "77613c34-7e22-41cb-8d44-aecff5f72b68")
@@ -13099,7 +13099,7 @@
 		(property "Reference" "R11"
 			(at 0 2 90)
 			(layer "F.SilkS")
-			(uuid "9087b203-6f5d-4be6-bce0-d69e0c43100f")
+			(uuid "a62386fa-8cd3-4f5e-a39a-65b21a49c049")
 			(effects
 				(font
 					(size 1 1)
@@ -13111,7 +13111,7 @@
 			(at 0 1.83 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dbab9df8-951c-48a6-b57e-6dc7961c54b2")
+			(uuid "00316d44-ba17-479b-abdd-c3a5421d241e")
 			(effects
 				(font
 					(size 1 1)
@@ -13123,7 +13123,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aff65ecf-fd81-420a-9f11-77fd629f2014")
+			(uuid "1c298356-c893-4118-8b8b-1a2596d59d95")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13135,7 +13135,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d70c4495-84fd-4c9a-b84c-06e1a5804390")
+			(uuid "b1a3a3f0-b720-41f6-912a-b3264408374d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13183,9 +13183,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/4cc014ce-999e-4937-beda-085f9654d420")
-		(sheetname "/Power Subsystem/")
-		(sheetfile "power_subsystem.kicad_sch")
+		(path "/d8ebba56-bbcb-4af7-ad1f-48d73a3eb90a")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13252,7 +13252,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.222222)
-			(net "/Power Subsystem/Regulator_Input")
+			(net "/Regulator_Input")
 			(pintype "passive")
 			(uuid "7a48d7da-3d3c-43c0-b011-02d2a3f3391f")
 		)
@@ -13287,7 +13287,7 @@
 		(property "Reference" "J3"
 			(at -6.47 2.625 180)
 			(layer "F.SilkS")
-			(uuid "729cb95a-fc28-4817-a9e8-81d518527637")
+			(uuid "44fa9dae-fb15-4189-bc02-8d8c0b0891c5")
 			(effects
 				(font
 					(size 1 1)
@@ -13299,7 +13299,7 @@
 			(at 0 5 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "11b70221-ce7f-40a1-9557-4b18b4deb354")
+			(uuid "13ee465d-229e-4040-b9ac-4f0970cc0bdb")
 			(effects
 				(font
 					(size 1 1)
@@ -13312,7 +13312,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7201ca2d-030d-4b11-bd30-2bbf63b0defb")
+			(uuid "97694d02-27b4-445e-90eb-11cd6524379e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13325,7 +13325,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e4df1b5c-dc2e-4eca-80b5-3beaa762fc38")
+			(uuid "05b1df8d-2a75-433f-b85b-39034b0d9435")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13398,9 +13398,9 @@
 			)
 		)
 		(property ki_fp_filters "USB*C*Receptacle*")
-		(path "/c857e4aa-d051-450c-8a47-19137a76269f/19c0a8ff-ed03-4afb-b53a-f0e54bc82cf0")
-		(sheetname "/USB Connector/")
-		(sheetfile "connector_usb.kicad_sch")
+		(path "/362a18b4-9740-4ca2-82a9-8c5c152528ec")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13561,7 +13561,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Power Subsystem/USB_5V")
+			(net "/USB_5V")
 			(pinfunction "VBUS_A4")
 			(pintype "passive")
 			(uuid "efe93997-b52f-4d0f-afe1-b1a57b2b697f")
@@ -13611,7 +13611,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Power Subsystem/USB_5V")
+			(net "/USB_5V")
 			(pinfunction "VBUS_A9")
 			(pintype "passive")
 			(uuid "8fc77f07-6f7e-4d4b-a70a-54d57fb01110")
@@ -13641,7 +13641,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Power Subsystem/USB_5V")
+			(net "/USB_5V")
 			(pinfunction "VBUS_B4")
 			(pintype "passive")
 			(uuid "34ddff92-fb93-4aef-ba52-8016839509f6")
@@ -13691,7 +13691,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Power Subsystem/USB_5V")
+			(net "/USB_5V")
 			(pinfunction "VBUS_B9")
 			(pintype "passive")
 			(uuid "cd3b46b7-214b-4bf3-b29e-77d03c15dbc3")
@@ -13776,7 +13776,7 @@
 		(property "Reference" "D5"
 			(at 0 1.5 90)
 			(layer "F.SilkS")
-			(uuid "0bdea360-a2e1-491d-b013-19bcee7c66a4")
+			(uuid "9815e01a-4dd0-444a-9b19-912ce9d74188")
 			(effects
 				(font
 					(size 1 1)
@@ -13788,7 +13788,7 @@
 			(at 0 1.35 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d6048c5c-dcd0-4416-b734-f18a1a44df91")
+			(uuid "e0eb3024-deb8-4627-99cd-768dd6968fac")
 			(effects
 				(font
 					(size 1 1)
@@ -13801,7 +13801,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8b070cf3-65a8-4e08-b4af-7f8a3eef9df6")
+			(uuid "00a1aa8b-a7ca-409f-bef0-a0fd570545ed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13814,7 +13814,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "60130bfb-c8fb-4518-97a8-9bd758ae8309")
+			(uuid "07b462fe-8ed0-4295-9f98-562042dde475")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13862,9 +13862,9 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/c857e4aa-d051-450c-8a47-19137a76269f/7127cb70-59c3-4ae1-a9d7-04da142325c4")
-		(sheetname "/USB Connector/")
-		(sheetfile "connector_usb.kicad_sch")
+		(path "/61918efe-1c4b-4c7d-a6bb-13b1f093d74f")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14064,7 +14064,7 @@
 			(size 0.4 0.7)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.125)
-			(net "/Power Subsystem/USB_5V")
+			(net "/USB_5V")
 			(pinfunction "A1_1")
 			(pintype "passive")
 			(solder_paste_margin -0.05)
@@ -14103,7 +14103,7 @@
 		(property "Reference" "L1"
 			(at 0 -1.8 0)
 			(layer "F.SilkS")
-			(uuid "af4f58ca-4c20-4afb-8cd9-7bec58419def")
+			(uuid "dd4b56dc-f2d0-4f9c-9015-d1e66cd344b5")
 			(effects
 				(font
 					(size 1 1)
@@ -14115,7 +14115,7 @@
 			(at 0 1.8 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bbfcfa82-342c-4755-9fa5-fb09b4fc34ba")
+			(uuid "37c90f5e-0ced-4d02-983c-922681174838")
 			(effects
 				(font
 					(size 1 1)
@@ -14127,7 +14127,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f57c5945-939d-46cc-8389-6e8bc66bc2ea")
+			(uuid "7b5fc335-7a89-4edf-b254-006962cc3db7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14139,7 +14139,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2f4ccb15-4cbe-419f-8af4-f2083c14399c")
+			(uuid "d8d450bf-f475-4b19-953a-b4de64d902fe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14187,9 +14187,9 @@
 			)
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
-		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/0007b1fa-0586-49be-b9fc-7ee27bf8f44c")
-		(sheetname "/Power Subsystem/")
-		(sheetfile "power_subsystem.kicad_sch")
+		(path "/dda67506-0219-4db8-91d5-47ceaffd6130")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14314,7 +14314,7 @@
 			(size 0.55 1.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Power Subsystem/Multiplexer_Output")
+			(net "/Multiplexer_Output")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "f9b0498a-e205-4b3f-b80f-a18b65f01a05")
@@ -14324,7 +14324,7 @@
 			(size 0.55 1.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Power Subsystem/Regulator_Input")
+			(net "/Regulator_Input")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "b2ef1f5b-c903-400a-ae38-9d31b97371c3")
@@ -14351,7 +14351,7 @@
 		(property "Reference" "R13"
 			(at 0.5 1.25 180)
 			(layer "F.SilkS")
-			(uuid "ea9c4b43-0bd2-4b70-8fe5-5e8f58910f9f")
+			(uuid "d844da5b-e008-44c8-a453-0b5299005ef0")
 			(effects
 				(font
 					(size 1 1)
@@ -14363,7 +14363,7 @@
 			(at 0 1.17 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "543e858e-ec50-4a87-b8c4-9fbfa42a4cd9")
+			(uuid "5bb47efc-391b-46e3-bd58-b07842778c19")
 			(effects
 				(font
 					(size 1 1)
@@ -14376,7 +14376,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "40015c73-ff74-44be-b695-bad3047021cc")
+			(uuid "e6b6f8df-3d8f-4f71-9568-67a8ed603ba5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14389,7 +14389,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "321d8618-81ec-4a91-9bbd-b4268dd18019")
+			(uuid "4a4674cf-14f0-4cb5-8abf-ed91578db798")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14437,9 +14437,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/6ea5ce35-50d4-4344-b6c8-7340368fbabe/37849270-c57f-4abd-8062-6e49e8863e44")
-		(sheetname "/Power Subsystem/")
-		(sheetfile "power_subsystem.kicad_sch")
+		(path "/e0e6fe05-3148-4787-ac2d-6ad6c1a7df5f")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14809,7 +14809,7 @@
 		(property "Reference" "U3"
 			(at -0.7 -3.1 0)
 			(layer "F.SilkS")
-			(uuid "50bfcad0-55c0-43a4-9d8f-f845cf399932")
+			(uuid "04ecc2db-6b8a-480b-9f8f-05e24568e403")
 			(effects
 				(font
 					(size 1 1)
@@ -14821,7 +14821,7 @@
 			(at 0 1.95 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bf1af0e7-252e-4b02-988a-42a973ed5f7c")
+			(uuid "994a3f83-d72a-4af5-ae20-ac0eb7a080d4")
 			(effects
 				(font
 					(size 1 1)
@@ -14833,7 +14833,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "697cf510-d989-43e4-b8f9-df15513169f5")
+			(uuid "9bf3ea93-9853-4f39-941d-6db0f2b2c40e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14845,7 +14845,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a86b5615-e8c4-468d-a856-cb82f1aadd12")
+			(uuid "f10b74f3-c0b6-4379-b4e5-555e8120302d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14906,9 +14906,9 @@
 			)
 		)
 		(property ki_fp_filters "WSON*1EP*2x2mm*P0.65mm*EP1x1.6mm*")
-		(path "/2723714d-b6b0-4cdf-8f9b-cc8163b6281c/fbfaae9f-e683-430f-8c93-0867fd167a38")
-		(sheetname "/IU Connector/")
-		(sheetfile "connector_iu.kicad_sch")
+		(path "/564418e8-d1cb-4f41-a681-473b3d766f93")
+		(sheetname "/")
+		(sheetfile "wireless_adapter_for_mitsubishi.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15141,7 +15141,7 @@
 			(size 0.375 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/IU Connector/IU_12V7")
+			(net "/IU_12V7")
 			(pinfunction "IN_4")
 			(pintype "passive")
 			(uuid "e55ddfbe-81a9-4ecd-bceb-43502e16686b")
@@ -15151,7 +15151,7 @@
 			(size 0.375 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/IU Connector/IU_12V7")
+			(net "/IU_12V7")
 			(pinfunction "IN_5")
 			(pintype "passive")
 			(uuid "f65d6a9f-c1ae-4f21-b899-2fc859c3ddb7")
@@ -15161,7 +15161,7 @@
 			(size 0.375 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/IU Connector/IU_12V7")
+			(net "/IU_12V7")
 			(pinfunction "IN_6")
 			(pintype "passive")
 			(uuid "af3e71c4-0845-4b0a-813e-53c2226ca4c6")
@@ -18105,186 +18105,6 @@
 		(uuid "ecd726c5-ce61-407b-a657-7d01ec4a6b16")
 	)
 	(segment
-		(start 124.70636 112.749524)
-		(end 129.749524 112.749524)
-		(width 1.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_5V")
-		(uuid "1336ab52-98f8-46c1-9d46-d26c701ee669")
-	)
-	(segment
-		(start 141 106.5)
-		(end 141 109)
-		(width 1.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_5V")
-		(uuid "4461b349-18aa-478f-8300-e3904258fa88")
-	)
-	(segment
-		(start 130.75 111.749746)
-		(end 130.75 106.5)
-		(width 1.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_5V")
-		(uuid "49c2d3f1-08f1-453d-b611-ae0b6c56eac6")
-	)
-	(segment
-		(start 131.85 105.5)
-		(end 140 105.5)
-		(width 1.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_5V")
-		(uuid "55f9e7f2-d99c-4bf2-8cfe-af4ca2f2a77d")
-	)
-	(segment
-		(start 123.75 95.5)
-		(end 124.25 95)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_5V")
-		(uuid "65699b4c-43f9-4c39-b865-12e354e41c43")
-	)
-	(segment
-		(start 146.75 95)
-		(end 147.25 95.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_5V")
-		(uuid "66d19dd3-8fa7-4683-afa4-ca8e552619ef")
-	)
-	(segment
-		(start 123.75 99.5)
-		(end 123.75 95.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_5V")
-		(uuid "730efe64-3561-4c4f-8dcd-847845dcbfa5")
-	)
-	(segment
-		(start 129.749524 112.749524)
-		(end 129.75 112.75)
-		(width 1.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_5V")
-		(uuid "7ff510e7-9362-47f0-b265-4deac154603f")
-	)
-	(segment
-		(start 147.25 98.05)
-		(end 147.25 96.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_5V")
-		(uuid "81aa203b-021f-4674-b034-11a8aa31d6a5")
-	)
-	(segment
-		(start 123.75 109)
-		(end 123.75 99.5)
-		(width 1.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_5V")
-		(uuid "88e8ef04-a1ec-430c-ad2e-9269a64634ba")
-	)
-	(segment
-		(start 124.25 95)
-		(end 146.75 95)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_5V")
-		(uuid "c3d139e3-440d-4dad-976e-49cbc6f46d03")
-	)
-	(segment
-		(start 123.75 109)
-		(end 123.75 111.75)
-		(width 1.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_5V")
-		(uuid "d8c19789-4270-49f8-8be1-bbd755ef1c58")
-	)
-	(segment
-		(start 147.25 95.5)
-		(end 147.25 96.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_5V")
-		(uuid "e3513ef9-cdea-42e6-851a-54a9deafa151")
-	)
-	(arc
-		(start 140 105.5)
-		(mid 140.707107 105.792893)
-		(end 141 106.5)
-		(width 1.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_5V")
-		(uuid "13981f08-35e4-4f97-9ced-7d89293ab13c")
-	)
-	(arc
-		(start 123.75 111.75)
-		(mid 124.027636 112.441513)
-		(end 124.70636 112.749524)
-		(width 1.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_5V")
-		(uuid "7b790f03-2bf5-4d97-86ad-55fa58192d06")
-	)
-	(arc
-		(start 129.75 112.75)
-		(mid 130.457107 112.457107)
-		(end 130.75 111.75)
-		(width 1.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_5V")
-		(uuid "9eec164d-e32e-45e8-9d5d-5dcca0a07c3a")
-	)
-	(arc
-		(start 130.75 106.5)
-		(mid 131.042893 105.792893)
-		(end 131.75 105.5)
-		(width 1.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_5V")
-		(uuid "c5b495d0-2dd5-4783-a1a0-24154c8de841")
-	)
-	(segment
-		(start 121.25 89)
-		(end 123.25 89)
-		(width 1.2)
-		(layer "F.Cu")
-		(net "/Power Subsystem/Regulator_Input")
-		(uuid "2ae3fd30-1b70-4a65-9ee8-8933e7b312d3")
-	)
-	(segment
-		(start 133.33 86.95)
-		(end 132.705 86.95)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Power Subsystem/Regulator_Input")
-		(uuid "67e0418f-d664-4cf0-acc0-80b362eb68da")
-	)
-	(segment
-		(start 121.25 89)
-		(end 122.75 87.5)
-		(width 1.2)
-		(layer "F.Cu")
-		(net "/Power Subsystem/Regulator_Input")
-		(uuid "b93b7a64-540c-42f4-800c-63bc753f8e40")
-	)
-	(segment
-		(start 117.55 89)
-		(end 121.25 89)
-		(width 1.2)
-		(layer "F.Cu")
-		(net "/Power Subsystem/Regulator_Input")
-		(uuid "bc927a69-f691-41bc-8ab5-e6a1486947ae")
-	)
-	(segment
-		(start 132.705 86.95)
-		(end 132.355 86.6)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Power Subsystem/Regulator_Input")
-		(uuid "fc8f4b54-16b0-4b82-a2e6-a87029e1e569")
-	)
-	(segment
 		(start 149.25 88.75)
 		(end 150.025 89.525)
 		(width 1.7)
@@ -18880,30 +18700,6 @@
 		(uuid "b2826652-f940-4705-994a-3fba721ff0b3")
 	)
 	(segment
-		(start 143.25 100)
-		(end 143 100.25)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/WR Connector/WR_UART_RX")
-		(uuid "9dcbc928-28aa-44e3-b6fa-663e3d466e75")
-	)
-	(segment
-		(start 143 100.25)
-		(end 143 101.24)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/WR Connector/WR_UART_RX")
-		(uuid "e8ca51e6-d9f8-4b88-91ae-97a519fd1602")
-	)
-	(segment
-		(start 147.25 100)
-		(end 143.25 100)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/WR Connector/WR_UART_RX")
-		(uuid "f56fc69b-230e-4fa1-bb98-85cd1c051a4b")
-	)
-	(segment
 		(start 125.75 102.27)
 		(end 125.75 109)
 		(width 0.2)
@@ -18912,60 +18708,12 @@
 		(uuid "e772fbbd-56d0-41a4-8796-f3ca8915fde2")
 	)
 	(segment
-		(start 147.275 98.7)
-		(end 126.3 98.7)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_UART_TX")
-		(uuid "7fb899d6-e2fa-4958-843b-999861efd383")
-	)
-	(segment
-		(start 125.75 99.25)
-		(end 125.75 101.25)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_UART_TX")
-		(uuid "a76a3e8e-752a-4510-8cf9-d854db2c68c8")
-	)
-	(segment
-		(start 126.3 98.7)
-		(end 125.75 99.25)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_UART_TX")
-		(uuid "a79faafd-8e0c-4ff4-adc8-ecbafafcd12c")
-	)
-	(segment
 		(start 127.75 102.26)
 		(end 127.75 109)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(D2-A1)")
 		(uuid "f75e811f-26ab-4090-9fbd-3891629718d2")
-	)
-	(segment
-		(start 127.75 99.75)
-		(end 127.75 101.24)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_UART_RX")
-		(uuid "0bb8ee6a-7a32-42b9-8717-d392c6227e7c")
-	)
-	(segment
-		(start 128.15 99.35)
-		(end 127.75 99.75)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_UART_RX")
-		(uuid "8b179b0f-e1ed-4a9c-b7da-45e72a00049c")
-	)
-	(segment
-		(start 147.275 99.35)
-		(end 128.15 99.35)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_UART_RX")
-		(uuid "e9db0032-df96-495a-9c47-b07f157239c9")
 	)
 	(segment
 		(start 145 109)
@@ -18982,105 +18730,6 @@
 		(layer "F.Cu")
 		(net "Net-(C9-Pad1)")
 		(uuid "09f69550-2aa8-41e9-84e0-298b834a22f8")
-	)
-	(segment
-		(start 112.5 98.25)
-		(end 118.75 98.25)
-		(width 1.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_12V7")
-		(uuid "14b7f05e-91d7-468b-9569-8e800a441d6d")
-	)
-	(segment
-		(start 118.75 98.25)
-		(end 119.75 99.25)
-		(width 1.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_12V7")
-		(uuid "14bbb3df-3f8d-4fba-88c5-164d32b96ec2")
-	)
-	(segment
-		(start 120.75 116.25)
-		(end 133 116.25)
-		(width 1.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_12V7")
-		(uuid "3982ee4a-3d66-41cf-9907-ae0e3255b0ac")
-	)
-	(segment
-		(start 134 115.25)
-		(end 134 110)
-		(width 1.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_12V7")
-		(uuid "45a1eae5-c4da-481a-b6bc-aae7d24e008e")
-	)
-	(segment
-		(start 119.75 99.25)
-		(end 119.75 115.25)
-		(width 1.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_12V7")
-		(uuid "64f1f84d-16a6-4c5e-9db8-02f146030d98")
-	)
-	(segment
-		(start 134.875 109)
-		(end 137.125 109)
-		(width 1.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_12V7")
-		(uuid "787c0b05-76c5-4a55-9442-71fb873bd944")
-	)
-	(segment
-		(start 111.625 95.65)
-		(end 111.625 97.375)
-		(width 1.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_12V7")
-		(uuid "abc91a87-9bc8-44bb-983c-85dfbcdb9107")
-	)
-	(segment
-		(start 111.625 97.375)
-		(end 112.5 98.25)
-		(width 1.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_12V7")
-		(uuid "d2e9db15-ebf9-469d-b04a-ef30f6f0da8d")
-	)
-	(segment
-		(start 111.625 95.65)
-		(end 111.625 94.425)
-		(width 0.4)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_12V7")
-		(uuid "fa9b17ca-c1d5-473b-91ba-97c5e21c9b73")
-	)
-	(arc
-		(start 133 116.25)
-		(mid 133.707107 115.957107)
-		(end 134 115.25)
-		(width 1.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_12V7")
-		(uuid "2f90ee44-4113-4732-a91e-9b420e19e3e2")
-	)
-	(arc
-		(start 119.75 115.25)
-		(mid 120.042893 115.957107)
-		(end 120.75 116.25)
-		(width 1.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_12V7")
-		(uuid "8999faea-7895-4ea3-b61c-65247079c728")
-	)
-	(arc
-		(start 134 110)
-		(mid 134.292893 109.292893)
-		(end 135 109)
-		(width 1.2)
-		(layer "F.Cu")
-		(net "/IU Connector/IU_12V7")
-		(uuid "f6e801b6-ecb2-4524-bd08-ea79ee86f7c0")
 	)
 	(segment
 		(start 114.5 93)
@@ -19171,30 +18820,6 @@
 		(uuid "e6b5ebf9-1d31-4fe8-ad58-ccd80d4bd048")
 	)
 	(segment
-		(start 145.35 100.65)
-		(end 145 101)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/WR Connector/WR_UART_TX")
-		(uuid "08006e68-629a-4a73-8f58-eb22e9712dcf")
-	)
-	(segment
-		(start 145 101)
-		(end 145 101.24)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/WR Connector/WR_UART_TX")
-		(uuid "a822c3d2-df9f-4c63-84cf-e474972c8497")
-	)
-	(segment
-		(start 147.25 100.65)
-		(end 145.35 100.65)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/WR Connector/WR_UART_TX")
-		(uuid "d5cae5b0-60a3-4428-a788-1bd88898ed60")
-	)
-	(segment
 		(start 135.9 81.120732)
 		(end 135.5 81.120732)
 		(width 0.2)
@@ -19227,11 +18852,151 @@
 		(uuid "9af6b74f-59d0-4b35-956a-b7743c1d31e8")
 	)
 	(segment
+		(start 124.70636 112.749524)
+		(end 129.749524 112.749524)
+		(width 1.2)
+		(layer "F.Cu")
+		(net "/IU_5V")
+		(uuid "1336ab52-98f8-46c1-9d46-d26c701ee669")
+	)
+	(segment
+		(start 141 106.5)
+		(end 141 109)
+		(width 1.2)
+		(layer "F.Cu")
+		(net "/IU_5V")
+		(uuid "4461b349-18aa-478f-8300-e3904258fa88")
+	)
+	(segment
+		(start 130.75 111.749746)
+		(end 130.75 106.5)
+		(width 1.2)
+		(layer "F.Cu")
+		(net "/IU_5V")
+		(uuid "49c2d3f1-08f1-453d-b611-ae0b6c56eac6")
+	)
+	(segment
+		(start 131.85 105.5)
+		(end 140 105.5)
+		(width 1.2)
+		(layer "F.Cu")
+		(net "/IU_5V")
+		(uuid "55f9e7f2-d99c-4bf2-8cfe-af4ca2f2a77d")
+	)
+	(segment
+		(start 123.75 95.5)
+		(end 124.25 95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/IU_5V")
+		(uuid "65699b4c-43f9-4c39-b865-12e354e41c43")
+	)
+	(segment
+		(start 146.75 95)
+		(end 147.25 95.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/IU_5V")
+		(uuid "66d19dd3-8fa7-4683-afa4-ca8e552619ef")
+	)
+	(segment
+		(start 123.75 99.5)
+		(end 123.75 95.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/IU_5V")
+		(uuid "730efe64-3561-4c4f-8dcd-847845dcbfa5")
+	)
+	(segment
+		(start 129.749524 112.749524)
+		(end 129.75 112.75)
+		(width 1.2)
+		(layer "F.Cu")
+		(net "/IU_5V")
+		(uuid "7ff510e7-9362-47f0-b265-4deac154603f")
+	)
+	(segment
+		(start 147.25 98.05)
+		(end 147.25 96.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/IU_5V")
+		(uuid "81aa203b-021f-4674-b034-11a8aa31d6a5")
+	)
+	(segment
+		(start 123.75 109)
+		(end 123.75 99.5)
+		(width 1.2)
+		(layer "F.Cu")
+		(net "/IU_5V")
+		(uuid "88e8ef04-a1ec-430c-ad2e-9269a64634ba")
+	)
+	(segment
+		(start 124.25 95)
+		(end 146.75 95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/IU_5V")
+		(uuid "c3d139e3-440d-4dad-976e-49cbc6f46d03")
+	)
+	(segment
+		(start 123.75 109)
+		(end 123.75 111.75)
+		(width 1.2)
+		(layer "F.Cu")
+		(net "/IU_5V")
+		(uuid "d8c19789-4270-49f8-8be1-bbd755ef1c58")
+	)
+	(segment
+		(start 147.25 95.5)
+		(end 147.25 96.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/IU_5V")
+		(uuid "e3513ef9-cdea-42e6-851a-54a9deafa151")
+	)
+	(arc
+		(start 140 105.5)
+		(mid 140.707107 105.792893)
+		(end 141 106.5)
+		(width 1.2)
+		(layer "F.Cu")
+		(net "/IU_5V")
+		(uuid "13981f08-35e4-4f97-9ced-7d89293ab13c")
+	)
+	(arc
+		(start 123.75 111.75)
+		(mid 124.027636 112.441513)
+		(end 124.70636 112.749524)
+		(width 1.2)
+		(layer "F.Cu")
+		(net "/IU_5V")
+		(uuid "7b790f03-2bf5-4d97-86ad-55fa58192d06")
+	)
+	(arc
+		(start 129.75 112.75)
+		(mid 130.457107 112.457107)
+		(end 130.75 111.75)
+		(width 1.2)
+		(layer "F.Cu")
+		(net "/IU_5V")
+		(uuid "9eec164d-e32e-45e8-9d5d-5dcca0a07c3a")
+	)
+	(arc
+		(start 130.75 106.5)
+		(mid 131.042893 105.792893)
+		(end 131.75 105.5)
+		(width 1.2)
+		(layer "F.Cu")
+		(net "/IU_5V")
+		(uuid "c5b495d0-2dd5-4783-a1a0-24154c8de841")
+	)
+	(segment
 		(start 112.325 92.175)
 		(end 112.75 91.75)
 		(width 0.4)
 		(layer "F.Cu")
-		(net "/Power Subsystem/Multiplexer_Output")
+		(net "/Multiplexer_Output")
 		(uuid "3ae8a4d2-8379-4fb5-a834-e189c054afb0")
 	)
 	(segment
@@ -19239,7 +19004,7 @@
 		(end 115.5 89)
 		(width 1.2)
 		(layer "F.Cu")
-		(net "/Power Subsystem/Multiplexer_Output")
+		(net "/Multiplexer_Output")
 		(uuid "7b13716b-3707-48fa-9e54-9271df9b1c6a")
 	)
 	(segment
@@ -19247,7 +19012,7 @@
 		(end 112.325 94.425)
 		(width 0.4)
 		(layer "F.Cu")
-		(net "/Power Subsystem/Multiplexer_Output")
+		(net "/Multiplexer_Output")
 		(uuid "ac2cfc04-19ff-4de0-9e23-ccb3744d6b31")
 	)
 	(segment
@@ -19255,7 +19020,7 @@
 		(end 113.375 89)
 		(width 1.2)
 		(layer "F.Cu")
-		(net "/Power Subsystem/Multiplexer_Output")
+		(net "/Multiplexer_Output")
 		(uuid "af06b52a-ae6c-476b-ad09-e4470705da8b")
 	)
 	(segment
@@ -19263,7 +19028,7 @@
 		(end 112.325 92.175)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/Power Subsystem/Multiplexer_Output")
+		(net "/Multiplexer_Output")
 		(uuid "d8cdec53-a910-4f28-9953-b544af919789")
 	)
 	(segment
@@ -19271,7 +19036,7 @@
 		(end 113 89.375)
 		(width 1.2)
 		(layer "F.Cu")
-		(net "/Power Subsystem/Multiplexer_Output")
+		(net "/Multiplexer_Output")
 		(uuid "e2106898-33a6-4430-8568-d21c6bf67cde")
 	)
 	(segment
@@ -19279,15 +19044,55 @@
 		(end 113 91.5)
 		(width 1.2)
 		(layer "F.Cu")
-		(net "/Power Subsystem/Multiplexer_Output")
+		(net "/Multiplexer_Output")
 		(uuid "e68e6db3-364e-4557-9fe3-7623b3cfd5df")
+	)
+	(segment
+		(start 121.25 89)
+		(end 123.25 89)
+		(width 1.2)
+		(layer "F.Cu")
+		(net "/Regulator_Input")
+		(uuid "2ae3fd30-1b70-4a65-9ee8-8933e7b312d3")
+	)
+	(segment
+		(start 133.33 86.95)
+		(end 132.705 86.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Regulator_Input")
+		(uuid "67e0418f-d664-4cf0-acc0-80b362eb68da")
+	)
+	(segment
+		(start 121.25 89)
+		(end 122.75 87.5)
+		(width 1.2)
+		(layer "F.Cu")
+		(net "/Regulator_Input")
+		(uuid "b93b7a64-540c-42f4-800c-63bc753f8e40")
+	)
+	(segment
+		(start 117.55 89)
+		(end 121.25 89)
+		(width 1.2)
+		(layer "F.Cu")
+		(net "/Regulator_Input")
+		(uuid "bc927a69-f691-41bc-8ab5-e6a1486947ae")
+	)
+	(segment
+		(start 132.705 86.95)
+		(end 132.355 86.6)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Regulator_Input")
+		(uuid "fc8f4b54-16b0-4b82-a2e6-a87029e1e569")
 	)
 	(segment
 		(start 159.629999 80.675001)
 		(end 159.63 80.675002)
 		(width 0.6)
 		(layer "F.Cu")
-		(net "/Power Subsystem/USB_5V")
+		(net "/USB_5V")
 		(uuid "09f35713-f70f-40b6-96d2-17e6df662de9")
 	)
 	(segment
@@ -19295,7 +19100,7 @@
 		(end 158.745 79.521907)
 		(width 0.9)
 		(layer "F.Cu")
-		(net "/Power Subsystem/USB_5V")
+		(net "/USB_5V")
 		(uuid "0c3f3877-b8e6-4651-bd82-b5043a727cd5")
 	)
 	(segment
@@ -19303,7 +19108,7 @@
 		(end 159.63 81.175)
 		(width 0.6)
 		(layer "F.Cu")
-		(net "/Power Subsystem/USB_5V")
+		(net "/USB_5V")
 		(uuid "106a933c-925e-4b5f-864a-efa67ed3f8b8")
 	)
 	(segment
@@ -19311,7 +19116,7 @@
 		(end 150.866907 79.521907)
 		(width 0.9)
 		(layer "F.Cu")
-		(net "/Power Subsystem/USB_5V")
+		(net "/USB_5V")
 		(uuid "29d77cd0-5dbd-4c4e-afe5-209361d2d8dd")
 	)
 	(segment
@@ -19319,7 +19124,7 @@
 		(end 147.845 76.5)
 		(width 0.9)
 		(layer "F.Cu")
-		(net "/Power Subsystem/USB_5V")
+		(net "/USB_5V")
 		(uuid "29f5dfae-12b4-4bef-85ef-d7d673e26d23")
 	)
 	(segment
@@ -19327,7 +19132,7 @@
 		(end 110.25 80)
 		(width 0.9)
 		(layer "F.Cu")
-		(net "/Power Subsystem/USB_5V")
+		(net "/USB_5V")
 		(uuid "3bb04f4b-cf60-4511-9600-3be4efb74826")
 	)
 	(segment
@@ -19335,7 +19140,7 @@
 		(end 113.75 76.5)
 		(width 0.9)
 		(layer "F.Cu")
-		(net "/Power Subsystem/USB_5V")
+		(net "/USB_5V")
 		(uuid "8ac3f839-208b-49ec-9e0c-3deb5e7fa24f")
 	)
 	(segment
@@ -19343,7 +19148,7 @@
 		(end 111.625 92.15)
 		(width 0.4)
 		(layer "F.Cu")
-		(net "/Power Subsystem/USB_5V")
+		(net "/USB_5V")
 		(uuid "cad128cc-c3e7-46ac-b83f-ad92306b061a")
 	)
 	(segment
@@ -19351,7 +19156,7 @@
 		(end 111.625 93.075)
 		(width 0.4)
 		(layer "F.Cu")
-		(net "/Power Subsystem/USB_5V")
+		(net "/USB_5V")
 		(uuid "ccf6cc4d-99c7-469d-aa07-ef755a4f8777")
 	)
 	(segment
@@ -19359,7 +19164,7 @@
 		(end 110.25 90.775)
 		(width 0.9)
 		(layer "F.Cu")
-		(net "/Power Subsystem/USB_5V")
+		(net "/USB_5V")
 		(uuid "eb758737-ba27-4141-9e37-90e60fb1a0bd")
 	)
 	(segment
@@ -19367,7 +19172,7 @@
 		(end 155.63 80.675)
 		(width 0.6)
 		(layer "F.Cu")
-		(net "/Power Subsystem/USB_5V")
+		(net "/USB_5V")
 		(uuid "eb94c540-209c-4ddb-a905-6a3887700ac1")
 	)
 	(segment
@@ -19375,7 +19180,7 @@
 		(end 150.866907 79.521907)
 		(width 0.9)
 		(layer "F.Cu")
-		(net "/Power Subsystem/USB_5V")
+		(net "/USB_5V")
 		(uuid "ef606123-fb8f-4a13-932f-6fb20c7e7915")
 	)
 	(arc
@@ -19384,7 +19189,7 @@
 		(end 156.495 79.521907)
 		(width 0.9)
 		(layer "F.Cu")
-		(net "/Power Subsystem/USB_5V")
+		(net "/USB_5V")
 		(uuid "9c79a212-05d3-478f-acc0-90d21fbc0baa")
 	)
 	(arc
@@ -19393,7 +19198,7 @@
 		(end 159.745 80.521907)
 		(width 0.9)
 		(layer "F.Cu")
-		(net "/Power Subsystem/USB_5V")
+		(net "/USB_5V")
 		(uuid "b2834499-578b-4e44-8b16-8152121f7577")
 	)
 	(arc
@@ -19402,14 +19207,209 @@
 		(end 154.495 79.521907)
 		(width 0.9)
 		(layer "F.Cu")
-		(net "/Power Subsystem/USB_5V")
+		(net "/USB_5V")
 		(uuid "e9e8c36f-678f-40db-9cf7-97c8a65b6d1b")
+	)
+	(segment
+		(start 112.5 98.25)
+		(end 118.75 98.25)
+		(width 1.2)
+		(layer "F.Cu")
+		(net "/IU_12V7")
+		(uuid "14b7f05e-91d7-468b-9569-8e800a441d6d")
+	)
+	(segment
+		(start 118.75 98.25)
+		(end 119.75 99.25)
+		(width 1.2)
+		(layer "F.Cu")
+		(net "/IU_12V7")
+		(uuid "14bbb3df-3f8d-4fba-88c5-164d32b96ec2")
+	)
+	(segment
+		(start 120.75 116.25)
+		(end 133 116.25)
+		(width 1.2)
+		(layer "F.Cu")
+		(net "/IU_12V7")
+		(uuid "3982ee4a-3d66-41cf-9907-ae0e3255b0ac")
+	)
+	(segment
+		(start 134 115.25)
+		(end 134 110)
+		(width 1.2)
+		(layer "F.Cu")
+		(net "/IU_12V7")
+		(uuid "45a1eae5-c4da-481a-b6bc-aae7d24e008e")
+	)
+	(segment
+		(start 119.75 99.25)
+		(end 119.75 115.25)
+		(width 1.2)
+		(layer "F.Cu")
+		(net "/IU_12V7")
+		(uuid "64f1f84d-16a6-4c5e-9db8-02f146030d98")
+	)
+	(segment
+		(start 134.875 109)
+		(end 137.125 109)
+		(width 1.2)
+		(layer "F.Cu")
+		(net "/IU_12V7")
+		(uuid "787c0b05-76c5-4a55-9442-71fb873bd944")
+	)
+	(segment
+		(start 111.625 95.65)
+		(end 111.625 97.375)
+		(width 1.2)
+		(layer "F.Cu")
+		(net "/IU_12V7")
+		(uuid "abc91a87-9bc8-44bb-983c-85dfbcdb9107")
+	)
+	(segment
+		(start 111.625 97.375)
+		(end 112.5 98.25)
+		(width 1.2)
+		(layer "F.Cu")
+		(net "/IU_12V7")
+		(uuid "d2e9db15-ebf9-469d-b04a-ef30f6f0da8d")
+	)
+	(segment
+		(start 111.625 95.65)
+		(end 111.625 94.425)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "/IU_12V7")
+		(uuid "fa9b17ca-c1d5-473b-91ba-97c5e21c9b73")
+	)
+	(arc
+		(start 133 116.25)
+		(mid 133.707107 115.957107)
+		(end 134 115.25)
+		(width 1.2)
+		(layer "F.Cu")
+		(net "/IU_12V7")
+		(uuid "2f90ee44-4113-4732-a91e-9b420e19e3e2")
+	)
+	(arc
+		(start 119.75 115.25)
+		(mid 120.042893 115.957107)
+		(end 120.75 116.25)
+		(width 1.2)
+		(layer "F.Cu")
+		(net "/IU_12V7")
+		(uuid "8999faea-7895-4ea3-b61c-65247079c728")
+	)
+	(arc
+		(start 134 110)
+		(mid 134.292893 109.292893)
+		(end 135 109)
+		(width 1.2)
+		(layer "F.Cu")
+		(net "/IU_12V7")
+		(uuid "f6e801b6-ecb2-4524-bd08-ea79ee86f7c0")
+	)
+	(segment
+		(start 147.275 98.7)
+		(end 126.3 98.7)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U2-A1)")
+		(uuid "7fb899d6-e2fa-4958-843b-999861efd383")
+	)
+	(segment
+		(start 125.75 99.25)
+		(end 125.75 101.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U2-A1)")
+		(uuid "a76a3e8e-752a-4510-8cf9-d854db2c68c8")
+	)
+	(segment
+		(start 126.3 98.7)
+		(end 125.75 99.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U2-A1)")
+		(uuid "a79faafd-8e0c-4ff4-adc8-ecbafafcd12c")
+	)
+	(segment
+		(start 127.75 99.75)
+		(end 127.75 101.24)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U2-A2)")
+		(uuid "0bb8ee6a-7a32-42b9-8717-d392c6227e7c")
+	)
+	(segment
+		(start 128.15 99.35)
+		(end 127.75 99.75)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U2-A2)")
+		(uuid "8b179b0f-e1ed-4a9c-b7da-45e72a00049c")
+	)
+	(segment
+		(start 147.275 99.35)
+		(end 128.15 99.35)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U2-A2)")
+		(uuid "e9db0032-df96-495a-9c47-b07f157239c9")
+	)
+	(segment
+		(start 143.25 100)
+		(end 143 100.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U2-A3)")
+		(uuid "9dcbc928-28aa-44e3-b6fa-663e3d466e75")
+	)
+	(segment
+		(start 143 100.25)
+		(end 143 101.24)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U2-A3)")
+		(uuid "e8ca51e6-d9f8-4b88-91ae-97a519fd1602")
+	)
+	(segment
+		(start 147.25 100)
+		(end 143.25 100)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U2-A3)")
+		(uuid "f56fc69b-230e-4fa1-bb98-85cd1c051a4b")
+	)
+	(segment
+		(start 145.35 100.65)
+		(end 145 101)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U2-A4)")
+		(uuid "08006e68-629a-4a73-8f58-eb22e9712dcf")
+	)
+	(segment
+		(start 145 101)
+		(end 145 101.24)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U2-A4)")
+		(uuid "a822c3d2-df9f-4c63-84cf-e474972c8497")
+	)
+	(segment
+		(start 147.25 100.65)
+		(end 145.35 100.65)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U2-A4)")
+		(uuid "d5cae5b0-60a3-4428-a788-1bd88898ed60")
 	)
 	(zone
 		(net "+3V3")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30015)
+		(priority 30013)
 		(attr
 			(teardrop
 				(type padvia)
@@ -19430,18 +19430,15 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 152.517708 92.235614) (xy 152.517934 92.235767) (xy 152.519991 92.237546) (xy 152.664436 92.395401)
-				(xy 152.742201 92.480385) (xy 152.744566 92.484288) (xy 152.745277 92.486245) (xy 152.745087 92.494722)
-				(xy 152.744557 92.496) (xy 152.742382 92.499416) (xy 152.520633 92.74175) (xy 152.516956 92.744451)
-				(xy 152.514389 92.745651) (xy 152.50719 92.746535) (xy 152.506929 92.746484) (xy 152.504354 92.745662)
-				(xy 152.169002 92.594068) (xy 152.16529 92.591414) (xy 152.163169 92.589154) (xy 152.16 92.581147)
-				(xy 152.16 92.399877) (xy 152.16089 92.395401) (xy 152.162077 92.392535) (xy 152.168066 92.386352)
-				(xy 152.503496 92.234723) (xy 152.507933 92.233693) (xy 152.51077 92.233602)
+				(xy 152.519062 92.236531) (xy 152.743772 92.482102) (xy 152.746829 92.490518) (xy 152.743772 92.497898)
+				(xy 152.519062 92.743468) (xy 152.510948 92.747259) (xy 152.505611 92.746231) (xy 152.166881 92.59311)
+				(xy 152.160753 92.58658) (xy 152.16 92.582449) (xy 152.16 92.39755) (xy 152.163427 92.389277) (xy 152.166878 92.38689)
+				(xy 152.505613 92.233767) (xy 152.514561 92.233482)
 			)
 		)
 	)
 	(zone
-		(net "/Power Subsystem/Regulator_Input")
+		(net "/Regulator_Input")
 		(layer "F.Cu")
 		(uuid "09d99492-f6a1-4c86-be3a-6d9fcee0baf9")
 		(name "REGULATOR_INPUT")
@@ -19486,7 +19483,7 @@
 		(net "Net-(U7-ILIM)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30026)
+		(priority 30027)
 		(attr
 			(teardrop
 				(type padvia)
@@ -19550,7 +19547,7 @@
 		(net "Net-(U1-GPIO8)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30025)
+		(priority 30026)
 		(attr
 			(teardrop
 				(type padvia)
@@ -19582,7 +19579,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30003)
+		(priority 30001)
 		(attr
 			(teardrop
 				(type padvia)
@@ -19747,7 +19744,7 @@
 		(net "/BOOT")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30013)
+		(priority 30011)
 		(attr
 			(teardrop
 				(type padvia)
@@ -19782,7 +19779,7 @@
 		(net "Net-(J3-CC1)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30031)
+		(priority 30029)
 		(attr
 			(teardrop
 				(type padvia)
@@ -19811,7 +19808,7 @@
 		)
 	)
 	(zone
-		(net "/Power Subsystem/USB_5V")
+		(net "/USB_5V")
 		(layer "F.Cu")
 		(uuid "3fb61531-5c41-4607-b144-396aedcdbb7f")
 		(hatch edge 0.5)
@@ -19962,7 +19959,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30011)
+		(priority 30014)
 		(attr
 			(teardrop
 				(type padvia)
@@ -19994,10 +19991,10 @@
 		)
 	)
 	(zone
-		(net "/WR Connector/WR_UART_RX")
+		(net "Net-(U2-A3)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30028)
+		(priority 30025)
 		(attr
 			(teardrop
 				(type padvia)
@@ -20061,7 +20058,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30004)
+		(priority 30002)
 		(attr
 			(teardrop
 				(type padvia)
@@ -20125,7 +20122,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30001)
+		(priority 30004)
 		(attr
 			(teardrop
 				(type padvia)
@@ -20157,7 +20154,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30012)
+		(priority 30015)
 		(attr
 			(teardrop
 				(type padvia)
@@ -20291,7 +20288,7 @@
 		(net "Net-(J3-CC2)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30027)
+		(priority 30028)
 		(attr
 			(teardrop
 				(type padvia)
@@ -20478,7 +20475,7 @@
 		(net "/RESET")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30016)
+		(priority 30012)
 		(attr
 			(teardrop
 				(type padvia)
@@ -20499,10 +20496,13 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 152.994275 93.253502) (xy 153.332866 93.396977) (xy 153.339145 93.403359) (xy 153.34 93.407749)
-				(xy 153.34 93.59264) (xy 153.336573 93.600913) (xy 153.333366 93.603186) (xy 152.994494 93.765961)
-				(xy 152.985553 93.766455) (xy 152.980796 93.763313) (xy 152.756227 93.517898) (xy 152.75317 93.509482)
-				(xy 152.756227 93.502102) (xy 152.852423 93.396976) (xy 152.98108 93.256375) (xy 152.989192 93.252586)
+				(xy 152.992971 93.253267) (xy 152.995477 93.254011) (xy 153.005107 93.258092) (xy 153.330723 93.396069)
+				(xy 153.334496 93.398634) (xy 153.336638 93.400811) (xy 153.34 93.409018) (xy 153.34 93.590312)
+				(xy 153.339109 93.59479) (xy 153.337905 93.597696) (xy 153.332162 93.603764) (xy 152.996591 93.764953)
+				(xy 152.99217 93.766089) (xy 152.989417 93.766241) (xy 152.982338 93.764331) (xy 152.982016 93.764119)
+				(xy 152.979821 93.762247) (xy 152.757796 93.519613) (xy 152.755433 93.515713) (xy 152.754721 93.513752)
+				(xy 152.75491 93.505279) (xy 152.755441 93.503998) (xy 152.757613 93.500586) (xy 152.852423 93.396976)
+				(xy 152.97951 93.25809) (xy 152.983188 93.25539) (xy 152.985824 93.254158) (xy 152.992831 93.253242)
 			)
 		)
 	)
@@ -20542,7 +20542,7 @@
 		(net "+3V3")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30014)
+		(priority 30016)
 		(attr
 			(teardrop
 				(type padvia)
@@ -20604,10 +20604,10 @@
 		)
 	)
 	(zone
-		(net "/IU Connector/IU_UART_TX")
+		(net "Net-(U2-A1)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30029)
+		(priority 30031)
 		(attr
 			(teardrop
 				(type padvia)
@@ -20668,7 +20668,7 @@
 		)
 	)
 	(zone
-		(net "/WR Connector/WR_UART_TX")
+		(net "Net-(U2-A4)")
 		(layer "F.Cu")
 		(hatch none 0.1)
 		(priority 30032)
@@ -20788,7 +20788,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30002)
+		(priority 30000)
 		(attr
 			(teardrop
 				(type padvia)
@@ -20872,7 +20872,7 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30000)
+		(priority 30003)
 		(attr
 			(teardrop
 				(type padvia)
@@ -20901,7 +20901,7 @@
 		)
 	)
 	(zone
-		(net "/IU Connector/IU_UART_RX")
+		(net "Net-(U2-A2)")
 		(layer "F.Cu")
 		(hatch none 0.1)
 		(priority 30030)
@@ -21034,7 +21034,7 @@
 		)
 	)
 	(zone
-		(net "/Power Subsystem/USB_5V")
+		(net "/USB_5V")
 		(layer "F.Cu")
 		(uuid "ffa6b1cd-a9c4-4f6e-b35e-2212f496994f")
 		(hatch edge 0.5)

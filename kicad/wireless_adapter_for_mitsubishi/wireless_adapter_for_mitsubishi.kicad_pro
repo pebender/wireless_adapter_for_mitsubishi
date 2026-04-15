@@ -743,29 +743,13 @@
         "uuid": "f70a83b0-34a1-41b3-a332-066c3f3f3918"
       }
     ],
-    "used_designators": "R14-15,J4,D8-10,U9-10,#FLG4,#FLG6,#FLG8",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "f70a83b0-34a1-41b3-a332-066c3f3f3918",
       "wireless_adapter_for_mitsubishi"
-    ],
-    [
-      "2723714d-b6b0-4cdf-8f9b-cc8163b6281c",
-      "IU Connector"
-    ],
-    [
-      "9d50b435-dd7f-4655-b889-9471e30194bd",
-      "WR Connector"
-    ],
-    [
-      "c857e4aa-d051-450c-8a47-19137a76269f",
-      "USB Connector"
-    ],
-    [
-      "6ea5ce35-50d4-4344-b6c8-7340368fbabe",
-      "Power Subsystem"
     ]
   ],
   "text_variables": {},
