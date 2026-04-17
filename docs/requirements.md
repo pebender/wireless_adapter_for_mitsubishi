@@ -23,7 +23,7 @@ connected to three outdoor units
 - MXZ-4C36NA2-U1 (kitchen, study, master bedroom), and
 - MXZ-5C42NA2-U1 (living room, office, guest bedroom, back bedroom).
 
-Each indoor unit is connected to a [Mitsubishi MHK1 controller kit](https://www.mitsubishipro.com/products/MHK1), consisting of a MIFH1 wireless receiver and a MRCH1 remote controller.
+Each indoor unit is connected to a [Mitsubishi Electric MHK1 controller kit](https://www.mitsubishipro.com/products/MHK1), consisting of a MIFH1 wireless receiver and a MRCH1 remote controller.
 
 In addition to being paired with its MRCH1 remote controller, the MIFH1 wireless receiver connected to each indoor unit is paired with one of two [Honeywell THM6000R7001 RedLINK&reg; Internet Gateways](https://www.resideo.com/us/en/pro/products/air/thermostats/thermostat-accessories/redlinkr-internet-gateway-with-ethernet-cable-and-power-cord-thm6000r7001-u/). The THM6000R7001 internet gateways enable control of the indoor units from our phones and our home automation system. Unfortunately, they have two shortcomings. First, they have a slow response time because the RedLINK&reg; wireless protocol between the THM6000R7001 internet gateway and the MIFH1 wireless receiver is slow. Second, they can be unreliable because all their traffic is sent through the [Honeywell Home Total Connect Comfort](https://mytotalconnectcomfort.com) cloud. It's the THM6000R7001 internet gateways that this project will replace.
 

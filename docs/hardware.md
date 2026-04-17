@@ -13,15 +13,15 @@ The current design has the same circuit design and same PCB layout as the design
 
 The high level block diagram below shows basic functions of the wireless adapter.
 
-The [USB connector](./hardware/firmware.md#usb-connector) (along with the [boot and reset switches](./hardware/firmware.md#switches)) enables easy firmware development, debug and recovery.
+The [USB connector](./hardware/development.md#usb-connector) (along with the [reset and boot switches](./hardware/development.md#switches)) eases development.
 
-The [IU connector](./hardware/connection.md#the-iu-connector) and [WR connector](./hardware/connection.md#the-wr-connector) connect to the indoor unit and wireless receiver respectively.
+The [IU connector](./hardware/connectors.md#the-wireless-adapters-iu-connector) and [WR connector](./hardware/connectors.md#the-wireless-adapters-wr-connector) connect to the indoor unit of a Mitsubishi Electric heat pump and the wireless receiver of a Mitsubishi Electric controller kit respectively
 
-The [power multiplexer](./hardware/power.md#power-multiplexing) switches between the 5V power provided through the USB connector and the 12.7V power provided through the IU connector, with priority given to the IU connector's 12.7V power when present. This allows the USB connector to power the System on a Chip (SoC) during development and recovery.
+The [power multiplexer](./hardware/power.md#power-multiplexer) switches between the 5V power provided through the USB connector and the 12.7V power provided through the IU connector, with priority given to the IU connector's 12.7V power when present. This allows the USB connector to power the System on a Chip (SoC) during development and recovery.
 
 The [power module](./hardware/power.md#33v-output-switching-regulator) converts the power from the output of the power multiplexer to the 3.3V needed to power the SoC as well as power the SoC side of the level shifter.
 
-The [level shifter](./hardware/connection.md#level-shifter) converts the UART signals between the 3.3V signals expected by the SoC and the 5V signals expected by the indoor unit (connected via the IU connector) and the wireless receiver (connected via the WR connector).
+The [level shifter](./hardware/connectors.md#level-shifter) converts the UART signals between the 3.3V signals expected by the SoC and the 5V signals expected by the indoor unit (connected via the IU connector) and the wireless receiver (connected via the WR connector).
 
 The SoC provides the Wi-Fi, Thread and Bluetooth LE interfaces to the indoor unit and the wireless receiver.
 
@@ -130,15 +130,15 @@ I made two versions of the PCBA. The first version was the test version. The sec
  The PCBA contains the parts
 
 - System on a Chip: [Espressif ESP32-C6-WROOM-1-N8](./hardware/soc.md) (U1)
-- Level Shifter: [Texas Instruments TXS0104EPW](./hardware/connection.md#level-shifter) (U2)
-- Power Multiplexer: [Texas Instruments TPS2121RUX](./hardware/power.md#power-source-multiplexing) (U7)
+- Level Shifter: [Texas Instruments TXS0104EPW](./hardware/connectors.md#level-shifter) (U2)
+- Power Multiplexer: [Texas Instruments TPS2121RUX](./hardware/power.md#power-multiplexer) (U7)
 - Power Module: [Texas Instruments TPSM5601R5HRDA](./hardware/power.md#33v-output-switching-regulator) (U8)
-- TVS Devices: [Texas Instruments TVS1400DRV](./hardware/connection.md#power-pin-voltage-surge-protection) (U3, U5) and [Texas Instruments TVS0500DRV](./hardware/connection.md#power-pin-voltage-surge-protection) (U4, U6)
-- ESD Diodes: [R+O H5VL10B](./hardware/connection.md#signal-pin-voltage-surge-protection) (D1-D7)
-- USB Connector: [G-Switch GT-USB-7010ASV](./hardware/firmware.md#usb-connector) (J3)
-- IU Connector: [JST S05B-PASK-2](./hardware/connection.md#connectors) (J1)
-- WR Connector: [JST S05B-PASK-2](./hardware/connection.md#connectors) (J2)
-- Switches: [XunPu TS-1088-AR02016](./hardware/firmware.md#switches) (S1, S2)
+- TVS Devices: [Texas Instruments TVS1400DRV](./hardware/connectors.md#power-pin-voltage-surge-protection) (U3, U5) and [Texas Instruments TVS0500DRV](./hardware/connectors.md#power-pin-voltage-surge-protection) (U4, U6)
+- ESD Diodes: [R+O H5VL10B](./hardware/connectors.md#signal-pin-voltage-surge-protection) (D1-D7)
+- USB Connector: [G-Switch GT-USB-7010ASV](./hardware/development.md#usb-connector) (J3)
+- IU Connector: [JST S05B-PASK-2](./hardware/connectors.md#connectors) (J1)
+- WR Connector: [JST S05B-PASK-2](./hardware/connectors.md#connectors) (J2)
+- Switches: [XunPu TS-1088-AR02016](./hardware/development.md#switches) (S1, S2)
 - Capacitors: [Samsung Electro-Mechanics capacitors](./hardware/passive.md#capacitors) (C1-C15)
 - Resistors: [Uni-royal thick film 0402/0603/0805/1206/1210/1812/2010/2512 series resistors](./hardware/passive.md#resistors) (R1-R13)
 - Inductor: [Murata DFE201610E-R47M=P2 inductor](./hardware/passive.md#inductors) (L1)
