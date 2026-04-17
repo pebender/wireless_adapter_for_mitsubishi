@@ -1,22 +1,27 @@
-# Indoor Unit and Wireless Receiver Connections
+# Operational Connectors
 
 ## Connectors
 
-There are four connectors
+The wireless adapter has two operational connectors
+
+- the IU connector and
+- the WR connector.
+
+The IU connector connects the wireless adapter to the Mitsubishi Electric heat pump's indoor unit. The WR connector connects the wireless adapter to the Mitsubishi Electric MIFH1/MIFH2 wireless receiver. So, there are four connectors involved
 
 - the indoor unit's CN105 connector, and
 - the wireless adapter's WR connector.
 - the wireless adapter's IU connector, and
-- MIFH1/MIFH2 wireless receiver's cable connector.
+- the wireless receiver's cable connector.
 
-that can be divided into two classes
+These connectors can be divided into two classes
 
 - Output connectors:
     - the indoor unit's CN105 connector, and
     - the wireless adapter's WR connector.
 - Input connectors:
     - the wireless adapter's IU connector, and
-    - MIFH1/MIFH2 wireless receiver's cable connector.
+    - wireless receiver's cable connector.
 
 where output connectors source power and input connectors sync power.
 
@@ -97,23 +102,23 @@ sequenceDiagram
 
 ## Power Pins
 
-The 12.7V, GND and 5V are wired directly from the indoor unit to the MIFH1/MIFH2 wireless receiver. In addition, they are wired directly from the indoor unit to the wireless adapter. In particular, the 5V powers the level shifter's 5V rail, and the 12.7V powers the rest of the wireless adapter.
+The 12.7V, GND and 5V are wired directly from the indoor unit to the wireless receiver. In addition, they are wired directly from the indoor unit to the wireless adapter. In particular, the 5V powers the level shifter's 5V rail, and the 12.7V powers the rest of the wireless adapter.
 
 ### Power Pin Voltage Surge Protection
 
 Because of this direct wiring, voltage surges on a WR connector's power pin can travel to the IR connector's corresponding power pin and damage the indoor unit. Likewise, voltage surges on the IR connector's power pin can travel to the corresponding WR connector's power pin and damage the wireless receiver. Therefore, it's important to maximize protection against voltage surges on the power pins. So, I chose the most conservative surge protection devices I could find, which are the [Texas Instruments flat-clamp surge protection devices](https://www.ti.com/lit/wp/slyy127/slyy127.pdf). The 12.7V power pins on the IU and WR connectors rely on the [Texas Instruments TVS1400](https://www.ti.com/product/TVS1400) to clamp the voltage below 19.3V. The 5V pins on the IU and WR connectors rely on the [Texas Instruments TVS0500](https://www.ti.com/product/TVS0500) to clamp the voltage below 9.5V.
 
-### Trace Protection
+### Power Trace Protection
 
-The JST PA family of connectors support up to 3A per pin. While I don't expect the indoor unit will supply 3A or the MIFH1/MIFH2 wireless receiver will draw 3A, I have found nothing to show that they couldn't. Therefore, I chose 1.2mm wide power traces between the IU and WR connectors. This results in a 12.5&deg;C temperature rise at 3A. Wider traces would have resulted in a lower temperature rise but would have resulted in a less compact layout for a situation that is unlikely to occur.
+The JST PA family of connectors support up to 3A per pin. In addition, [it appears that at least some indoor units](https://cuttlefishblacknet.wordpress.com/2019/05/) have a 3A fuse on the 12.7V power supply. While I don't expect the indoor unit will supply 3A or the wireless receiver will draw 3A, I have found nothing to show that they couldn't. Therefore, I chose 1.2mm wide power traces between the IU and WR connectors. This results in a 12.5&deg;C temperature rise at 3A. Wider traces would have resulted in a lower temperature rise but would have resulted in a less compact layout for a situation that is unlikely to occur.
 
 ## Signal Pins
 
-The indoor unit's UART signals are wired to the wireless adapter, and the MIFH1/MIFH2 wireless receiver's UART signals are wired to the wireless adapter. This allows the wireless adapter to manipulate the indoor unit's and MIFH1/MIFH2 wireless receiver's UART signals. Essentially, the wireless adapter acts as a man-in-the-middle.
+The indoor unit's UART signals are wired to the wireless adapter, and the wireless receiver's UART signals are wired to the wireless adapter. This allows the wireless adapter to manipulate the indoor unit's and wireless receiver's UART signals. Essentially, the wireless adapter acts as a man-in-the-middle.
 
 ### Level Shifter
 
-For their UART signaling, the indoor unit and the MIFH1/MIFH2 wireless receiver use 5V logic. However, the [SoC](./soc.md) uses 3.3V logic. As a result, for the UART signals to be most reliable, the wireless adapter needs a level shifter to convert between the 5V logic and the 3.3V logic.
+For their UART signaling, the indoor unit and the wireless receiver use 5V logic. However, the [SoC](./soc.md) uses 3.3V logic. As a result, for the UART signals to be most reliable, the wireless adapter needs a level shifter to convert between the 5V logic and the 3.3V logic.
 
 There are many different level shifters both discrete and integrated. I chose the [Texas Instruments TXS0104EPW](https://www.ti.com/product/TXS0104E) because
 

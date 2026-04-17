@@ -2,6 +2,13 @@
 
 I designed the wireless adapter hardware to meet [these requirements](./requirements.md).
 
+The current design has the same circuit design and same PCB layout as the design I had fabricated. However, there are some changes
+
+- I updated from KiCad 9.0.x to KiCad 10.0.x,
+- I switched from a hierarchical schematic to a flat schematic,
+- I removed the wall mounting passthrough hole from the PCB, and
+- I added the name and revision to the PCB.
+
 ## Architecture
 
 The high level block diagram below shows basic functions of the wireless adapter.
@@ -116,23 +123,25 @@ Because I chose JLCPCB, I made sure the parts I used are available from [JLCPCB 
 
 I made two versions of the PCBA. The first version was the test version. The second version was the "production" version. The first version worked but the USB-C connector was poorly placed. The second version was similar to the first version except the switches and ESD diodes were replaced with basic or promotional extended parts, the LEDs were removed, and the layout was changed.
 
-## The Parts List
+## The Completed Design
+
+### The Parts List
 
  The PCBA contains the parts
 
-- System on a Chip: [Espressif ESP32-C6-WROOM-1-N8](./hardware/soc.md)
-- Level Shifter: [Texas Instruments TXS0104EPW](./hardware/connection.md#level-shifter)
-- Power Multiplexer: [Texas Instruments TPS2121RUX](./hardware/power.md#power-source-multiplexing)
-- Power Module: [Texas Instruments TPSM5601R5HRDA](./hardware/power.md#33v-output-switching-regulator)
-- TVS Devices: [Texas Instruments TVS1400DRV](./hardware/connection.md#power-pin-voltage-surge-protection) and [Texas Instruments TVS0500DRV](./hardware/connection.md#power-pin-voltage-surge-protection)
-- ESD Diodes: [R+O H5VL10B](./hardware/connection.md#signal-pin-voltage-surge-protection)
-- USB Connector: [G-Switch GT-USB-7010ASV](./hardware/firmware.md#usb-connector)
-- IU Connector: [JST S05B-PASK-2](./hardware/connection.md#connectors)
-- WR Connector: [JST S05B-PASK-2](./hardware/connection.md#connectors)
-- Switches: [XunPu TS-1088-AR02016](./hardware/firmware.md#switches)
-- Capacitors: [Samsung Electro-Mechanics capacitors](./hardware/passive.md#capacitors)
-- Resistors: [Uni-royal thick film 0402/0603/0805/1206/1210/1812/2010/2512 series resistors](./hardware/passive.md#resistors)
-- Inductor: [Murata DFE201610E-R47M=P2 inductor](./hardware/passive.md#inductors)
+- System on a Chip: [Espressif ESP32-C6-WROOM-1-N8](./hardware/soc.md) (U1)
+- Level Shifter: [Texas Instruments TXS0104EPW](./hardware/connection.md#level-shifter) (U2)
+- Power Multiplexer: [Texas Instruments TPS2121RUX](./hardware/power.md#power-source-multiplexing) (U7)
+- Power Module: [Texas Instruments TPSM5601R5HRDA](./hardware/power.md#33v-output-switching-regulator) (U8)
+- TVS Devices: [Texas Instruments TVS1400DRV](./hardware/connection.md#power-pin-voltage-surge-protection) (U3, U5) and [Texas Instruments TVS0500DRV](./hardware/connection.md#power-pin-voltage-surge-protection) (U4, U6)
+- ESD Diodes: [R+O H5VL10B](./hardware/connection.md#signal-pin-voltage-surge-protection) (D1-D7)
+- USB Connector: [G-Switch GT-USB-7010ASV](./hardware/firmware.md#usb-connector) (J3)
+- IU Connector: [JST S05B-PASK-2](./hardware/connection.md#connectors) (J1)
+- WR Connector: [JST S05B-PASK-2](./hardware/connection.md#connectors) (J2)
+- Switches: [XunPu TS-1088-AR02016](./hardware/firmware.md#switches) (S1, S2)
+- Capacitors: [Samsung Electro-Mechanics capacitors](./hardware/passive.md#capacitors) (C1-C15)
+- Resistors: [Uni-royal thick film 0402/0603/0805/1206/1210/1812/2010/2512 series resistors](./hardware/passive.md#resistors) (R1-R13)
+- Inductor: [Murata DFE201610E-R47M=P2 inductor](./hardware/passive.md#inductors) (L1)
 
 When selecting parts, I selected
 
@@ -140,6 +149,12 @@ When selecting parts, I selected
 - Texas Instruments parts because I am familiar with Texas Instruments' design documentation and tools, and
 - JLCPCB basic and promotional extended parts because they are less expensive during assembly.
 
-## The Completed Design
+### The Schematic
+
+![schematic](./hardware/schematic/wireless_adapter_for_mitsubishi.svg)
+
+### The PCBA
+
+![PCBA](./hardware/pcba/wireless_adapter_for_mitsubishi.png)
 
 The completed PCBA is a two-layer, rigid PCBA. The bottom layer contains a ground plane. The top layer contains ground pours, the power pours, the power traces, the signal traces and the parts.

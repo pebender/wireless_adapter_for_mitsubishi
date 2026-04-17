@@ -9,21 +9,21 @@ The power design uses
 - capacitors at the input and output of the TPSM5601R5HRDA to reduce output voltage ripple caused by the power module's switching nature and the load's variable current demand, and
 - a filter before the input capacitors to reduce the conducted EMI caused by the power module's switching nature to a level that meets the CISPR 22 Class B requirements.
 
-In addition, power from the IU connector's 5V pin powers the 5V side level shifter.
+In addition, the power design uses power from the IU connector's 5V pin to power the 5V side of the operational connectors' level shifter.
 
-## Power Multiplexing
+## Power Multiplexer
 
-In order to power the wireless adapter from the IU connector's 12.7V pin during normal operation and from the USB connector's VBUS pins during development, there must be a way to safely and reliably arbitrate between the two potential power sources. To accomplish this, the design uses the [Texas Instruments TPS2121RUX](https://www.ti.com/product/TPS2121) power multiplexer to multiplex the 12.7V supply from the UI connector and the 5V supply from the USB connector so that the wireless adapter is powered by the 12.7V supply from the indoor unit during normal operation and by the 5V supply from the USB host during development, debug and recovery. The 12.7V supply from the UI connector takes priority over the 5 supply from the USB connector. This enables development, debug and recovery while connected to the indoor unit.
+In order to power the wireless adapter from the IU connector's 12.7V pin during normal operation and from the USB connector's VBUS pins during firmware development, there must be a way to safely and reliably arbitrate between the two potential power sources. To accomplish this, the design uses the [Texas Instruments TPS2121RUX](https://www.ti.com/product/TPS2121) power multiplexer to multiplex the 12.7V supply from the UI connector and the 5V supply from the USB connector so that the wireless adapter is powered by the 12.7V supply from the indoor unit during normal operation and by the 5V supply from the USB host during firmware development. The 12.7V supply from the UI connector takes priority over the 5 supply from the USB connector. This enables firmware development while connected to the indoor unit.
 
 I chose the Texas Instruments TPS2121RUX power multiplexer because it handles up to a 24V input, which is more than the 19.3V limited to by the [surge protection](./connection.md#power-pin-voltage-surge-protection).
 
-### Rejected Power Multiplexing Options
+### Rejected Power Multiplexer Options
 
-The design could have assumed that the IU connector and the USB connector are never connected at the same time, which would have eliminated the need for the power multiplexer. However, that would put the indoor unit, the USB host and the wireless adapter at risk. Therefore, I did not take this approach.
+The design could have assumed that the IU connector and the USB connector would never be connected at the same time, which would have eliminated the need for the power multiplexer. However, that would put the indoor unit, the USB host and the wireless adapter at risk. In addition, it would make firmware more difficult Therefore, I did not take this approach.
 
 The design could have used a mechanical solution such as a jumper or a switch to select the power source. However, jumpers can come loose and both jumpers and switches must be put in the correct position by the user. So, a mechanical solution is susceptible to user error. Therefore, I did not take this approach.
 
-The design could have used Schottkey diodes for power ORing. However, the ~0.5V voltage drop across the diode translates to ~4% power loss when being powered by the 12.7V supply, which is significant when the ESP32-C6-WROOM-1 recommendation of a power supply of 1.65W (3.3V @ 500mA) and the device must draw no more than 2W from the 12.7V supply. Therefore, I did not take this approach.
+The design could have used Schottkey diodes for power ORing. However, the ~0.5V voltage drop across the diode translates to ~4% power loss when being powered by the 12.7V supply, which is significant when the ESP32-C6-WROOM-1 recommendation for a power supply of 1.65W (3.3V @ 500mA) and the device must draw no more than 2W from the 12.7V supply. Therefore, I did not take this approach.
 
 The design could hae used discrete transistors and resistors for power ORing. As the Texas Instruments TPS2121RUX costs ~$1.00 in small quantities, the discrete solution would very likely be cheaper. However, the ASIC requires fewer components and is more likely to work correctly on the first try. Maybe in the next iteration, I will replace the TPS2121RUX with discrete transistors and resistors. But for this iteration, I did not take this approach.
 
@@ -59,7 +59,7 @@ Since a linear step down regulator that converts from 12.7V to 3.3V would be 26.
 
 The indoor unit and wireless receiver side of the level shifter uses 5V.
 
-Converting the 12.7V power source to both 3.3V and 5V would require more circuitry and likely be less efficient than just converting to 3.3V. One solution is to use an LM7805 to convert from 12.7V to 5V [as appears to be done in at least some indoor units](https://cuttlefishblacknet.wordpress.com/2019/05/). Another solution is to convert from 3.3V to 5V using a boost converter. The level shifting circuit draws relatively little power from either the 3.3V source of the 5V source. Therefore, the wireless adapter uses the 5V source from the indoor unit to power the 5V side of the level shifting circuitry.
+Converting the 12.7V power source to both 3.3V and 5V would require more circuitry than just converting to 3.3V. One solution is to use an LM7805 to convert from 12.7V to 5V [as appears to be done in at least some indoor units](https://cuttlefishblacknet.wordpress.com/2019/05/). Another solution is to convert from 3.3V to 5V using a boost converter. The level shifting circuit requires relatively little power from either the 3.3V source of the 5V source. Therefore, the wireless adapter uses the 5V source from the indoor unit to power the 5V side of the level shifting circuitry.
 
 ### Power During Recovery
 
@@ -73,7 +73,7 @@ The power multiplexer may feed the switching regulator from the USB connector's 
 
 The wireless adapter's USB connector is a USB 2.0 full speed (12Mbps), high power (1.5A @ 5V) connection. Per the USB 2.0 specification, the voltage on the supplied to the device must be at least 4.35V for low power devices and 4.75V for high power devices. Since all high power devices must be able to operate as low power devices, the switching regulator must operate normally with an input voltage as low as 4.35V.
 
-I don't know the indoor unit's 12.7V source characteristics. However, it's voltage is unlikely to drop as low as the lower limit set by the USB connector. In addition, the Texas Instruments TPS2121RUX operates normally with input voltages up to 22V and survives transient input voltages up to 24V. Finally, the Texas Instruments TVS1400DRV I selected for TVS protection on the 12.7V IU and MHK connector pins, has a maximum clamping voltage of 19.3V. Therefore, as long as the switching regulator operates normally with an input voltage as high as 22V and survives a transient input voltage as high as 24V, the Texas Instruments TPS2121RUX and not the switching regulator will be the limiting factor.
+I don't know the indoor unit's 12.7V source characteristics. However, it's voltage is unlikely to drop as low as the lower limit set by the USB connector. In addition, the Texas Instruments TPS2121RUX operates normally with input voltages up to 22V and survives transient input voltages up to 24V. Finally, the Texas Instruments TVS1400DRV I selected for TVS protection on the 12.7V IU and WR connector pins, has a maximum clamping voltage of 19.3V. Therefore, as long as the switching regulator operates normally with an input voltage as high as 22V and survives a transient input voltage as high as 24V, the Texas Instruments TPS2121RUX and not the switching regulator will be the limiting factor.
 
 #### Selecting the Switching Regulator
 
@@ -118,7 +118,7 @@ The [TPSM5601R5H datasheet](./references/parts/Texas_TPSM5601R5H.pdf), the [TPSM
 
 ##### Choosing the Feedback Resistors
 
-The TPSM5601R5HRDA needs a top feedback resistor and a bottom feedback resistor to set the output voltage. Section 8.3.1 of the TPSM5601R5HRDA datasheet provides an equation that relates the ratio of the two resistors to the desired output voltage, recommends the value of the top feedback resistor should 10kΩ, and recommends the value of the top feedback resistor should not exceed 1MΩ. Figure 8-1 of the TPSM5601R5HRDA evaluation wireless adapter shows that the evaluation wireless adapter uses a 10kΩ to feedback resistor. However, the design recommended by WEBENCH Power Designer uses a 100kΩ top feedback resistor.
+The TPSM5601R5HRDA needs a top feedback resistor and a bottom feedback resistor to set the output voltage. Section 8.3.1 of the TPSM5601R5HRDA datasheet provides an equation that relates the ratio of the two resistors to the desired output voltage, recommends the value of the top feedback resistor should 10kΩ, and recommends the value of the top feedback resistor should not exceed 1MΩ. Figure 8-1 of the TPSM5601R5HRDA evaluation wireless adapter shows that the evaluation wireless adapter uses a 10kΩ to feedback resistor. However, the design recommended by WEBENCH&reg; Power Designer uses a 100kΩ top feedback resistor.
 
 I chose a top feedback resistor of 51kΩ and bottom feedback resistor of 22kΩ. I chose these values because
 
@@ -165,7 +165,7 @@ If the WEBENCH&reg; suggested 4.7μF capacitor is replaced with two 2.2μF, then
 
 For input capacitors, I chose two 22nF capacitors and two 2.2μF because
 
-- it is in line with the values suggested by WEBENCH Power Designer, and
+- it is in line with the values suggested by WEBENCH&reg; Power Designer, and
 - JLCPCB's basic tier has a [22nF](https://jlcpcb.com/partdetail/21834-CL10B223KB8NNNC/C21122)
 capacitor and a [2.2μF](https://jlcpcb.com/partdetail/51263-CL31B225KBHNNNE/C50254)
 

@@ -16,7 +16,7 @@ The wireless adapter has three distinct parts
 
 The [hardware](./docs/hardware.md) is likely both overly and poorly designed. Relative to many other people's designs, my design pays (more) attention to safety, including correct logic levels, safe power consumption and transient voltage suppression.
 
-The [hardware](./docs/hardware.md) is a two-layer printed circuit board assembly (PCBA). I did the design and layout using the Open Source PCB design suite [KiCad](https://www.kicad.org). In addition, I did the step down power supply design using [Texas Instrument's WEBENCH&reg; Power Designer](https://webench.ti.com/power-designer/). I paid [JLCPCB](https://jlcpcb.com) to fabricate and assemble the hardware. I licensed the hardware design and layout under the [MIT license](./MIT.txt).
+The hardware is a two-layer printed circuit board assembly (PCBA). I did the design and layout using the Open Source PCB design suite [KiCad](https://www.kicad.org). In addition, I did the step down power supply design using [Texas Instrument's WEBENCH&reg; Power Designer](https://webench.ti.com/power-designer/). I paid [JLCPCB](https://jlcpcb.com) to fabricate and assemble the hardware. I licensed the hardware design and layout under the [MIT license](./LICENSE.txt).
 
 ### The Wireless Adapter Enclosure
 
@@ -35,7 +35,7 @@ I undertook this project because
 - I needed a project,
 - I wanted to learn what it takes to develop hardware today,
 - I wanted to learn what it takes to develop enclosures, and
-- I wasn't satisfied with our current solution for connecting the indoor units of our Mitsubishi Electric heat pump system to our home automation system. It depends on two [Honeywell THM6000R7001 RedLINK&trade; Internet Gateways](https://www.resideo.com/us/en/pro/products/air/thermostats/thermostat-accessories/redlinkr-internet-gateway-with-ethernet-cable-and-power-cord-thm6000r7001-u/) and the [Honeywell Home Total Connect Comfort](https://mytotalconnectcomfort.com) cloud. Because of its reliance on the RedLINK&trade; wireless protocol, it's relatively slow. In addition, because its reliance on the cloud it's relatively unreliable.
+- I wasn't satisfied with our current solution for connecting the indoor units of our Mitsubishi Electric heat pump system to our home automation system. It depends on two [Honeywell THM6000R7001 RedLINK&reg; Internet Gateways](https://www.resideo.com/us/en/pro/products/air/thermostats/thermostat-accessories/redlinkr-internet-gateway-with-ethernet-cable-and-power-cord-thm6000r7001-u/) and the [Honeywell Home Total Connect Comfort](https://mytotalconnectcomfort.com) cloud. Because of its reliance on the RedLINK&reg; wireless protocol, it's relatively slow. In addition, because its reliance on the cloud it's relatively unreliable.
 
 I wouldn't have undertaken this project had others not already done the work to connect their Mitsubishi Electric heat pumps to their home automation systems, including
 

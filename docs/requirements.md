@@ -39,7 +39,7 @@ In addition to being paired with its MRCH1 remote controller, the MIFH1 wireless
 4. The wireless adapter must not require a cloud.
     - This prevents the owner of the wireless adapter from being subject to the whims of the cloud provider. For example, I was burned by a Genie Aladdin Connect when they changed their cloud API effectively blocking Home Assistant from using the cloud API.
 5. The wireless adapter development tools must be Open Source.
-    - This makes it easier to modify the wireless adapter design because 
+    - This makes it easier to view and modify the wireless adapter design because the development tools are available without monetary or other restrictions.
 
 ### Connected Hardware Requirements
 
@@ -48,11 +48,8 @@ In addition to being paired with its MRCH1 remote controller, the MIFH1 wireless
     - the Mitsubishi Electric MSZ-GL09NA-U1,
     - the Mitsubishi Electric MSZ-GL15NA-U1 and
     - the Mitsubishi Electric MSZ-GL18NA-U1.
-    These are my indoor unit models.
 2. The wireless adapter must support the MIFH1 wireless receiver.
-    - Each of my indoor units has an MIFH1 wireless receiver attached.
 3. The wireless adapter must support the MIFH2 wireless receiver (aka MIFH2 receiver).
-    - I can't test this as I don't have an MHK2 wireless remote controller kit.
 4. The wireless adapter must allow normal operation of the Mitsubishi Electric MHK1 remote controller kit.
 5. The wireless adapter must allow normal operation of the Mitsubishi Electric MHK2 remote controller kit.
 

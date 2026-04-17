@@ -1,5 +1,10 @@
 # Wireless Adapter Enclosure
 
+The current design has the same as the design I had fabricated. However, there are some changes
+
+- I updated from FreeCAD 1.0.x to FreeCAD 1.1.x, and
+- I updated the PCBA STEP file to match the update PCB.
+
 ## Design
 
 I took a conservative approach to the design. The design has a top and bottom. The bottom has four holes for mounting the enclosure to the wall using the drywall anchors. The bottom has four risers with M3 threaded holes for mounting the PCBA to the bottom. The PCBA is attached to the risers using standoffs so that top can be attached to the bottom using four M3 screws that go through the top and screw into the standoffs.
