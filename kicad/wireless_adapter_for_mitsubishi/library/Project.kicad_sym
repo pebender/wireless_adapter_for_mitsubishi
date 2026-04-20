@@ -5913,8 +5913,11 @@
 		(embedded_fonts no)
 	)
 	(symbol "XunPu_TS-1088-AR02016"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0)
+			(offset 1.016)
 			(hide yes)
 		)
 		(exclude_from_sim no)
@@ -5923,20 +5926,20 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "S"
-			(at 0.508 4.572 0)
+			(at 1.27 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "XunPu_TS-1088-AR02016"
-			(at 0 3.81 0)
+			(at 0 -1.524 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5944,7 +5947,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
-			(at 0 0 0)
+			(at 0 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -5955,7 +5958,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C720477.pdf"
-			(at 0 0 0)
+			(at 0 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -6009,7 +6012,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "switch lever"
+		(property "ki_keywords" "switch normally-open pushbutton push-button"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6020,7 +6023,7 @@
 				)
 			)
 		)
-		(symbol "XunPu_TS-1088-AR02016_0_0"
+		(symbol "XunPu_TS-1088-AR02016_0_1"
 			(circle
 				(center -2.032 0)
 				(radius 0.508)
@@ -6034,7 +6037,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 0.254) (xy 1.524 1.778)
+					(xy 0 1.27) (xy 0 3.048)
 				)
 				(stroke
 					(width 0)
@@ -6055,12 +6058,22 @@
 					(type none)
 				)
 			)
-		)
-		(symbol "XunPu_TS-1088-AR02016_1_1"
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy -2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "A"
+				(name "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6078,7 +6091,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "B"
+				(name "2"
 					(effects
 						(font
 							(size 1.27 1.27)
