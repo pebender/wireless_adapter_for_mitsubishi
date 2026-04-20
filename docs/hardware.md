@@ -2,12 +2,14 @@
 
 I designed the wireless adapter hardware to meet [these requirements](./requirements.md).
 
-The current design has the same circuit design and same PCB layout as the design I had fabricated. However, there are some changes
+The current design is the same circuit design and PCB layout as the design I had fabricated except
 
-- I updated from KiCad 9.0.x to KiCad 10.0.x,
-- I switched from a hierarchical schematic to a flat schematic,
-- I removed the wall mounting passthrough hole from the PCB, and
-- I added the name and revision to the PCB.
+- I changed the value of capacitor C2 from 1μF to 0.1μF,
+- I removed instances of different signals sharing one ground via from the PCB,
+- I removed the wall mounting passthrough hole from the PCB,
+- I added the name and revision to the PCB,
+- I switched from a hierarchical schematic to a flat schematic, and
+- I updated from KiCad 9.0.x to KiCad 10.0.x.
 
 ## Architecture
 
@@ -17,9 +19,9 @@ The [USB connector](./hardware/development.md#usb-connector) (along with the [re
 
 The [IU connector](./hardware/connectors.md#the-wireless-adapters-iu-connector) and [WR connector](./hardware/connectors.md#the-wireless-adapters-wr-connector) connect to the indoor unit of a Mitsubishi Electric heat pump and the wireless receiver of a Mitsubishi Electric controller kit respectively
 
-The [power multiplexer](./hardware/power.md#power-multiplexer) switches between the 5V power provided through the USB connector and the 12.7V power provided through the IU connector, with priority given to the IU connector's 12.7V power when present. This allows the USB connector to power the System on a Chip (SoC) during development and recovery.
+The [power multiplexer](./hardware/power.md#power-multiplexer) switches between the 5V power provided through the USB connector and the 12.7V power provided through the IU connector, with priority given to the IU connector's 12.7V power when present. This allows the USB connector to power the System on a Chip (SoC) during development.
 
-The [power module](./hardware/power.md#33v-output-switching-regulator) converts the power from the output of the power multiplexer to the 3.3V needed to power the SoC as well as power the SoC side of the level shifter.
+The [voltage regulator](./hardware/power.md#33v-output-switching-voltage-regulator) converts the power from the output of the power multiplexer to the 3.3V needed to power the SoC as well as power the SoC side of the level shifter.
 
 The [level shifter](./hardware/connectors.md#level-shifter) converts the UART signals between the 3.3V signals expected by the SoC and the 5V signals expected by the indoor unit (connected via the IU connector) and the wireless receiver (connected via the WR connector).
 
@@ -38,7 +40,7 @@ WR["WR Connector"]
 space:7
 
 space:2
-PWR_MUX["Power Multiplexer"]
+MULTIPLEXER["Power Multiplexer"]
 space:1
 
 block:LS["Level Shifter"]:3
@@ -55,7 +57,7 @@ end
 space:7
 
 space:2
-PWR_MOD["Power Module"]
+REGULATOR["Voltage Regulator"]
 space:4
 
 space:7
@@ -79,13 +81,13 @@ block:SOC["System on a Chip"]:7
   BLE["Bluetooth LE"]
 end
 
-USB -- "5V" --> PWR_MUX
+USB -- "5V" --> MULTIPLEXER
 USB -- "D+/D-" --> USB_JTAG
 USB_JTAG -- "D+/D-" --> USB
 
-PWR_MUX --> PWR_MOD
+MULTIPLEXER --> REGULATOR
 IU -- "12.7V/5V/GND" --> WR
-IU -- "12.7V" --> PWR_MUX
+IU -- "12.7V" --> MULTIPLEXER
 
 IU -- "5V" --> LS_5V
 IU -- "UART TX/RX" --> LS_IU_5V
@@ -98,13 +100,13 @@ LS_IU_3V3 --> LS_IU_5V
 LS_WR_5V --> LS_WR_3V3
 LS_WR_3V3 --> LS_WR_5V
 
-PWR_MOD -- "3.3V" --> LS_3V3
+REGULATOR -- "3.3V" --> LS_3V3
 LS_IU_3V3 -- "UART TX/RX" --> UART_0
 UART_0 -- "UART TX/RX" --> LS_IU_3V3
 LS_WR_3V3 -- "UART RX/TX" --> UART_1
 UART_1 -- "UART RX/TX" --> LS_WR_3V3
 
-PWR_MOD -- "3.3V" --> SOC_3V3
+REGULATOR -- "3.3V" --> SOC_3V3
 ```
 
 # Fabrication and Assembly
@@ -132,7 +134,7 @@ I made two versions of the PCBA. The first version was the test version. The sec
 - System on a Chip: [Espressif ESP32-C6-WROOM-1-N8](./hardware/soc.md) (U1)
 - Level Shifter: [Texas Instruments TXS0104EPW](./hardware/connectors.md#level-shifter) (U2)
 - Power Multiplexer: [Texas Instruments TPS2121RUX](./hardware/power.md#power-multiplexer) (U7)
-- Power Module: [Texas Instruments TPSM5601R5HRDA](./hardware/power.md#33v-output-switching-regulator) (U8)
+- Power Module: [Texas Instruments TPSM5601R5HRDA](./hardware/power.md#33v-output-switching-voltage-regulator) (U8)
 - TVS Devices: [Texas Instruments TVS1400DRV](./hardware/connectors.md#power-pin-voltage-surge-protection) (U3, U5) and [Texas Instruments TVS0500DRV](./hardware/connectors.md#power-pin-voltage-surge-protection) (U4, U6)
 - ESD Diodes: [R+O H5VL10B](./hardware/connectors.md#signal-pin-voltage-surge-protection) (D1-D7)
 - USB Connector: [G-Switch GT-USB-7010ASV](./hardware/development.md#usb-connector) (J3)

@@ -1,15 +1,15 @@
 # Wireless Adapter Enclosure
 
-The current design has the same as the design I had fabricated. However, there are some changes
+The current design is the same as the design I had fabricated except
 
 - I updated from FreeCAD 1.0.x to FreeCAD 1.1.x, and
-- I updated the PCBA STEP file to match the update PCB.
+- I updated the PCBA STEP file to match the updated PCB.
 
 ## Design
 
-I took a conservative approach to the design. The design has a top and bottom. The bottom has four holes for mounting the enclosure to the wall using the drywall anchors. The bottom has four risers with M3 threaded holes for mounting the PCBA to the bottom. The PCBA is attached to the risers using standoffs so that top can be attached to the bottom using four M3 screws that go through the top and screw into the standoffs.
+I took a conservative approach to the design. The design has a top and bottom. The bottom has four holes for mounting the enclosure to the wall using drywall anchors. The bottom has four risers with M3 threaded holes for mounting the PCBA to the bottom. The PCBA is attached to the risers using standoffs so that top can be attached to the bottom using four M3 screws that go through the top and screw into the standoffs.
 
-I chose to print using a SLA (resin) printer rather than a FDM (plastic) printer because
+I chose to print using an SLA (resin) printer rather than an FDM (plastic) printer because
 
 - the printing cost of SLA is less than printing cost of FDM at JLCPCB, and
 - the finish of SLA is smoother than the finish of FDM.
@@ -20,23 +20,23 @@ The bottom has four risers for attaching the PCBA to the bottom. Each riser has 
 
 Because the enclosure is made from resin not plastic, methods for adding strong M3 threaded holes that require melting the enclosure won't work.
 
-I tried printing each riser with a hole to receive an M4 to M3 thread repair insert. It turned out it didn't work because the SLA printer could not reliably print M4 threads. So, I tried three different methods for creating strong M3 threaded holes.
+I tried printing each riser with a threaded hole to receive an M4 to M3 thread repair insert. It turned out it didn't work because the SLA printer could not reliably print M4 threads. So, I tried three different methods for creating strong M3 threaded holes.
 
-1. print each riser with a hole to receive a 10mm long M6 to M3 thread repair insert ("bottom_T" in the FreeCAD design),
-2. print each riser with a hole to receive a 10mm long M6 to M3 thread repair insert and to receive an anchor screw from the underside ("bottom_TWA" in the FreeCAD design), and
-3. print each riser with a hole to receive a 10mm long M3 hex coupling nuts and to receive an anchor screw from the underside ("bottom_HWA" in the FreeCAD design).
+1. print each riser with a threaded hole to receive a 10mm long M6 to M3 thread repair insert ("bottom_T" in the FreeCAD design),
+2. print each riser with a threaded hole to receive a 10mm long M6 to M3 thread repair insert and a hole to receive an anchor screw from the underside ("bottom_TWA" in the FreeCAD design), and
+3. print each riser with a hexagonal hole to receive a 10mm long M3 hex coupling nuts and a hole to receive an anchor screw from the underside ("bottom_HWA" in the FreeCAD design).
 
-The 10mm long M6 to M3 thread repair insert are standardized because they are essentially a M6 screw. I used the [HARFINGTON 10mm long M6 to M3 thread repair insert](https://www.amazon.com/dp/B0FDB66YRK). Unfortunately, the 10mm long M3 hex coupling is not standardized because the outer diameter is manufacturer dependent. I designed the riser hole around the [uxcell 10mm long M3 hex coupling nut](https://www.amazon.com/dp/B09MWGV53L). For anchor screws, I used the [uxcell 8mm long flat countersunk head, hex drive M3 screws](https://www.amazon.com/dp/B07WJLFW2W).
+The 10mm long M6 to M3 thread repair insert are standardized because they are essentially a M6 screw. I used the [HARFINGTON 10mm long M6 to M3 thread repair insert](https://www.amazon.com/dp/B0FDB66YRK). Unfortunately, the 10mm long M3 hex coupling is not standardized because its outer diameter is manufacturer dependent. I designed the riser hexagonal hole around the [uxcell 10mm long M3 hex coupling nut](https://www.amazon.com/dp/B09MWGV53L). For anchor screws, I used the [uxcell 8mm long flat countersunk head, hex drive M3 screws](https://www.amazon.com/dp/B07WJLFW2W).
 
-To add extra strength, I thought I could add thick viscosity CA glue.
+To add extra strength, I thought I could add thick viscosity CA glue:
 
 - for (1), I thought I could add glue to the M6 threads
 - for (2), I thought I could add glue to the M6 threads and to the M3 threads of the anchor screw, and
 - for (3), I thought I could add glue to the outside of the M3 hex coupling nuts and to the M3 threads of the anchor screw.
 
-However, adding glue to (1) proved problematic. Glue got into some of the M3 threads, which made it difficult or impossible to screw in an M3 screw. Perhaps I could have avoided this had I put a M3 screw while screwing in the glue-coated thread repair insert. I tried to force the screw in hopes it would clear the glue. Instead, when I tried to remove the forced screw, I removed the thread repair insert. I discovered that the tight fit of the M6 threads had forced the glue out of the threads, making the glue useless. So, I abandon the idea of gluing in the thread repair inserts and the anchor screws.
+However, adding glue to (1) proved problematic. Glue got into some of the M3 threads, which made it difficult or impossible to screw in an M3 screw. Perhaps I could have avoided this had I put an M3 screw in the thread repair insert while screwing in the glue-coated thread repair insert. I tried to force the screw in hopes it would clear the glue. Instead, when I tried to remove the forced screw, I removed the thread repair insert. I discovered that the tight fit of the M6 threads had forced the glue out of the threads, making the glue useless. So, I abandon the idea of gluing in the thread repair inserts and the anchor screws.
 
-Since I destroyed too many of (1), I will use either (2) or (3). Since I have an affinity for the thread repair inserts, I will likely use (2).
+Since I destroyed too many of (1), I had to use either (2) or (3). Since I have an affinity for the thread repair inserts, I used (2).
 
 ### Top and Bottom Attachment
 

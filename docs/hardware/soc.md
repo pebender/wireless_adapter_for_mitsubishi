@@ -1,9 +1,11 @@
 # The System on a Chip
 
-I chose an System on a Chip (SoC) from the Espressif ESP32 family because
+I chose a System on a Chip (SoC) from the Espressif ESP32 family because
 
-- I am familiar with the ESP32 family, and
-- [ESPHome](https://esphome.io) has good support for the ESP32 family.
+- the ESP32 family contains SoCs that meet the requirements,
+- I am familiar with the ESP32 family,
+- [ESPHome](https://esphome.io) has good support for the ESP32 family, and
+- the ESP32 family contains pre-certified SoC modules.
 
 I chose the [ESP32-C6-WROOM-1-N8](https://documentation.espressif.com/esp32-c6-wroom-1_wroom-1u_datasheet_en.pdf) because
 

@@ -29,7 +29,7 @@ The design could hae used discrete transistors and resistors for power ORing. As
 
 The design could have done power ORing after conversion to 3.3V. Doing this would have allowed the use of the less expensive [Texas Instruments LM66200DRL](https://www.ti.com/product/LM66200). However, ORing after the conversion to 3.3V would have required separate step down converters for the UI connector's 12.7V supply and the USB connector's 5V supply. This would cut into the cost savings from being able to use the less expensive Texas Instruments LM66200DRL, and would have required more wireless adapter area. Therefore, I did not take this approach.
 
-## Step Down Converter
+## Step Down Voltage Regulator
 
 ### Power Requirements
 
@@ -67,7 +67,7 @@ A failed over-the-air (OTA) firmware load could put the wireless adapter in a st
 
 Since the wireless adapter is not connected to the indoor unit during recovery, the level shifting circuitry does not require power. Therefore, while the USB connector provides power for the wireless adapter's 3.3V circuitry, it does not provide power to the 5V side of the level shifting circuitry.
 
-### 3.3V Output Switching Regulator
+### 3.3V Output Switching Voltage Regulator
 
 The power multiplexer may feed the switching regulator from the USB connector's VBUS pins or from the IU connector's 12.7V pin.
 
@@ -75,7 +75,7 @@ The wireless adapter's USB connector is a USB 2.0 full speed (12Mbps), high powe
 
 I don't know the indoor unit's 12.7V source characteristics. However, it's voltage is unlikely to drop as low as the lower limit set by the USB connector. In addition, the Texas Instruments TPS2121RUX operates normally with input voltages up to 22V and survives transient input voltages up to 24V. Finally, the Texas Instruments TVS1400DRV I selected for TVS protection on the 12.7V IU and WR connector pins, has a maximum clamping voltage of 19.3V. Therefore, as long as the switching regulator operates normally with an input voltage as high as 22V and survives a transient input voltage as high as 24V, the Texas Instruments TPS2121RUX and not the switching regulator will be the limiting factor.
 
-#### Selecting the Switching Regulator
+#### Selecting the Switching Voltage Regulator
 
 Compared with linear regulators, switching regulators tend to generate more radiated and conducted electromagnetic interference (EMI) and tend to have greater output voltage ripple. And, improper wireless adapter layout can unnecessarily increase the switching regulator's EMI and output voltage ripple. Conversely, proper input and output filters can decrease the switching regulator's EMI and output voltage ripple.
 
