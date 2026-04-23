@@ -6,6 +6,7 @@ The current design is the same circuit design and PCB layout as the design I had
 
 - I changed the value of capacitor C2 from 1μF to 0.1μF,
 - I removed instances of different signals sharing one ground via from the PCB,
+- I improved the USB data lines differential routing,
 - I removed the wall mounting passthrough hole from the PCB,
 - I added the name and revision to the PCB,
 - I switched from a hierarchical schematic to a flat schematic, and
