@@ -17,7 +17,7 @@ esp32:
     type: esp-idf
 
 external_components:
-  - source: github://muart-group/esphome-components@v1
+  - source: github://muart-group/esphome-components@main
     components: [ mitsubishi_itp ]
 
 ota:
